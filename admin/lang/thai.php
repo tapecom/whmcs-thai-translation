@@ -2,7 +2,7 @@
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-$_ADMINLANG['locale'] = "th_TH";
+$_ADMINLANG['locale'] = "en_GB";
 
 # Global
 $_ADMINLANG['global']['hometitle'] = "Dashboard";
