@@ -1,7 +1,22 @@
 <?php
 /**
  * WHMCS Language File
- * Thai (th)
+ * English (en)
+ *
+ * Please Note: These language files are overwritten during software updates
+ * and therefore editing of these files directly is not advised. Instead we
+ * recommend that you use overrides to customise the text displayed in a way
+ * which will be safely preserved through the upgrade process.
+ *
+ * For instructions on overrides, please visit:
+ *   https://developers.whmcs.com/languages/overrides/
+ *
+ * @package    WHMCS
+ * @author     WHMCS Limited <development@whmcs.com>
+ * @copyright  Copyright (c) WHMCS Limited 2005-2018
+ * @license    https://www.whmcs.com/license/ WHMCS Eula
+ * @version    $Id$
+ * @link       https://www.whmcs.com/
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
@@ -46,7 +61,7 @@ $_LANG['affiliatestitle'] = "Affiliates";
 $_LANG['affiliatesvisitorsreferred'] = "Number of Visitors Referred";
 $_LANG['affiliateswithdrawalrequestsuccessful'] = "Your request for a withdrawal has been submitted. You will be contacted shortly.";
 $_LANG['affiliateswithdrawn'] = "Total Amount Withdrawn";
-$_LANG['all'] = "All";
+$_LANG['all'] = "ทั้งหมด";
 $_LANG['alreadyregistered'] = "Already Registered?";
 $_LANG['announcementsdescription'] = "View our latest news & announcements";
 $_LANG['announcementsnone'] = "No Announcements to Display";
@@ -691,7 +706,7 @@ $_LANG['serverchangepasswordsuccessful'] = "Password Changed Successfully!";
 $_LANG['serverchangepasswordupdate'] = "Update";
 $_LANG['serverhostname'] = "Hostname";
 $_LANG['serverlogindetails'] = "Login Details";
-$_LANG['servername'] = "Server";
+$_LANG['servername'] = "Server Name";
 $_LANG['serverns1prefix'] = "NS1 Prefix";
 $_LANG['serverns2prefix'] = "NS2 Prefix";
 $_LANG['serverpassword'] = "Password";
@@ -863,8 +878,8 @@ $_LANG['overagestotalbwusage'] = "Total Bandwidth Usage";
 
 $_LANG['affiliatescommissionspending'] = "Commissions Pending Maturation";
 $_LANG['affiliatescommissionsavailable'] = "Available Commissions Balance";
-$_LANG['affiliatessignups'] = "Number of Signups";
-$_LANG['affiliatesconversionrate'] = "Conversion Rate";
+$_LANG['affiliatessignups'] = "Signups";
+$_LANG['affiliatesconversionrate'] = "Conversions";
 
 $_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
 
@@ -976,7 +991,7 @@ $_LANG['orderformtitle'] = "Order Form";
 $_LANG['signup'] = "Signup";
 $_LANG['loading'] = "Loading...";
 
-$_LANG['ordersummarybegin'] = "Please choose a product to begin";
+$_LANG['ordersummarybegin'] = "Shopping Cart is Empty<br/>Please choose a product and domain name option to begin...";
 
 $_LANG['cartchooseproduct'] = "Choose Product";
 $_LANG['cartconfigurationoptions'] = "Configuration Options";
@@ -1242,13 +1257,13 @@ $_LANG['clientareahomeloginbtn'] = "Secure Client Login";
 $_LANG['clientareaproductsintro'] = "These are all the services you have registered in this account.";
 $_LANG['clientareaproductdetailsintro'] = "Here is an overview of your product/service with us.";
 $_LANG['clientareadomainsintro'] = "View &amp; manage all the domains you have registered with us from here...";
-$_LANG['invoicesintro'] = "Below you can review your entire invoice history with us.";
+$_LANG['invoicesintro'] = "Your invoice history with us";
 $_LANG['quotesintro'] = "Here are all the quotes we've generated for you.";
 $_LANG['emailstagline'] = "Here's a copy of the recent emails we've sent you...";
 $_LANG['supportticketsintro'] = "Submit and track any enquiries with us here...";
 $_LANG['addfundsintro'] = "Deposit money in advance";
 $_LANG['registerintro'] = "Create an account with us . . .";
-$_LANG['masspayintro'] = "Pay all the invoices listed below in a single easy transaction by choosing a payment method";
+$_LANG['masspayintro'] = "Pay all these invoices in one step";
 $_LANG['networkstatusintro'] = "Service Status Information and Network Announcements";
 
 $_LANG['creditcardyourinfo'] = "Billing Information";
@@ -2424,7 +2439,7 @@ $_LANG['store']['sitelock']['emergencyPlanMalwareContent'] = "If our automatic t
 $_LANG['store']['sitelock']['emergencyPlanPriorityTitle'] = "Priority treatment";
 $_LANG['store']['sitelock']['emergencyPlanPriorityContent'] = "With the emergency package you get fast tracked straight to the top of the queue.";
 $_LANG['store']['sitelock']['emergencyPlanAftercareTitle'] = "7 day aftercare";
-$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "We'll continue to monitor your site for 7 days to ensure that your site remains malware-free post recovery.";
+$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Track progress with our real-time updates throughout the process of cleaning and recovering your site.";
 $_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "Real-time updates";
 $_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Track progress with our real-time updates throughout the process of cleaning and recovering your site.";
 $_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "One-off payment";
@@ -2859,7 +2874,7 @@ $_LANG['store']['ssl']['shared']['encryption256'] = "256-Bit Encryption";
 $_LANG['store']['ssl']['shared']['issuanceTime'] = "Issuance Time";
 $_LANG['store']['ssl']['shared']['greatFor'] = "Great For";
 $_LANG['store']['ssl']['shared']['warrantyValue'] = "Warranty Value";
-$_LANG['store']['ssl']['shared']['siteSeal'] = "Site Seal";
+$_LANG['store']['ssl']['shared']['siteSeal'] = "Trust Site Seal";
 $_LANG['store']['ssl']['shared']['freeReissues'] = "Free Reissues";
 $_LANG['store']['ssl']['shared']['browserSupport'] = "Browser Support";
 $_LANG['store']['ssl']['shared']['price'] = "Price";
@@ -3646,7 +3661,7 @@ $_LANG['ox']['accountCount'] = "You have created <span class=\"number\">:number<
 $_LANG['ox']['refresh'] = "Refresh";
 $_LANG['ox']['emailActions'] = "Email Management";
 $_LANG['ox']['createUser'] = "Create User";
-$_LANG['ox']['manageAccount'] = "Manage";
+$_LANG['ox']['manageAccount'] = "Manage account <span class=\"email\"></span>";
 $_LANG['ox']['emailAccounts'] = "Email Accounts";
 $_LANG['ox']['emailAddress'] = "Email Address";
 $_LANG['ox']['mailboxSize'] = "Mailbox Size";
