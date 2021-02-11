@@ -21,7 +21,7 @@
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-$_LANG['locale'] = "en_GB";
+$_LANG['locale'] = "th_TH";
 
 $_LANG['accountinfo'] = "Account Information";
 $_LANG['accountstats'] = "Account Statistics";
@@ -61,7 +61,7 @@ $_LANG['affiliatestitle'] = "Affiliates";
 $_LANG['affiliatesvisitorsreferred'] = "Number of Visitors Referred";
 $_LANG['affiliateswithdrawalrequestsuccessful'] = "Your request for a withdrawal has been submitted. You will be contacted shortly.";
 $_LANG['affiliateswithdrawn'] = "Total Amount Withdrawn";
-$_LANG['all'] = "All";
+$_LANG['all'] = "ทั้งหมด";
 $_LANG['alreadyregistered'] = "Already Registered?";
 $_LANG['announcementsdescription'] = "View our latest news & announcements";
 $_LANG['announcementsnone'] = "No Announcements to Display";
