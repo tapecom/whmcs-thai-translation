@@ -1,1 +1,5 @@
-files: []
+files:
+  - source: /lang/english.php
+    translation: /lang/%language%.php
+  - source: /admin/lang/english.php
+    translation: /admin/lang/%language%.php
