@@ -426,7 +426,7 @@ $_LANG['invoices'] = "ใบแจ้งหนี้ของฉัน";
 $_LANG['invoicesamount'] = "จำนวน";
 $_LANG['invoicesattn'] = "ATTN";
 $_LANG['invoicesbacktoclientarea'] = "&laquo; กลับไปที่ Client Area";
-$_LANG['invoicesbalance'] = "สมดุล";
+$_LANG['invoicesbalance'] = "ยอดคงเหลือ";
 $_LANG['invoicesbefore'] = "ก่อน";
 $_LANG['invoicescancelled'] = "ยกเลิก";
 $_LANG['invoicescollections'] = "คอลเลกชัน";
@@ -454,7 +454,7 @@ $_LANG['invoicestotal'] = "รวมทั้งสิ้น";
 $_LANG['invoicestransactions'] = "ธุรกรรม";
 $_LANG['invoicestransamount'] = "จำนวน";
 $_LANG['invoicestransdate'] = "วันที่ทำธุรกรรม";
-$_LANG['invoicestransgateway'] = "ประตู";
+$_LANG['invoicestransgateway'] = "ช่องทาง";
 $_LANG['invoicestransid'] = "รหัสธุรกรรม";
 $_LANG['invoicestransnonefound'] = "ไม่พบธุรกรรมที่เกี่ยวข้อง";
 $_LANG['invoicesunpaid'] = "ยังไม่ได้ชำระ";
@@ -1390,7 +1390,7 @@ $_LANG['clientgroupdiscount'] = "ส่วนลดลูกค้า";
 $_LANG['billableitemshours'] = "ชั่วโมง";
 $_LANG['billableitemshour'] = "ชั่วโมง";
 
-$_LANG['invoicefilename'] = "ใบแจ้งหนี้-";
+$_LANG['invoicefilename'] = "เอกสาร-";
 $_LANG['quotefilename'] = "ใบเสนอราคา -";
 
 # Domain Addons
