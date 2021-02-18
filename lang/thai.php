@@ -110,7 +110,7 @@ $_LANG['choosecurrency'] = "เลือกสกุลเงิน";
 $_LANG['choosedomains'] = "เลือกโดเมน";
 $_LANG['clickheretologin'] = "คลิกที่นี่เพื่อเข้าสู่ระบบ";
 $_LANG['clientareaaccountaddons'] = "Addons บัญชี";
-$_LANG['clientareaactive'] = "คล่องแคล่ว";
+$_LANG['clientareaactive'] = "ใช้งาน";
 $_LANG['clientareaaddfundsdisabled'] = "เราไม่อนุญาตให้ฝากเงินล่วงหน้ากับเราในเวลาปัจจุบัน";
 $_LANG['clientareaaddfundsnotallowed'] = "คุณต้องมีคำสั่งซื้อที่ใช้งานอยู่อย่างน้อยหนึ่งรายการก่อนจึงจะสามารถเพิ่มเงินได้ดังนั้นคุณจึงไม่สามารถดำเนินการต่อในเวลาปัจจุบัน";
 $_LANG['clientareaaddon'] = "เพิ่มเข้าไป";
@@ -1713,7 +1713,7 @@ $_LANG['quotestageexpired'] = "หมดอายุ";
 $_LANG['ticketinfo'] = "ข้อมูลตั๋ว";
 $_LANG['customfield'] = "ฟิลด์ที่กำหนดเอง";
 
-$_LANG['domainsActive'] = "คล่องแคล่ว";
+$_LANG['domainsActive'] = "ใช้งาน";
 $_LANG['domainsExpired'] = "หมดอายุ";
 $_LANG['domainsCancelled'] = "ยกเลิก";
 $_LANG['domainsFraud'] = "การฉ้อโกง";
