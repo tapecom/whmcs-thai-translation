@@ -202,11 +202,25 @@ $_ADMINLANG['global']['userSystem'] = "ระบบ / อัตโนมัต�
 $_ADMINLANG['global']['never'] = "ไม่เลย";
 $_ADMINLANG['global']['typeToSearchUsersAndContacts'] = "เริ่มพิมพ์เพื่อเพิ่มหรือเลือกผู้รับ";
 $_ADMINLANG['global']['chooseMessage'] = "เลือกข้อความ";
+$_ADMINLANG['global']['openInNewWindow'] = "Open in new window";
+$_ADMINLANG['global']['saving'] = "Saving...";
+$_ADMINLANG['global']['notRecorded'] = "Not Recorded";
+$_ADMINLANG['global']['noModule'] = "No Module";
+$_ADMINLANG['global']['popularModules'] = "Popular Modules";
+$_ADMINLANG['global']['otherModules'] = "All Other Modules";
+$_ADMINLANG['global']['someUnavailableForAddOnFeatures'] = "Some options are unavailable for add-on features.";
+$_ADMINLANG['global']['seeGatewayLog'] = "See Gateway Log";
+
+# Errors
+$_ADMINLANG['error']['connection'] = "Connection Error";
+$_ADMINLANG['error']['authentication'] = "Authentication Error";
+$_ADMINLANG['error']['widgetError'] = "Widget Loading Error";
+$_ADMINLANG['error']['balanceWidgetError'] = "Balance unable to be retrieved";
+$_ADMINLANG['error']['balanceWidgetDescription'] = "Please reference the :moduleName Documentation and check the :moduleName module configuration.";
 
 # Home
 $_ADMINLANG['home']['title'] = "บ้าน";
 $_ADMINLANG['home']['quicksummary'] = "สรุปย่อ";
-$_ADMINLANG['home']['maintenancemode'] = "โหมดการบำรุงรักษาเปิดอยู่ อย่าลืมปิดเมื่อเสร็จสิ้นใน <a href=\"configgeneral.php\">การตั้งค่าทั่วไป</a>";
 $_ADMINLANG['home']['recentclientactivity'] = "กิจกรรมล่าสุดของลูกค้า";
 $_ADMINLANG['home']['recentadminactivity'] = "กิจกรรมผู้ดูแลระบบล่าสุด";
 $_ADMINLANG['home']['recentactivity'] = "กิจกรรมล่าสุด";
@@ -288,6 +302,7 @@ $_ADMINLANG['clients']['activatesubaccount'] = "เปิดใช้งาน�
 $_ADMINLANG['clients']['addcontact'] = "เพิ่มผู้ติดต่อ";
 $_ADMINLANG['clients']['duplicateemail'] = "ที่อยู่อีเมลซ้ำกัน";
 $_ADMINLANG['clients']['duplicateemailexp'] = "ที่อยู่อีเมลที่ป้อนถูกใช้โดยบัญชีลูกค้าอื่นอยู่แล้วและต้องไม่ซ้ำกันสำหรับลูกค้าแต่ละราย";
+$_ADMINLANG['clients']['duplicateemailuser'] = "The email address entered is already in use by another user.  Please use another email address or associate this client with an existing user.";
 $_ADMINLANG['clients']['erroremail'] = "ต้องระบุที่อยู่อีเมล";
 $_ADMINLANG['clients']['erroremailinvalid'] = "ที่อยู่อีเมลไม่ถูกต้อง";
 $_ADMINLANG['clients']['billingcontact'] = "ติดต่อเรียกเก็บเงิน";
@@ -302,6 +317,7 @@ $_ADMINLANG['clients']['creditbalance'] = "เครดิตบาลานซ�
 $_ADMINLANG['clients']['newaccinfoemail'] = "เลือกช่องนี้เพื่อส่งข้อความข้อมูลบัญชีใหม่";
 $_ADMINLANG['clients']['addclient'] = "เพิ่มลูกค้า";
 $_ADMINLANG['clients']['moveservice'] = "ย้ายสินค้า / บริการไปยังไคลเอนต์อื่น";
+$_ADMINLANG['clients']['moveServiceUnpaidInvoices'] = "This service has unpaid invoices. These invoices will be cancelled when the service is transferred.";
 $_ADMINLANG['clients']['mergeclient'] = "ผสานไคลเอนต์";
 $_ADMINLANG['clients']['mergeexplain'] = "กระบวนการนี้ช่วยให้คุณสามารถรวมบัญชีลูกค้าสองบัญชีเป็นบัญชีเดียว";
 $_ADMINLANG['clients']['invalidid'] = "ป้อนรหัสลูกค้าไม่ถูกต้องสำหรับไคลเอนต์ที่สอง";
@@ -320,10 +336,11 @@ $_ADMINLANG['clients']['incorrecthash'] = "CC Encryption Hash ที่ป้อ
 $_ADMINLANG['clients']['existingccdetails'] = "รายละเอียดบัตรที่มีอยู่";
 $_ADMINLANG['clients']['fullviewcardno'] = "ดูหมายเลขบัตรแบบเต็ม";
 $_ADMINLANG['clients']['entercchash'] = "หากต้องการดูหมายเลขบัตรเครดิตแบบเต็มให้ป้อน CC Encryption Hash ด้านล่าง";
+$_ADMINLANG['clients']['enterbankcchash'] = "To view the full bank account number, enter the CC Encryption Hash below.";
 $_ADMINLANG['clients']['ccstoredremotely'] = "* เฉพาะตัวเลข 4 หลักสุดท้ายของบัตรเครดิตเท่านั้นที่จะถูกจัดเก็บไว้ในเครื่องเนื่องจากมีการใช้โมดูลการจัดเก็บระยะไกลที่ใช้โทเค็น";
 $_ADMINLANG['clients']['enternewcc'] = "ป้อนรายละเอียดการ์ดใหม่";
 $_ADMINLANG['clients']['cleardetails'] = "รายละเอียดชัดเจน";
-$_ADMINLANG['clients']['ccdeletesure'] = "แน่ใจไหมว่าต้องการลบรายละเอียดบัตรเครดิตที่เก็บไว้";
+$_ADMINLANG['clients']['ccdeletesure'] = "Are you sure you want to delete the stored pay method details?";
 $_ADMINLANG['clients']['closesure'] = "แน่ใจไหมว่าต้องการปิดไคลเอ็นต์นี้ การดำเนินการนี้จะตั้งค่าแพ็กเกจและใบแจ้งหนี้ที่ค้างชำระทั้งหมดเป็นยกเลิก";
 $_ADMINLANG['clients']['deletesure'] = "แน่ใจไหมว่าต้องการลบไคลเอนต์นี้ การดำเนินการนี้จะลบประวัติทั้งหมดและไม่สามารถยกเลิกได้";
 $_ADMINLANG['clients']['deleteUsers'] = "ลบผู้ใช้ที่เชื่อมโยงกับไคลเอนต์นี้เท่านั้น";
@@ -346,9 +363,17 @@ $_ADMINLANG['clients']['remoteGatewayTitle'] = "ข้อมูลเกตเ�
 $_ADMINLANG['clients']['marketingEmailsOptIn'] = "อีเมลการตลาดเลือกใช้";
 $_ADMINLANG['clients']['invalidTaxId'] = "หมายเลข VAT ไม่ถูกต้อง";
 $_ADMINLANG['clients']['ccUnsupported'] = "เราไม่สามารถยอมรับประเภทบัตรที่คุณป้อน โปรดใช้บัตรอื่น";
-$_ADMINLANG['clients']['existingUserAccount'] = "เชื่อมโยงกับผู้ใช้ที่มีอยู่";
+$_ADMINLANG['clients']['existingUserAccount'] = "Associate with an existing user.";
 $_ADMINLANG['clients']['newUserAccount'] = "สร้างผู้ใช้ใหม่";
 $_ADMINLANG['clients']['deleteTransactions'] = "ลบประวัติการทำธุรกรรมสำหรับลูกค้ารายนี้";
+$_ADMINLANG['generatePassword']['btnLabel'] = "Generate Password";
+$_ADMINLANG['generatePassword']['btnShort'] = "Generate";
+$_ADMINLANG['generatePassword']['title'] = "Generate Password";
+$_ADMINLANG['generatePassword']['lengthValidationError'] = "Please enter a number between 8 and 64 for the password length.";
+$_ADMINLANG['generatePassword']['pwLength'] = "Password Length";
+$_ADMINLANG['generatePassword']['generatedPw'] = "Generated Password";
+$_ADMINLANG['generatePassword']['generateNew'] = "Generate new password";
+$_ADMINLANG['generatePassword']['copyAndInsert'] = "Copy to clipboard and insert";
 
 # Client Summary
 $_ADMINLANG['clientsummary']['title'] = "โปรไฟล์ลูกค้า";
@@ -513,6 +538,14 @@ $_ADMINLANG['services']['keepDnsZone'] = "เก็บ DNS Zone ไว้เม�
 $_ADMINLANG['services']['invoiceUsage'] = "สร้างใบแจ้งหนี้การใช้เมตริก";
 $_ADMINLANG['services']['recurCount'] = "จำนวนที่เกิดซ้ำ";
 $_ADMINLANG['services']['upgradeUnpaidInvoice'] = "มีใบแจ้งหนี้ที่ยังไม่ได้ชำระสำหรับบริการนี้ การดำเนินการอัปเกรดอย่างต่อเนื่องก่อนที่จะชำระใบแจ้งหนี้อาจทำให้รายได้ถูกริบ";
+$_ADMINLANG['services']['provisionSure'] = "Are you sure you want to run the provision function?";
+$_ADMINLANG['services']['suspendAddOnFeatureSure'] = "Are you sure you want to run the suspend add-on feature function?";
+$_ADMINLANG['services']['unsuspendAddOnFeatureSure'] = "Are you sure you want to run the unsuspend add-on feature function?";
+$_ADMINLANG['services']['deprovisionSure'] = "Are you sure you want to run the deprovision function?";
+$_ADMINLANG['services']['provisionsuccess'] = "Add-on Feature Provisioned Successfully";
+$_ADMINLANG['services']['deprovisionsuccess'] = "Add-on Feature Deprovisioned Successfully";
+$_ADMINLANG['services']['suspend-featuresuccess'] = "Add-on Feature Suspended Successfully";
+$_ADMINLANG['services']['unsuspend-featuresuccess'] = "Add-on Feature Unsuspended Successfully";
 
 $_ADMINLANG['sso']['fatalerror'] = "เกิดข้อผิดพลาดร้ายแรง โปรดดูบันทึกกิจกรรมสำหรับรายละเอียดเพิ่มเติม";
 $_ADMINLANG['sso']['servicelogin'] = "เข้าสู่ระบบแผงควบคุม";
@@ -530,6 +563,9 @@ $_ADMINLANG['modulebuttons']['changepassword'] = "เปลี่ยนรหั
 $_ADMINLANG['modulebuttons']['register'] = "ลงทะเบียน";
 $_ADMINLANG['modulebuttons']['renew'] = "ต่ออายุ";
 $_ADMINLANG['modulebuttons']['transfer'] = "โอน";
+$_ADMINLANG['modulebuttons']['provision'] = "Provision";
+$_ADMINLANG['modulebuttons']['deprovision'] = "Deprovision";
+$_ADMINLANG['modulebuttons']['login'] = "Login";
 
 # Addons
 $_ADMINLANG['addons']['title'] = "Addons";
@@ -581,7 +617,27 @@ $_ADMINLANG['addons']['areYouSureDelete'] = "แน่ใจไหมว่า�
 $_ADMINLANG['addons']['hiddenDescription'] = "เปิดใช้งานเพื่อซ่อน addon นี้จากแบบฟอร์มใบสั่งพื้นที่ไคลเอ็นต์";
 $_ADMINLANG['addons']['retired'] = "เกษียณแล้ว";
 $_ADMINLANG['addons']['retiredDescription'] = "ส่วนเสริมที่เลิกใช้แล้วจะไม่ปรากฏในพื้นที่ผู้ดูแลระบบอีกต่อไป (โปรดทราบว่าคุณจะยังดูและจัดการการซื้อที่มีอยู่ได้)";
-
+$_ADMINLANG['addons']['duplicateAddon'] = "Duplicate an Addon";
+$_ADMINLANG['addons']['existingAddon'] = "Existing Addon";
+$_ADMINLANG['addons']['newAddonName'] = "New Addon Name";
+$_ADMINLANG['addons']['duplicable'] = "Duplicable Addons";
+$_ADMINLANG['addons']['nonDuplicable'] = "Non-duplicable Addons";
+$_ADMINLANG['addons']['nonDuplicableWarn'] = "Some addons, such as MarketConnect services, cannot be duplicated.";
+$_ADMINLANG['addons']['prorata'] = "Prorata Billing";
+$_ADMINLANG['addons']['prorataDescription'] = "Check to sync the addon due date with the parent service due date on order.";
+$_ADMINLANG['addons']['independent'] = "Independent Product";
+$_ADMINLANG['addons']['addOnFeature'] = "Add-On Feature";
+$_ADMINLANG['addons']['notAvailableForStyle'] = "Not available for add-on features";
+$_ADMINLANG['addons']['addonTypeDescription'] = "Defines how WHMCS manages the item";
+$_ADMINLANG['addons']['nameDescription'] = "The default display name for your new addon";
+$_ADMINLANG['addons']['autoAssign'] = "Auto Assign to Products";
+$_ADMINLANG['addons']['autoAssignDescription'] = "Automatically assign to all applicable products";
+$_ADMINLANG['addons']['independentDescription'] = "Provision a standalone service using the selected module";
+$_ADMINLANG['addons']['addOnFeatureDescription'] = "Provision an add-on feature to a parent service with the same module";
+$_ADMINLANG['addons']['predefinedHeading'] = "Predefined Addons";
+$_ADMINLANG['addons']['predefinedNotice'] = "You're creating a predefined addon and configuration settings will be pre-populated. Continue to configure addon pricing.";
+$_ADMINLANG['addons']['predefinedSuccessInfo'] = "Your predefined addon has been added successfully, and settings have been configured for you. Please configure pricing and save changes.";
+$_ADMINLANG['addons']['predefinedActive'] = "Active";
 
 # Domains
 $_ADMINLANG['domains']['title'] = "โดเมน";
@@ -899,6 +955,7 @@ $_ADMINLANG['orders']['createpromoinfo'] = "ส่วนลดส่งเสร
 $_ADMINLANG['orders']['createPromoNeedPerms'] = "คุณต้องได้รับอนุญาตผู้ดูแลระบบ \"ใช้รหัสส่งเสริมการขายใด ๆ ในการสั่งซื้อ\" จึงจะสามารถสร้างรหัสส่งเสริมการขายที่กำหนดเองสำหรับคำสั่งซื้อนี้";
 $_ADMINLANG['orders']['sendMessage'] = "แน่ใจไหมว่าต้องการส่งข้อความสำหรับคำสั่งซื้อเหล่านี้";
 $_ADMINLANG['orders']['noDelete'] = "สถานะคำสั่งซื้อต้องอยู่ในยกเลิกหรือการฉ้อโกงจึงจะถูกลบ";
+$_ADMINLANG['orders']['deleteSuccess'] = "The order has been successfully deleted";
 $_ADMINLANG['orders']['massDeleteError'] = "ไม่สามารถลบคำสั่งซื้อบางรายการได้ คำสั่งซื้อต้องถูกยกเลิกหรือการฉ้อโกงจึงจะถูกลบ";
 $_ADMINLANG['orders']['confirmCancelDelete'] = "แน่ใจไหมว่าต้องการยกเลิกและลบคำสั่งซื้อนี้ การดำเนินการนี้จะเรียกใช้การยุติโมดูลสำหรับผลิตภัณฑ์ / บริการที่ใช้งานอยู่และลบผลิตภัณฑ์ / บริการและใบแจ้งหนี้ที่เกี่ยวข้องทั้งหมด";
 $_ADMINLANG['orders']['noItemsSelected'] = "ไม่ได้เลือกรายการ";
@@ -922,6 +979,8 @@ $_ADMINLANG['orders']['requiredFieldIndication'] = "* แสดงให้เ�
 $_ADMINLANG['orders']['errors']['requiredDomainFieldsTitle'] = "ไม่มีช่องโดเมนที่ต้องการ";
 $_ADMINLANG['orders']['errors']['requiredDomainFieldsMsg'] = "ช่องโดเมนที่จำเป็นอย่างน้อยหนึ่งช่องถูกปล่อยว่างไว้ ข้อมูลที่ขาดหายไปนี้อาจทำให้การจดทะเบียนโดเมนล้มเหลว";
 $_ADMINLANG['orders']['errors']['requiredDomainFieldsAction'] = "คลิกที่ปุ่ม \"ส่งคำสั่งซื้อ\" หากคุณต้องการดำเนินการตามคำสั่งซื้อโดยไม่คำนึงถึงคำเตือนนี้";
+$_ADMINLANG['orders']['placedBy'] = "Order Placed By";
+$_ADMINLANG['orders']['addonFeature'] = "Add-On Feature";
 
 
 # Billing Cycles
@@ -948,6 +1007,7 @@ $_ADMINLANG['billing']['gatewaylog'] = "บันทึกเกตเวย์"
 $_ADMINLANG['billing']['grossRevenue'] = "รายได้รวม";
 $_ADMINLANG['billing']['netIncome'] = "รายได้สุทธิ";
 $_ADMINLANG['billing']['clientExpenses'] = "ค่าใช้จ่ายของลูกค้า";
+$_ADMINLANG['billing']['gatewayBalances'] = "Gateway Balances";
 
 # Invoices
 $_ADMINLANG['invoices']['title'] = "ใบแจ้งหนี้";
@@ -1069,6 +1129,7 @@ $_ADMINLANG['invoices']['invoiceIsDraft'] = "นี่คือใบแจ้�
 $_ADMINLANG['invoices']['reverse'] = "การชำระเงินย้อนกลับ";
 $_ADMINLANG['invoices']['reverseDescription'] = "ยกเลิกการดำเนินการอัตโนมัติที่ทริกเกอร์โดยธุรกรรมนี้ - หากทำได้";
 $_ADMINLANG['invoices']['transactionsHistory'] = "ประวัติการทำรายการ";
+$_ADMINLANG['invoices']['transactionsHistoryTooltip'] = "View gateway log entry.";
 $_ADMINLANG['invoices']['cancelPayment'] = "ยกเลิกการชำระเงิน";
 $_ADMINLANG['invoices']['deleteConfirm'] = "คุณต้องการดำเนินการอย่างไร";
 
@@ -1114,6 +1175,8 @@ $_ADMINLANG['billableitems']['relatedinvoices'] = "ใบแจ้งหนี�
 $_ADMINLANG['billableitems']['addentries'] = "เพิ่มรายการ";
 $_ADMINLANG['billableitems']['hours'] = "ชั่วโมง";
 $_ADMINLANG['billableitems']['hour'] = "ชั่วโมง";
+$_ADMINLANG['billableitems']['qty'] = "Qty";
+$_ADMINLANG['billableitems']['each'] = "Each";
 $_ADMINLANG['billableitems']['invoiceitems'] = "รายการใบแจ้งหนี้";
 $_ADMINLANG['billableitems']['itemswillinvoice'] = "รายการที่เลือกจะถูกออกใบแจ้งหนี้ในการเรียกใช้ cron ครั้งถัดไป";
 $_ADMINLANG['billableitems']['invoiceimmediately'] = "ใบแจ้งหนี้ทันที";
@@ -1422,7 +1485,7 @@ $_ADMINLANG['support']['selectClientServices'] = "โปรดเลือกล
 $_ADMINLANG['support']['requestor']['operator'] = "ตัวดำเนินการ";
 $_ADMINLANG['support']['requestor']['owner'] = "เจ้าของ";
 $_ADMINLANG['support']['requestor']['authorizeduser'] = "ผู้ใช้ที่ได้รับอนุญาต";
-$_ADMINLANG['support']['requestor']['externaluser'] = "ผู้ใช้ภายนอก";
+$_ADMINLANG['support']['requestor']['registereduser'] = "Registered User";
 $_ADMINLANG['support']['requestor']['subaccount'] = "บัญชีย่อย";
 $_ADMINLANG['support']['requestor']['guest'] = "บุคคลทั่วไป";
 
@@ -2075,6 +2138,8 @@ $_ADMINLANG['fields']['inviteSenderName'] = "เชิญชื่อผู้�
 $_ADMINLANG['fields']['inviteAcceptUrl'] = "เชิญยอมรับ URL";
 $_ADMINLANG['fields']['inviteSentByAdmin'] = "ได้รับเชิญจากผู้ดูแลระบบ";
 $_ADMINLANG['fields']['2fa'] = "สองปัจจัย";
+$_ADMINLANG['fields']['addonProvisioningType'] = "Addon Type";
+$_ADMINLANG['fields']['addonType'] = "Addon Type";
 
 # Contact Permissions
 $_ADMINLANG['contactpermissions']['permprofile'] = "แก้ไขโปรไฟล์บัญชีหลัก";
@@ -2194,6 +2259,7 @@ $_ADMINLANG['permissions']['27'] = "เพิ่มคำสั่งซื้�
 $_ADMINLANG['permissions']['130'] = "ใช้รหัสโปรโมชั่นในการสั่งซื้อ";
 $_ADMINLANG['permissions']['28'] = "รายการธุรกรรม";
 $_ADMINLANG['permissions']['94'] = "ดูผลรวมรายได้";
+$_ADMINLANG['permissions']['154'] = "View Gateway Balances";
 $_ADMINLANG['permissions']['29'] = "เพิ่มธุรกรรม";
 $_ADMINLANG['permissions']['30'] = "แก้ไขธุรกรรม";
 $_ADMINLANG['permissions']['31'] = "ลบธุรกรรม";
@@ -2515,6 +2581,28 @@ $_ADMINLANG['transactions']['invoiceIDAndCreditInvalid'] = "คุณไม่�
 $_ADMINLANG['transactions']['duplicateTransaction'] = "รหัสธุรกรรมมีอยู่แล้ว";
 $_ADMINLANG['transactions']['forceDuplicateTransaction'] = "รหัสธุรกรรมที่ป้อนมีอยู่แล้ว สิ่งนี้อาจบ่งชี้ว่าธุรกรรมกำลังซ้ำซ้อน<br />แน่ใจหรือว่าต้องการดำเนินการต่อ?";
 $_ADMINLANG['transactions']['amountInAndOutSpecified'] = "คุณระบุจำนวนเงินเข้าและจำนวนเงินออก คุณระบุได้เพียงค่าเดียวเท่านั้น";
+$_ADMINLANG['transactions']['information']['transactionId'] = "Transaction ID";
+$_ADMINLANG['transactions']['information']['amount'] = "Amount";
+$_ADMINLANG['transactions']['information']['type'] = "Transaction Type";
+$_ADMINLANG['transactions']['information']['currency'] = "Transaction Currency";
+$_ADMINLANG['transactions']['information']['description'] = "Description";
+$_ADMINLANG['transactions']['information']['fee'] = "Transaction Fee";
+$_ADMINLANG['transactions']['information']['status'] = "Status";
+$_ADMINLANG['transactions']['information']['created'] = "Created Date";
+$_ADMINLANG['transactions']['information']['availableOn'] = "Available Date";
+$_ADMINLANG['transactions']['information']['originalAmount'] = "Original Amount";
+$_ADMINLANG['transactions']['information']['capturedAmount'] = "Captured Amount";
+$_ADMINLANG['transactions']['information']['refundedAmount'] = "Refunded Amount";
+$_ADMINLANG['transactions']['information']['originalCurrency'] = "Original Currency";
+$_ADMINLANG['transactions']['information']['paymentIntent'] = "Payment Intent ID";
+$_ADMINLANG['transactions']['information']['receiptUrl'] = "Customer Receipt";
+$_ADMINLANG['transactions']['information']['title'] = "Transaction Information";
+$_ADMINLANG['transactions']['information']['tooltip'] = "View transaction details.";
+$_ADMINLANG['transactions']['information']['gateway'] = "Payment Gateway";
+$_ADMINLANG['transactions']['information']['disputed'] = "Transaction Disputed";
+$_ADMINLANG['transactions']['information']['disputeReason'] = "Dispute Reason";
+$_ADMINLANG['transactions']['information']['disputeStatus'] = "Dispute Status";
+$_ADMINLANG['transactions']['information']['exchangeRate'] = "Exchange Rate";
 
 # Products
 $_ADMINLANG['products']['productTypeDescription'] = "กำหนดวิธีที่ WHMCS จัดการรายการ<br>ไม่เห็นประเภทของผลิตภัณฑ์ที่คุณกำลังมองหา? เลือก <em>อื่น ๆ</em>";
@@ -2529,6 +2617,9 @@ $_ADMINLANG['products']['description'] = "นี่คือที่ที่�
 $_ADMINLANG['products']['createnewgroup'] = "สร้างกลุ่มใหม่";
 $_ADMINLANG['products']['createnewproduct'] = "สร้างผลิตภัณฑ์ใหม่";
 $_ADMINLANG['products']['duplicateproduct'] = "ทำซ้ำผลิตภัณฑ์";
+$_ADMINLANG['products']['duplicable'] = "Duplicable Products";
+$_ADMINLANG['products']['nonDuplicable'] = "Non-duplicable Products";
+$_ADMINLANG['products']['nonDuplicableWarn'] = "Some products, such as MarketConnect services, cannot be duplicated.";
 $_ADMINLANG['products']['deleteproductconfirm'] = "แน่ใจไหมว่าต้องการลบสินค้านี้";
 $_ADMINLANG['products']['deletegroupconfirm'] = "แน่ใจไหมว่าต้องการลบกลุ่มผลิตภัณฑ์นี้";
 $_ADMINLANG['products']['deletecustomfieldconfirm'] = "แน่ใจไหมว่าต้องการลบช่องนี้และข้อมูลทั้งหมดที่เกี่ยวข้อง";
@@ -2804,7 +2895,7 @@ $_ADMINLANG['automation']['revchangeinvoicestatus'] = "เปลี่ยนส�
 $_ADMINLANG['automation']['revchangeinvoicestatusinfo'] = "อนุญาตให้ย้อนกลับการชำระเงินเพื่อเปลี่ยนสถานะใบแจ้งหนี้";
 $_ADMINLANG['automation']['revchangeduedates'] = "เปลี่ยนวันครบกำหนด";
 $_ADMINLANG['automation']['revchangeduedatesinfo'] = "อนุญาตให้ย้อนกลับการชำระเงินเพื่อเปลี่ยนวันครบกำหนดบริการ";
-$_ADMINLANG['automation']['ccsettings'] = "การตั้งค่าการชาร์จด้วยบัตรเครดิต";
+$_ADMINLANG['automation']['ccsettings'] = "Payment Capture Settings";
 $_ADMINLANG['automation']['ccdaysbeforedue'] = "วันดำเนินการก่อนครบกำหนด";
 $_ADMINLANG['automation']['ccdaysbeforedueinfo'] = "ป้อนจำนวนวันก่อนวันครบกำหนดชำระเงินที่คุณต้องการจับการชำระเงิน";
 $_ADMINLANG['automation']['cconlyonce'] = "พยายามเพียงครั้งเดียว";
@@ -2866,6 +2957,8 @@ $_ADMINLANG['automation']['cronSample'] = "คำสั่ง cron ด้าน�
 $_ADMINLANG['automation']['autoDeleteInactiveClientsUsers'] = "ลบผู้ใช้ที่เกี่ยวข้องหากผู้ใช้ไม่ได้เชื่อมโยงกับบัญชีลูกค้าอื่นใด";
 $_ADMINLANG['automation']['moduleLogPruning'] = "การตัดแต่งบันทึกโมดูล";
 $_ADMINLANG['automation']['moduleLogPruningOlderThan'] = "พรุนบันทึกเก่ากว่า";
+$_ADMINLANG['automation']['freeDomainReminders'] = "Free Domain Reminders";
+$_ADMINLANG['automation']['freeDomainRemindersDescription'] = "Tick this box to send reminders for free domains.";
 
 # Payment Gateways
 $_ADMINLANG['gateways']['intro'] = "นี่คือที่ที่คุณกำหนดค่าวิธีการชำระเงิน / เกตเวย์ที่คุณต้องการเสนอและยอมรับจากลูกค้าของคุณ หากเกตเวย์ที่คุณต้องการใช้ไม่อยู่ในรายการที่นี่คุณสามารถสร้างโมดูลของคุณเองสำหรับ WHMCS ซึ่งเป็นเอกสารที่สามารถพบได้ @";
@@ -3028,6 +3121,7 @@ $_ADMINLANG['system']['resetdebuglogging'] = "รีเซ็ตบันทึ�
 $_ADMINLANG['system']['deletedAttachmentsLimitHit'] = "ถึงจำนวนสูงสุดของเร็กคอร์ดสำหรับการลบไฟล์แนบในชุดเดียว โปรดทำขั้นตอนนี้ซ้ำอีกครั้งเพื่อดำเนินการต่อ";
 $_ADMINLANG['system']['migrationInProgress'] = "มีการย้ายระบบไฟล์อยู่ระหว่างดำเนินการ กรุณาลองใหม่อีกครั้งในภายหลัง";
 $_ADMINLANG['system']['currentTime'] = "เวลาปัจจุบัน";
+$_ADMINLANG['system']['maxFileSize'] = "Max file size: :fileSize";
 
 # Support Request
 $_ADMINLANG['supportreq']['title'] = "รับความช่วยเหลือเกี่ยวกับ WHMCS";
@@ -3297,9 +3391,15 @@ $_ADMINLANG['mergefields']['invite'] = "เชิญเขตข้อมูล�
 # Config Fraud
 $_ADMINLANG['fraud']['title'] = "การป้องกันการฉ้อโกง";
 $_ADMINLANG['fraud']['changesuccessinfo'] = "บันทึกการเปลี่ยนแปลงการตั้งค่าโมดูลการป้องกันการฉ้อโกงแล้ว";
-$_ADMINLANG['fraud']['info'] = "นี่คือที่ที่คุณกำหนดค่าโมดูลการป้องกันการฉ้อโกงที่คุณต้องการใช้ คุณสามารถเปิดใช้โมดูลการฉ้อโกงได้ครั้งละหนึ่งโมดูลเท่านั้น";
+$_ADMINLANG['fraud']['info'] = "This is where you configure the Identity Verification and Fraud Protection providers you wish to use. You may only have one Identity Verification Provider and Fraud Protection Provider enabled at a time.";
 $_ADMINLANG['fraud']['choose'] = "เลือก Fraud Module";
 $_ADMINLANG['fraud']['changesuccess'] = "บันทึกการเปลี่ยนแปลงเรียบร้อยแล้ว!";
+$_ADMINLANG['fraud']['whatIsVerificationQ'] = "What is an Identity Verification Provider?";
+$_ADMINLANG['fraud']['whatIsVerificationA'] = "WHMCS can initiate requests for documentation from users to help confirm a user's identity. Third-party identity verification providers like Validation.com offer a secure platform where users can submit requested documentation. Once it is submitted, administrators can review and act on it.";
+$_ADMINLANG['fraud']['whatIsFraudQ'] = "What is a Fraud Protection Provider?";
+$_ADMINLANG['fraud']['whatIsFraudA'] = "WHMCS can automatically run checks on orders to help ensure only valid clients get through and to block any potential fraud. By integrating with a range of providers, there is a choice of services available, from checking the details of the person placing the order against their billing details down to automatically calling and verifying their identity.";
+$_ADMINLANG['fraud']['fraudProviders'] = "Fraud Protection Providers";
+$_ADMINLANG['fraud']['verificationProviders'] = "Identity Verification Providers";
 
 # Config General
 $_ADMINLANG['general']['title'] = "การตั้งค่าทั่วไป";
@@ -3545,7 +3645,7 @@ $_ADMINLANG['general']['affpayamountinfo'] = "ป้อนจำนวนเง�
 $_ADMINLANG['general']['affcommdelay'] = "ค่าคอมมิชชั่นพันธมิตรล่าช้า";
 $_ADMINLANG['general']['affcommdelayinfo'] = "ป้อนจำนวนวันที่จะชะลอการจ่ายค่าคอมมิชชัน - จากนั้นจ่ายเฉพาะเมื่อบัญชียังใช้งาน";
 $_ADMINLANG['general']['afflinks'] = "ลิงค์พันธมิตร";
-$_ADMINLANG['general']['afflinksinfo'] = "ป้อน [AffiliateLinkCode] ที่ควรใส่รหัสลิงก์ที่กำหนดเองของพันธมิตร"; #[AffiliateLinkCode] cannot be translated
+$_ADMINLANG['general']['afflinksinfo'] = "ป้อน [AffiliateLinkCode] ที่ควรใส่รหัสลิงก์ที่กำหนดเองของพันธมิตร"; // [AffiliateLinkCode] cannot be translated
 $_ADMINLANG['general']['afflinksinfo2'] = "ใช้ <b><(</b> สำหรับวงเล็บเปิดและ <b>)></b> สำหรับวงเล็บปิดใน HTML มิฉะนั้น HTML จะดำเนินการในหน้า";
 $_ADMINLANG['general']['captcha'] = "การป้องกันแบบฟอร์ม Captcha";
 $_ADMINLANG['general']['captchaalwayson'] = "เปิดตลอดเวลา (แสดงรหัสเพื่อให้แน่ใจว่ามีการส่งข้อมูลโดยมนุษย์)";
@@ -3678,6 +3778,8 @@ $_ADMINLANG['general']['domainGraceBillingAddToExistingInvoice'] = "เพิ่
 $_ADMINLANG['general']['domainGraceBillingCreateNewInvoice'] = "สร้างใบแจ้งหนี้ใหม่สำหรับการต่ออายุโดเมนรวมถึงค่าธรรมเนียมผ่อนผันและค่าธรรมเนียมการไถ่ถอน";
 $_ADMINLANG['general']['deleteLocalCards'] = "ลบข้อมูลบัตรเครดิตที่เข้ารหัส";
 $_ADMINLANG['general']['deleteLocalCardsInfo'] = "คำเตือน: กระบวนการนี้จะลบข้อมูลที่เข้ารหัสของบัตรเครดิตที่เก็บไว้ในเครื่องทั้งหมดออกจากฐานข้อมูล การกระทำนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจว่าคุณต้องการที่จะต่อหรือไม่?";
+$_ADMINLANG['general']['deleteLocalBanks'] = "Delete Encrypted Bank Account Data";
+$_ADMINLANG['general']['deleteLocalBanksInfo'] = "Warning: This process will delete all locally stored bank account encrypted data from the database. This action is irreversible. Are you sure you wish to continue?";
 $_ADMINLANG['general']['addCarbonCopyRecipients'] = "เพิ่มผู้รับสำเนาคาร์บอนโดยอัตโนมัติ";
 $_ADMINLANG['general']['addCarbonCopyRecipientsDescription'] = "อ่านและเพิ่มผู้รับสำเนาคาร์บอนจากอีเมลขาเข้าสำหรับตั๋วที่เปิดทางอีเมล";
 $_ADMINLANG['general']['visa'] = "วีซ่า";
@@ -3797,19 +3899,13 @@ $_ADMINLANG['taxconfig']['createRules'] = "สร้างกฎ";
 $_ADMINLANG['taxconfig']['enableTaxIdField'] = "หมายเลขประจำตัวผู้เสียภาษี / หมายเลข VAT ของลูกค้า";
 $_ADMINLANG['taxconfig']['taxIdFieldDescription'] = "เปิดใช้งานการป้อนข้อมูลและการจัดเก็บในการสมัครและโปรไฟล์ลูกค้า";
 $_ADMINLANG['taxconfig']['fieldDecimalPlaces'] = "รองรับได้ถึง 3 ทศนิยม";
-$_ADMINLANG['taxconfig']['hmrcConfigurationTitle'] = 'การตรวจสอบหมายเลข VAT ของสหราชอาณาจักร';
-$_ADMINLANG['taxconfig']['hmrcConfigurationDescription'] = 'ต้องใช้ข้อมูลรับรอง API เพื่อใช้บริการตรวจสอบหมายเลข VAT HMRC ของสหราชอาณาจักร การตรวจสอบหมายเลข VAT ของสหภาพยุโรปไม่จำเป็นต้องมีการกำหนดค่าเพิ่มเติม';
-$_ADMINLANG['taxconfig']['hmrcClientId'] = "รหัสลูกค้า";
-$_ADMINLANG['taxconfig']['hmrcSecretId'] = "ความลับของลูกค้า";
-$_ADMINLANG['taxconfig']['hmrcClientDescription'] = "รหัสลูกค้าสำหรับบริการ HMRC ของสหราชอาณาจักร \"ตรวจสอบหมายเลข VAT ของสหราชอาณาจักร\"";
-$_ADMINLANG['taxconfig']['hmrcSecretDescription'] = "ความลับของลูกค้าสำหรับบริการ HMRC ของสหราชอาณาจักร \"ตรวจสอบหมายเลข VAT ของสหราชอาณาจักร\"";
 
 # Support Ticket Departments
 $_ADMINLANG['supportticketdepts']['supportticketdeptstitle'] = "สนับสนุนแผนกตั๋ว";
 $_ADMINLANG['supportticketdepts']['emailreqdfordept'] = "คุณต้องป้อนที่อยู่อีเมลสำหรับแผนก";
 $_ADMINLANG['supportticketdepts']['namereqdfordept'] = "คุณต้องป้อนชื่อสำหรับแผนก";
 $_ADMINLANG['supportticketdepts']['deptaddsuccess'] = "เพิ่มแผนกเรียบร้อยแล้ว!";
-$_ADMINLANG['supportticketdepts']['deptaddsuccessdesc'] = "จำไว้ว่าคุณจะต้องมอบหมายพนักงานที่คุณต้องการให้สามารถเข้าถึงแผนกใหม่ได้ใน <a href=\"configadmins.php\">Configuration (: icon)> Manage Admins</a> ก่อนที่จะมองเห็นได้";
+$_ADMINLANG['supportticketdepts']['deptaddsuccessdesc'] = "The support department has successfully been added.";
 $_ADMINLANG['supportticketdepts']['changessavesuccess'] = "บันทึกการเปลี่ยนแปลงเรียบร้อยแล้ว!";
 $_ADMINLANG['supportticketdepts']['changessavesuccessdesc'] = "บันทึกการเปลี่ยนแปลงของคุณในแผนกสนับสนุนแล้ว";
 $_ADMINLANG['supportticketdepts']['supportticketdeptsconfigheredesc'] = "นี่คือที่ที่คุณกำหนดค่าแผนกตั๋วสนับสนุนของคุณ ที่อยู่อีเมลที่คุณป้อนจะเป็นอีเมลที่ใช้ตรวจจับอีเมลที่ส่งถึงแผนกนี้และอีเมลทั้งหมดของแผนกจะถูกส่งโดยใช้ที่อยู่นี้ การไปป์อีเมลทำให้สามารถเปิดและตอบกลับตั๋วทางอีเมลได้และสามารถตั้งค่าได้โดยใช้วิธีใดวิธีหนึ่งด้านล่าง";
@@ -3843,6 +3939,7 @@ $_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1
 $_ADMINLANG['supportticketdepts']['feedbackRequest'] = "ขอความคิดเห็น";
 $_ADMINLANG['supportticketdepts']['feedbackRequestDescription'] = "ส่งคำติชมเกี่ยวกับตั๋ว / คำขอตรวจสอบเมื่อใกล้ตั๋ว";
 $_ADMINLANG['supportticketdepts']['emailCannotBeAdmin'] = "ที่อยู่อีเมลถูกใช้งานโดยผู้ใช้ระดับผู้ดูแลระบบ กรุณาระบุที่อยู่อีเมลที่แตกต่างกัน.";
+$_ADMINLANG['supportticketdepts']['supportTicketsUploadTooLarge'] = "Uploaded file was too large. Please try uploading a smaller file.";
 
 # Support Ticket Escalations
 $_ADMINLANG['supportticketescalations']['supportticketescalationstitle'] = "สนับสนุนการยกระดับตั๋ว";
@@ -4461,11 +4558,15 @@ $_ADMINLANG['healthCheck']['updaterVersionMemoryLimit'] = "การอัปเ
 $_ADMINLANG['healthCheck']['updaterSuccess'] = "สภาพแวดล้อมของคุณเป็นไปตามข้อกำหนดขั้นต่ำสำหรับการอัปเดตอัตโนมัติ ในการอัปเดตคุณจะต้องแน่ใจว่าคุณมีเนื้อที่ว่างบนดิสก์อย่างน้อย 250MB";
 $_ADMINLANG['healthCheck']['updaterIoncubeLoaderMismatch'] = "ระบบของคุณมี ionCube Loader: loaderVersionInstalled โปรดติดตั้ง ionCube Loader: loaderVersionRequired หรือสูงกว่าเพื่ออัพเดตเป็น WHMCS Version: updateVersion <a href=\"https://docs.whmcs.com/System_Environment_Guide#IonCube_Version\">เรียนรู้เพิ่มเติม</a>";
 $_ADMINLANG['healthCheck']['phpCronMismatch'] = "Cron PHP เวอร์ชันไม่ตรงกัน";
-$_ADMINLANG['healthCheck']['phpCronMismatchDescription'] = "สภาพแวดล้อมของคุณกำลังเรียกใช้ PHP เวอร์ชันอื่น (<strong>: cronPhp</strong>) สำหรับ System Cron กว่าเวอร์ชัน PHP ที่โหลดในปัจจุบัน (<strong>: currentPhp</strong>) ซึ่งอาจทำให้เกิดปัญหาในการเรียกใช้ System Cron ของคุณ";
+$_ADMINLANG['healthCheck']['phpCronMismatchDescription'] = "Your environment appears to be running a different PHP version (<strong>:cronPhp</strong>) for the System Cron than the currently loaded PHP version (<strong>:currentPhp</strong>). This may cause issues running your System Cron. <a href=\":learnMore\">Learn More</a>";
 
 $_ADMINLANG['healthCheck']['webserverSupportCheck'] = "ตรวจสอบการรองรับเว็บเซิร์ฟเวอร์";
 $_ADMINLANG['healthCheck']['supportedWebserver'] = "ระบบของคุณกำลังเรียกใช้เว็บเซิร์ฟเวอร์ \": server\"";
 $_ADMINLANG['healthCheck']['unsupportedWebserver'] = "ตรวจพบเว็บเซิร์ฟเวอร์ของคุณเป็น \": server\" WHMCS <a href=\":envGuideline\">System Environment Guidelines</a> แนะนำให้ใช้เว็บเซิร์ฟเวอร์ที่โดยดีฟอลต์ให้เกียรติไฟล์. htaccess เช่น Apache เมื่อใช้เว็บเซิร์ฟเวอร์อื่นอาจต้องใช้ขั้นตอนการรักษาความปลอดภัยเพิ่มเติม <a href=\":learnMore\">เรียนรู้เพิ่มเติม</a>";
+
+$_ADMINLANG['healthCheck']['cloudLinuxMysqlCheck'] = "CloudLinux™ MySQL Extension Check";
+$_ADMINLANG['healthCheck']['cloudLinuxMysqlFailDescription'] = "The CloudLinux-provided PHP extension `nd_pdo_mysql` was not detected. The extension that is currently loaded may misinterpret stored numbers as strings and can cause undesirable behavior. Please use the `nd_pdo_mysql` extension in your PHP configuration. :learnmorelink";
+$_ADMINLANG['healthCheck']['cloudLinuxMysqlSuccessDescription'] = "The CloudLinux-provided PHP extension `nd_pdo_mysql` was detected.";
 
 $_ADMINLANG['updater']['failure'] = "เกิดข้อผิดพลาดร้ายแรงขณะเรียกการอัปเดต<br/>โปรดตรวจสอบว่าขีด จำกัด หน่วยความจำและเวลาดำเนินการของคุณถูกตั้งค่าเป็น <a href=\"https://docs.whmcs.com/Automatic_Updater#System_Requirements\" target=\"_blank\">ค่าที่แนะนำ</a>";
 $_ADMINLANG['appLinks']['description'] = "ลิงค์แอปพลิเคชันช่วยให้คุณสามารถให้สิทธิ์การเข้าถึงบัญชีผู้ใช้ใน WHMCS จากแอปพลิเคชันบุคคลที่สาม";
@@ -5134,6 +5235,7 @@ $_ADMINLANG['maxmind']['results']['disposition']['action'] = "การดำเ
 $_ADMINLANG['maxmind']['results']['disposition']['reason'] = "เหตุผลของกฎ";
 $_ADMINLANG['maxmind']['panels']['warnings'] = "คำเตือน";
 $_ADMINLANG['maxmind']['results']['warning'] = "คำเตือน";
+$_ADMINLANG['maxmind']['tagline'] = "Detect Online Fraud and Locate Online Visitors.";
 
 $_ADMINLANG['marketConnect']['loginForPricing'] = "ในการดูราคาคุณต้องลงทะเบียนหรือเข้าสู่ระบบบัญชี MarketConnect ของคุณก่อน";
 $_ADMINLANG['marketConnect']['login'] = "เข้าสู่ระบบ";
@@ -5216,6 +5318,101 @@ $_ADMINLANG['marketConnect']['weebly']['faq']['a3'] = "เมื่อไซต�
 $_ADMINLANG['marketConnect']['weebly']['faq']['q4'] = "ฉันจะโปรโมต Weebly ได้อย่างไร";
 $_ADMINLANG['marketConnect']['weebly']['faq']['a4'] = "เรามีหน้า Landing Page ที่สร้างไว้ล่วงหน้าให้กับคุณ (<a href=\":href\" target=\"_blank\">ตัวอย่าง</a>) และความสามารถในการแสดงโปรโมชั่นภายในพื้นที่ลูกค้าและตะกร้าสินค้า";
 $_ADMINLANG['marketConnect']['weebly']['faq']['ftp'] = "การสร้างบัญชี FTP รองรับ cPanel, Plesk & DirectAdmin";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['about'] = "About";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['features'] = "Features";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['highlights'] = "Highlights";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['freePlan'] = "Open Trial";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['pricing'] = "Pricing";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tab']['faq'] = "FAQ";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['tagline'] = "A website builder platform to call your own. Offer customers a do-it-yourself website builder that leverages \"user-first\" design that is intuitive and simple.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['description'] = ":builder is a generically branded, user-friendly website builder and e-commerce platform, catering exclusively to hosting and domain providers. Powered by Web.com, :builder sets the standard for customers with simplicity and ease-of-use.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsQ'] = "What problems does it solve?";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA1Title'] = "Websites are perceived to be complex";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA1Response'] = ":builder is super-easy! Any customer can create an elegant website that works on any device, in minutes.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA2Title'] = "Other DIY solutions often lack key features";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA2Response'] = ":builder includes a full set of features to help customers build any custom professional-looking website layout.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA3Title'] = "SMBs do not have the time to gain the skills themselves";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['solvedProblemsA3Response'] = ":builder is template and wizard based. It feels like PowerPoint but with more horsepower, elegance, and simplicity, a solution that customers will enjoy using (and continue to use). Best of all, customers can do it all with no coding experience required!";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['about'] = ":builder powered by Web.com is designed specifically with user experience in mind.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['editor'] = "Drag & Drop Editor";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['editorDescription'] = "The Drag & Drop Editor lets customers add and arrange website features directly on the page with predictive highlighting of areas for placement.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['building'] = "Building Features";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['buildingDescription'] = "Customers can use ready-made layout elements like text, buttons, photos, or icons to build any custom professional-looking website layout.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['photos'] = "Stock Photos Integration";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['photosDescription'] = "Empower customer websites with a selection of over 200,000 professional premium photos in high resolution. :builder also includes Embedded Videos and Image Optimization.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['blocks'] = "Pre-designed Building Blocks";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['blocksDescription'] = "Customers don't have to waste time manipulating content layouts. A collection of 350+ content blocks helps them build professional websites without any technical skills.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['mobile'] = "Built-in Mobile-Friendly";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['mobileDescription'] = "Customer websites will look great on any device. Templates are 100% responsive to all devices, including smartphones, tablets, and desktops.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['save'] = "Auto Save & Backup";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['features']['saveDescription'] = "Customers can be sure not to lose any of their work with real-time saving. The editor automatically saves everything while customers work.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['headline'] = "The Blog is included at no additional cost to customers.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['blogSettings'] = "Blog Settings";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['blogSettingsInfo'] = "Configure post appearance on the published website.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['postEditor'] = "Post Editor";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['postEditorInfo'] = "Built-in post content authoring tool and editor.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['socialSharing'] = "Social Media";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['socialSharingInfo'] = "Share blog posts and engage with follows.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['isolatedPosting'] = "Isolated Posting";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['isolatedPostingInfo'] = "Post dynamic content independently.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['blogPage'] = "Blog Page";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['blogPageInfo'] = "Styling layout options and preferences.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['draftPost'] = "Draft Post";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['draftPostInfo'] = "Create now and publish later.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['title'] = "Store options with turnkey E-Commerce features";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['products'] = "Plans for 10, 50, and 500 Products";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['securePayments'] = "Secure and Save Payments";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['quickCheckout'] = "Easy and Quick Checkout";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['marketplaceIntegration'] = "Marketplace Integration";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['productListing'] = "Product Listing and Management";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['promotions'] = "Promotions, Discounts, and Coupons";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['stockManagement'] = "Stock Management";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['worldwideShipping'] = "Worldwide Shipping and Payments";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['taxes'] = "Local and International VAT or Taxes";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['highlights']['storeOptions']['orderManagement'] = "Order Management and Tracking";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['freeTrial'] = "FREE Open Trial";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['freeTrialInfo'] = ":builder offers you and your customers a FREE Open Trial. It allows customers to start building with the website builder and pay nothing until their new website is ready to publish.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['stockPhotos'] = "Stock Photos";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['stockPhotosInfo'] = "200,000+ free professional premium photos in high resolution.";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['templates'] = "Templates";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['templatesInfo'] = "150+ professional quality website templates";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['blocks'] = "Building Blocks";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['blocksInfo'] = "350+ predesigned content blocks";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['mobileFriendly'] = "Mobile Friendly";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['mobileFriendlyInfo'] = "100% responsive on all devices";
+$_ADMINLANG['marketConnect']['siteBuilder']['learn']['free']['outro'] = "To qualify for the :builder Open Trial, you must also offer at least one paid :builder plan to your customers.";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['q1'] = "What is \"User-First\" Design?";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['a1'] = "It's designed for all skill levels. Simplicity and ease-of-use mean higher Customer Satisfaction Score (CSAT) scores and better user experiences.";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['q2'] = "Is it responsive on Mobile Devices?";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['a2'] = "Yes – :builder will save a lot of time and effort when creating a website that works on all devices.";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['q3'] = "Is there any coding required?";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['a3'] = "No – This is not targeting professional coders. :builder's aim is to provide SMEs with a \"User-First\" design that anybody can use to create elegant websites in minutes. :builder includes a full set of building features which customers can use to build any custom professional looking website layout.";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['q4'] = "What is an \"Open Trial\"?";
+$_ADMINLANG['marketConnect']['siteBuilder']['faq']['a4'] = "With the Open Trial, your customers can try :builder and build their new websites for FREE with no upfront costs to you or them. Pay nothing until customers are ready to publish!";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['trialInfo'] = "The FREE Open Trial requires no payment upfront until the customer’s website is ready to publish. Once ready, customers will upgrade to the plan that meets their needs.";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['onePage'] = "One Page";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['unlimited'] = "Unlimited";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['store'] = "Store";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['storePlus'] = "Store Plus";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['storePremium'] = "Store Premium";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['feature'] = "Features";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['templates'] = "Professional Quality Website Templates";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['userFirst'] = "\"User-First\" Design for all Skill Levels";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['ddEditing'] = "Easy Drag & Drop Editing";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['responsive'] = "Responsive to Mobile Devices";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['gallery'] = "Free Image Gallery";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['blocks'] = "Component-Based Building Blocks";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['blog'] = "Blog Page and Management";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['layouts'] = "Auto Layouts for Proportional Spacing";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['contactForm'] = "Contact Form Building";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['restore'] = "Restore Websites";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['inheritance'] = "Theme Inheritance";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['socials'] = "Social Media Integration";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['seo'] = "SEO Friendly";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['analytics'] = "Built-In Analytics";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['pages'] = "Pages";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['products'] = "E-Commerce Products";
+$_ADMINLANG['marketConnect']['siteBuilder']['pricing']['rrp'] = "Recommended Retail Price";
 
 $_ADMINLANG['maxmind']['missingUser'] = "คุณต้องตั้งค่า ID ผู้ใช้ของคุณเพื่อใช้ MaxMind API ล่าสุด <a href=\"configfraud.php\" class=\"autoLinked\">คลิกที่นี่</a> เพื่อดำเนินการทันที";
 
@@ -5266,6 +5463,7 @@ $_ADMINLANG['fraudlabs']['results']['fraudlabspro_distribution'] = "อัตร
 $_ADMINLANG['fraudlabs']['results']['fraudlabspro_status'] = "สถานะกฎที่กำหนดเอง";
 $_ADMINLANG['fraudlabs']['results']['fraudlabspro_version'] = "Fraud Engine เวอร์ชัน";
 $_ADMINLANG['fraudlabs']['results']['fraudlabspro_credits'] = "เครดิตที่เหลือ";
+$_ADMINLANG['fraudlabs']['tagline'] = "Protect your business from chargeback fraud.";
 
 $_ADMINLANG['sslState']['sslInactive'] = "ไม่พบ SSL";
 $_ADMINLANG['sslState']['sslActive'] = "ตรวจพบ SSL ที่ถูกต้อง หมดอายุ: หมดอายุ";
@@ -5418,6 +5616,16 @@ $_ADMINLANG['usagebilling']['metricType']['day'] = "ทุกวัน";
 $_ADMINLANG['usagebilling']['metricType']['month'] = "รายเดือน";
 $_ADMINLANG['usagebilling']['metricType']['snapshot'] = "ภาพรวม";
 
+$_ADMINLANG['usagebilling']['metric']['diskSpace'] = "Disk Space";
+$_ADMINLANG['usagebilling']['metric']['bandwidth'] = "Bandwidth";
+$_ADMINLANG['usagebilling']['metric']['emailAccounts'] = "Email Accounts";
+$_ADMINLANG['usagebilling']['metric']['addonDomains'] = "Addon Domains";
+$_ADMINLANG['usagebilling']['metric']['parkedDomains'] = "Parked Domains";
+$_ADMINLANG['usagebilling']['metric']['subDomains'] = "Sub Domains";
+$_ADMINLANG['usagebilling']['metric']['mysqlDatabases'] = "MySQL Databases";
+$_ADMINLANG['usagebilling']['metric']['mysqlDiskUsage'] = "MySQL Disk Usage";
+$_ADMINLANG['usagebilling']['metric']['subAccounts'] = "Sub-Accounts";
+
 $_ADMINLANG['paypalCheckout']['linkAccount'] = 'เชื่อมโยงบัญชี PayPal';
 $_ADMINLANG['paypalCheckout']['unlinkAccount'] = 'ยกเลิกการเชื่อมโยงบัญชี PayPal';
 $_ADMINLANG['paypalCheckout']['linkSandboxAccount'] = 'เชื่อมโยงบัญชี Sandbox';
@@ -5439,6 +5647,8 @@ $_ADMINLANG['hooksDebugModeWarning']['title'] = "Hooks Debug Mode เปิด�
 $_ADMINLANG['hooksDebugModeWarning']['description'] = "Hooks Debug Mode จะส่งผลให้มีรายการบันทึกกิจกรรมจำนวนมากและควรใช้เท่าที่จำเป็น ควรปิดเมื่อไม่จำเป็นต้องใช้อีกต่อไป";
 $_ADMINLANG['emailSendingModeWarning']['title'] = "ปิดการส่งอีเมลแล้ว";
 $_ADMINLANG['emailSendingModeWarning']['description'] = "การส่งอีเมลถูกปิดใช้งานซึ่งหมายความว่าจะไม่มีการส่งอีเมลขาออก คุณสามารถเปิดใช้งานอีเมลอีกครั้งได้ใน Configuration> General Settings> Mail";
+$_ADMINLANG['maintenanceModeWarning']['description'] = "Maintenance Mode is on. Until disabled, only logged in staff can access your Client Area. :link.";
+$_ADMINLANG['maintenanceModeWarning']['disableLinkText'] = "Disable this in General Settings";
 
 $_ADMINLANG['twoFactor']['duosecurity']['friendlyName'] = "Duo Security";
 $_ADMINLANG['twoFactor']['duosecurity']['description'] = "รับรหัสผ่าน Duo Push, SMS หรือ Phone Callback";
@@ -5588,3 +5798,49 @@ $_ADMINLANG['customAdminPathWarning']['title'] = "ไดเรกทอรีผ
 $_ADMINLANG['customAdminPathWarning']['description'] = "ตรวจพบความขัดแย้งกับชื่อสงวนที่ใช้สำหรับการสร้างเส้นทาง URL อัตโนมัติและต้องได้รับการแก้ไข";
 
 $_ADMINLANG['social']['accounts'] = "บัญชีโซเชียล";
+
+$_ADMINLANG['configOptions']['optionGroupDelete'] = "The option group has been deleted successfully!";
+$_ADMINLANG['configOptions']['optionGroupDuplicated'] = "The option group has been duplicated successfully!";
+
+# Validation.com
+$_ADMINLANG['validationCom']['identityVerificationFor'] = "Verification Status for User ID ";
+$_ADMINLANG['validationCom']['lastUpdated'] = "Updated";
+$_ADMINLANG['validationCom']['viewDetails'] = "View Details";
+$_ADMINLANG['validationCom']['clearStatus'] = "Reset Verification";
+$_ADMINLANG['validationCom']['initiateRequest'] = "Initiate Request";
+$_ADMINLANG['validationCom']['validationStatus'] = "ID Verification Status";
+$_ADMINLANG['validationCom']['status']['notRequested'] = "Not Initiated";
+$_ADMINLANG['validationCom']['status']['notReviewed'] = "Initiated";
+$_ADMINLANG['validationCom']['status']['reviewRequested'] = "Awaiting Review";
+$_ADMINLANG['validationCom']['status']['failed'] = "Failed";
+$_ADMINLANG['validationCom']['status']['validated'] = "Verified";
+$_ADMINLANG['validationCom']['tooltip']['notRequested'] = "The user has not been asked to submit documentation for further verification.";
+$_ADMINLANG['validationCom']['tooltip']['notReviewed'] = "The user has been asked to submit documentation for further verification.";
+$_ADMINLANG['validationCom']['tooltip']['reviewRequested'] = "The requested documentation has been submitted and is currently awaiting review.";
+$_ADMINLANG['validationCom']['tooltip']['failed'] = "The submitted documentation has been reviewed and marked as failed.";
+$_ADMINLANG['validationCom']['tooltip']['validated'] = "The submitted documentation has been reviewed and marked as verified.";
+$_ADMINLANG['validationCom']['tagline'] = "With Validation.com you verify people online just like you do in person.";
+$_ADMINLANG['validationCom']['apiKey'] = "API Key";
+$_ADMINLANG['validationCom']['apiSecret'] = "API Secret";
+$_ADMINLANG['validationCom']['identityVerification'] = "Identity Verification";
+$_ADMINLANG['validationCom']['identityVerificationDesc'] = "Enable all identity verification functionality in the Client and Admin Areas.";
+$_ADMINLANG['validationCom']['autoRequests'] = "Automatic Requests";
+$_ADMINLANG['validationCom']['autoRequestsDesc'] = "Initiate an identity verification request when fraud check has failed during the checkout process.";
+$_ADMINLANG['validationCom']['error']['clearStatus'] = "Unable to clear verification status.";
+$_ADMINLANG['validationCom']['error']['licenseData'] = "The system was unable to validate license data. Force a license update and reattempt the signup process.";
+$_ADMINLANG['validationCom']['error']['signupUrl'] = "The system was unable to retrieve the signup URL. Ensure the installation is being accessed via the defined System URL.";
+$_ADMINLANG['validationCom']['linkSuccess'] = "Validation.com account was successfully linked";
+$_ADMINLANG['validationCom']['photoId'] = "Photo ID";
+$_ADMINLANG['validationCom']['passport'] = "Passport";
+$_ADMINLANG['validationCom']['selfie'] = "Selfie";
+$_ADMINLANG['validationCom']['utilityBill'] = "Utility Bill";
+$_ADMINLANG['validationCom']['creditCardFrontOnly'] = "Credit Card Front Only";
+$_ADMINLANG['validationCom']['photoIdFrontOnly'] = "Photo ID Front Only";
+$_ADMINLANG['validationCom']['companyId'] = "Company ID";
+$_ADMINLANG['validationCom']['businessCard'] = "Business Card";
+$_ADMINLANG['validationCom']['driversLicense'] = "Driver's License";
+$_ADMINLANG['validationCom']['driversLicenseFrontOnly'] = "Driver's License Front Only";
+$_ADMINLANG['validationCom']['secondPhotoId'] = "2nd Photo ID";
+$_ADMINLANG['validationCom']['secondPhotoIdFrontOnly'] = "2nd Photo ID Front Only";
+$_ADMINLANG['validationCom']['proofOfPayment'] = "Proof of Payment";
+$_ADMINLANG['validationCom']['topHalfUtility'] = "Top Half Utility";
