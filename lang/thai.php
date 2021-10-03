@@ -1395,7 +1395,7 @@ $_LANG['clientgroupdiscount'] = "ส่วนลดลูกค้า";
 $_LANG['billableitemshours'] = "ชั่วโมง";
 $_LANG['billableitemshour'] = "ชั่วโมง";
 $_LANG['billableitemsquantity'] = "จำนวน";
-$_LANG['billableitemseach'] = "Each";
+$_LANG['billableitemseach'] = "แต่ละ";
 
 $_LANG['invoicefilename'] = "เอกสาร-";
 $_LANG['quotefilename'] = "ใบเสนอราคา -";
