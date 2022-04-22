@@ -73,7 +73,7 @@ $_LANG['bannedbanreason'] = "เหตุผลที่แบน";
 $_LANG['bannedhasbeenbanned'] = "ถูกแบน";
 $_LANG['bannedtitle'] = "IP ถูกแบน";
 $_LANG['bannedyourip'] = "IP ของคุณ";
-$_LANG['cartaddons'] = "Addons";
+$_LANG['cartaddons'] = "ส่วนเสริม";
 $_LANG['cartbrowse'] = "เรียกดูผลิตภัณฑ์ &amp; บริการ";
 $_LANG['cartconfigdomainextras'] = "กำหนดค่าโดเมนพิเศษ";
 $_LANG['cartconfigoptionsdesc'] = "ผลิตภัณฑ์ / บริการนี้มีตัวเลือกบางอย่างซึ่งคุณสามารถเลือกได้จากด้านล่างเพื่อปรับแต่งคำสั่งซื้อของคุณ";
@@ -183,13 +183,13 @@ $_LANG['clientareaerrorpostcode'] = "คุณไม่ได้ป้อนร�
 $_LANG['clientareaerrorpostcode2'] = "รหัสไปรษณีย์ของคุณต้องประกอบด้วยตัวอักษรตัวเลขและช่องว่างเท่านั้น";
 $_LANG['clientareaerrors'] = "เกิดข้อผิดพลาดต่อไปนี้:";
 $_LANG['clientareaerrorstate'] = "คุณไม่ได้เข้าสู่สถานะของคุณ";
-$_LANG['clientareaerrorlanguage'] = "A valid language was not provided";
+$_LANG['clientareaerrorlanguage'] = "ไม่ได้ระบุภาษาที่ถูกต้อง";
 $_LANG['clientareaexpired'] = "หมดอายุแล้ว";
 $_LANG['clientareafirstname'] = "ชื่อจริง";
 $_LANG['clientareafraud'] = "ฉ้อโกง";
 $_LANG['clientareafullname'] = "ชื่อลูกค้า";
 $_LANG['clientareaheader'] = "ยินดีต้อนรับสู่พื้นที่ลูกค้าของเราที่คุณสามารถจัดการบัญชีของคุณกับเราได้ หน้านี้ให้ภาพรวมคร่าวๆของบัญชีของคุณรวมถึงคำขอการสนับสนุนที่เปิดอยู่และใบแจ้งหนี้ที่ยังไม่ได้ชำระเงิน โปรดตรวจสอบให้แน่ใจว่าคุณอัปเดตรายละเอียดการติดต่อของคุณอยู่เสมอ";
-$_LANG['clientareahostingaddons'] = "Addons";
+$_LANG['clientareahostingaddons'] = "ส่วนเสริม";
 $_LANG['clientareahostingaddonsintro'] = "คุณมีส่วนเสริมต่อไปนี้สำหรับผลิตภัณฑ์นี้";
 $_LANG['clientareahostingaddonsview'] = "ดู";
 $_LANG['clientareahostingamount'] = "จำนวน";
@@ -203,7 +203,7 @@ $_LANG['clientarealeaveblank'] = "เว้นว่างไว้เว้น�
 $_LANG['clientareamodifydomaincontactinfo'] = "แก้ไขข้อมูลติดต่อโดเมน";
 $_LANG['clientareamodifynameservers'] = "แก้ไขเนมเซิร์ฟเวอร์";
 $_LANG['clientareamodifywhoisinfo'] = "แก้ไขข้อมูลติดต่อ WHOIS";
-$_LANG['clientareanameserver'] = "Nameserver";
+$_LANG['clientareanameserver'] = "เนมเซิร์ฟเวอร์";
 $_LANG['clientareanavaddcontact'] = "เพิ่มผู้ติดต่อใหม่";
 $_LANG['clientareanavchangecc'] = "เปลี่ยนรายละเอียดบัตรเครดิต";
 $_LANG['clientareanavchangepw'] = "เปลี่ยนรหัสผ่าน";
@@ -244,7 +244,7 @@ $_LANG['clientareaupdateyourdetails'] = "อัปเดตรายละเอ
 $_LANG['clientareaused'] = "ใช้แล้ว";
 $_LANG['clientareaviewaddons'] = "ดู Addons ที่มีอยู่";
 $_LANG['clientareaviewdetails'] = "ดูรายละเอียด";
-$_LANG['clientarealanguage'] = "Language";
+$_LANG['clientarealanguage'] = "ภาษา";
 $_LANG['clientlogin'] = "เข้าสู่ระบบลูกค้า";
 $_LANG['clientregisterheadertext'] = "กรุณากรอกข้อมูลในช่องด้านล่างเพื่อลงทะเบียนสำหรับบัญชีใหม่";
 $_LANG['clientregistertitle'] = "สมัครใช้บริการ";
@@ -350,7 +350,7 @@ $_LANG['domainregisternsip'] = "ที่อยู่ IP";
 $_LANG['domainregisternsmod'] = "แก้ไข IP NameServer";
 $_LANG['domainregisternsmodsuccess'] = "แก้ไขเนมเซิร์ฟเวอร์เรียบร้อยแล้ว";
 $_LANG['domainregisternsnewip'] = "ที่อยู่ IP ใหม่";
-$_LANG['domainregisternsns'] = "Nameserver";
+$_LANG['domainregisternsns'] = "เนมเซิร์ฟเวอร์";
 $_LANG['domainregisternsreg'] = "ลงทะเบียน NameServer Name";
 $_LANG['domainregisternsregsuccess'] = "ลงทะเบียนเนมเซิร์ฟเวอร์เรียบร้อยแล้ว";
 $_LANG['domainregistrantchoose'] = "เลือกผู้ติดต่อที่คุณต้องการใช้ที่นี่";
@@ -547,7 +547,7 @@ $_LANG['nocarddetails'] = "ไม่มีบันทึกรายละเ�
 $_LANG['none'] = "ไม่มี";
 $_LANG['norecordsfound'] = "ไม่พบประวัติ";
 $_LANG['or'] = "หรือ";
-$_LANG['orderadditionalrequiredinfo'] = "Additional Information";
+$_LANG['orderadditionalrequiredinfo'] = "ข้อมูลเพิ่มเติม";
 $_LANG['orderaddon'] = "เพิ่มเข้าไป";
 $_LANG['orderaddondescription'] = "ส่วนเสริมต่อไปนี้มีให้สำหรับผลิตภัณฑ์นี้ เลือกส่วนเสริมที่คุณต้องการสั่งซื้อด้านล่าง";
 $_LANG['orderavailable'] = "มีจำหน่าย";
@@ -708,7 +708,7 @@ $_LANG['serverchangepasswordsuccessful'] = "เปลี่ยนรหัสผ
 $_LANG['serverchangepasswordupdate'] = "อัปเดต";
 $_LANG['serverhostname'] = "ชื่อโฮสต์";
 $_LANG['serverlogindetails'] = "เข้าสู่ระบบรายละเอียด";
-$_LANG['servername'] = "เซิร์ฟเวอร์";
+$_LANG['servername'] = "ชื่อเซิร์ฟเวอร์";
 $_LANG['serverns1prefix'] = "NS1 คำนำหน้า";
 $_LANG['serverns2prefix'] = "NS2 คำนำหน้า";
 $_LANG['serverpassword'] = "รหัสผ่าน";
@@ -854,8 +854,8 @@ $_LANG['yourdetails'] = "รายละเอียดของคุณ";
 $_LANG['user'] = "ผู้ใช้";
 $_LANG['loggedInAs'] = "เข้าสู่ระบบด้วย";
 $_LANG['viewAllPricing'] = "ดูราคาทั้งหมด";
-$_LANG['default'] = "Default";
-$_LANG['maxFileSize'] = "Max file size: :fileSize";
+$_LANG['default'] = "ค่าเริ่มต้น";
+$_LANG['maxFileSize'] = "ขนาดไฟล์สูงสุด: :fileSize";
 
 # Version 4.1
 
@@ -882,8 +882,8 @@ $_LANG['overagestotalbwusage'] = "การใช้แบนด์วิธท�
 
 $_LANG['affiliatescommissionspending'] = "ค่าคอมมิชชั่นรอการครบกำหนด";
 $_LANG['affiliatescommissionsavailable'] = "ยอดค่าคอมมิชชั่นที่มีอยู่";
-$_LANG['affiliatessignups'] = "จำนวนการสมัคร";
-$_LANG['affiliatesconversionrate'] = "อัตราการแปลง";
+$_LANG['affiliatessignups'] = "การสมัคร";
+$_LANG['affiliatesconversionrate'] = "Conversion";
 
 $_LANG['configoptionqtyminmax'] = "%s มีข้อกำหนดขั้นต่ำ %s และสูงสุด %s";
 
@@ -923,7 +923,7 @@ $_LANG['subaccountSsoDenied'] = "คุณไม่ได้รับอนุ�
 
 $_LANG['knowledgebasealsoread'] = "ยังอ่าน";
 
-$_LANG['orderpaymenttermtriennially'] = "Triennially";
+$_LANG['orderpaymenttermtriennially'] = "สามปี";
 $_LANG['orderpaymentterm36month'] = "36 เดือนราคา";
 
 $_LANG['domainrenewals'] = "การต่ออายุโดเมน";
@@ -995,7 +995,7 @@ $_LANG['orderformtitle'] = "แบบฟอร์มสั่งซื้อ";
 $_LANG['signup'] = "ลงชื่อ";
 $_LANG['loading'] = "กำลังโหลด ...";
 
-$_LANG['ordersummarybegin'] = "โปรดเลือกผลิตภัณฑ์เพื่อเริ่มต้น";
+$_LANG['ordersummarybegin'] = "ตะกร้าสินค้าว่างเปล่า<br/>โปรดเลือกตัวเลือกผลิตภัณฑ์และชื่อโดเมนเพื่อเริ่มต้น ...";
 
 $_LANG['cartchooseproduct'] = "เลือกผลิตภัณฑ์";
 $_LANG['cartconfigurationoptions'] = "ตัวเลือกการกำหนดค่า";
@@ -1084,7 +1084,7 @@ $_LANG['carttransfernotregistered'] = "%s ยังไม่ได้ลงท�
 $_LANG['carttransferpossible'] = "ยินดีด้วยเราสามารถโอน %s ให้เราได้ในราคาเพียง %s";
 $_LANG['cartotherdomainsuggestions'] = "โดเมนอื่น ๆ ที่คุณอาจสนใจ ...";
 $_LANG['cartdomainsconfiginfo'] = "ตัวเลือกและการตั้งค่าต่อไปนี้พร้อมใช้งานสำหรับโดเมนที่คุณเลือก ช่องที่ต้องกรอกจะระบุด้วย *";
-$_LANG['cartnameserverchoice'] = "Nameserver Choice";
+$_LANG['cartnameserverchoice'] = "ตัวเลือกเนมเซิร์ฟเวอร์";
 $_LANG['cartnameserverchoicedefault'] = "ใช้เนมเซิร์ฟเวอร์เริ่มต้นสำหรับโฮสติ้งของเรา";
 $_LANG['cartnameserverchoicecustom'] = "ใช้เนมเซิร์ฟเวอร์ที่กำหนดเอง";
 $_LANG['cartfollowingaddonsavailable'] = "ส่วนเสริมต่อไปนี้พร้อมใช้งานสำหรับผลิตภัณฑ์และบริการที่ใช้งานอยู่ของคุณ";
@@ -1116,7 +1116,7 @@ $_LANG['recurringpromodesc'] = "รหัสโปรโมชั่นนี้
 # Version 4.5.2
 
 $_LANG['ajaxcartcheckout'] = "ตรงไปที่จุดชำระเงิน &raquo;";
-$_LANG['ordersummarybegin'] = "ตะกร้าสินค้าว่างเปล่า<br/>โปรดเลือกตัวเลือกผลิตภัณฑ์และชื่อโดเมนเพื่อเริ่มต้น ...";
+$_LANG['ordersummarybegin'] = "ตะกร้าสินค้าว่างเปล่า<br/>โปรดเลือกตัวเลือกผลิตภัณฑ์และชื่อโดเมนเพื่อเริ่มต้น...";
 $_LANG['ajaxcartconfigreqnotice'] = "คุณกำลังจะลงทะเบียนกับเรา แต่คุณต้องเลือกโดเมนก่อนจึงจะสามารถเพิ่มสินค้าที่เลือกลงในรถเข็นของคุณได้ ...";
 
 # Version 5.0.0
@@ -1191,7 +1191,7 @@ $_LANG['recaptcha-incorrect-captcha-sol'] = "อักขระที่คุ�
 
 # Product Bundles
 
-$_LANG['bundledeal'] = "Bundle Deal!";
+$_LANG['bundledeal'] = "ดีลสุดคุ้ม!";
 $_LANG['bundlevaliddateserror'] = "Bundle ไม่พร้อมใช้งาน";
 $_LANG['bundlevaliddateserrordesc'] = "กลุ่มนี้ยังไม่เปิดใช้งานหรือหมดอายุแล้ว หากคุณคิดว่าข้อความนี้เป็นข้อผิดพลาดโปรดติดต่อฝ่ายสนับสนุน";
 $_LANG['bundlemaxusesreached'] = "Bundle ไม่พร้อมใช้งาน";
@@ -1261,13 +1261,13 @@ $_LANG['clientareahomeloginbtn'] = "เข้าสู่ระบบลูก�
 $_LANG['clientareaproductsintro'] = "นี่คือบริการทั้งหมดที่คุณลงทะเบียนไว้ในบัญชีนี้";
 $_LANG['clientareaproductdetailsintro'] = "นี่คือภาพรวมของผลิตภัณฑ์ / บริการของคุณกับเรา";
 $_LANG['clientareadomainsintro'] = "ดู &amp; จัดการโดเมนทั้งหมดที่คุณลงทะเบียนกับเราจากที่นี่ ...";
-$_LANG['invoicesintro'] = "ด้านล่างนี้คุณสามารถตรวจสอบประวัติใบแจ้งหนี้ทั้งหมดของคุณกับเราได้";
+$_LANG['invoicesintro'] = "ประวัติใบแจ้งหนี้ของคุณกับเรา";
 $_LANG['quotesintro'] = "นี่คือคำพูดทั้งหมดที่เราสร้างขึ้นสำหรับคุณ";
 $_LANG['emailstagline'] = "นี่คือสำเนาอีเมลล่าสุดที่เราส่งถึงคุณ ...";
 $_LANG['supportticketsintro'] = "ส่งและติดตามข้อสงสัยใด ๆ กับเราที่นี่ ...";
 $_LANG['addfundsintro'] = "ฝากเงินล่วงหน้า";
 $_LANG['registerintro'] = "สร้างบัญชีกับเรา . .";
-$_LANG['masspayintro'] = "ชำระใบแจ้งหนี้ทั้งหมดที่ระบุไว้ด้านล่างในธุรกรรมง่ายๆเพียงครั้งเดียวโดยเลือกวิธีการชำระเงิน";
+$_LANG['masspayintro'] = "ชำระใบแจ้งหนี้เหล่านี้ทั้งหมดในขั้นตอนเดียว";
 $_LANG['networkstatusintro'] = "ข้อมูลสถานะบริการและประกาศเกี่ยวกับเครือข่าย";
 
 $_LANG['creditcardyourinfo'] = "ข้อมูลการเรียกเก็บเงิน";
@@ -1290,7 +1290,7 @@ $_LANG['pwstrengthenter'] = "ป้อนรหัสผ่าน";
 $_LANG['pwstrengthweak'] = "อ่อนแอ";
 $_LANG['pwstrengthmoderate'] = "ปานกลาง";
 $_LANG['pwstrengthstrong'] = "แข็งแรง";
-$_LANG['pwstrengthrating'] = "New Password Rating";
+$_LANG['pwstrengthrating'] = "คะแนนรหัสผ่านใหม่";
 
 $_LANG['managing'] = "การจัดการ";
 $_LANG['information'] = "ข้อมูล";
@@ -1394,15 +1394,15 @@ $_LANG['clientareaprojects'] = "โครงการของฉัน";
 $_LANG['clientgroupdiscount'] = "ส่วนลดลูกค้า";
 $_LANG['billableitemshours'] = "ชั่วโมง";
 $_LANG['billableitemshour'] = "ชั่วโมง";
-$_LANG['billableitemsquantity'] = "Qty";
-$_LANG['billableitemseach'] = "Each";
+$_LANG['billableitemsquantity'] = "จำนวน";
+$_LANG['billableitemseach'] = "แต่ละ";
 
 $_LANG['invoicefilename'] = "เอกสาร-";
 $_LANG['quotefilename'] = "ใบเสนอราคา -";
 
 # Domain Addons
 
-$_LANG['domainaddons'] = "Addons";
+$_LANG['domainaddons'] = "ส่วนเสริม";
 $_LANG['domainaddonsinfo'] = "ส่วนเสริมต่อไปนี้พร้อมใช้งานสำหรับโดเมนของคุณ ...";
 $_LANG['domainaddonsdnsmanagement'] = "การจัดการระเบียนโฮสต์ DNS";
 $_LANG['domainaddonsidprotectioninfo'] = "ปกป้องข้อมูลส่วนบุคคลของคุณและลดปริมาณสแปมในกล่องจดหมายของคุณโดยเปิดใช้งานการป้องกัน ID";
@@ -1486,7 +1486,7 @@ $_LANG['twofabackupcodeexpl'] = "ใช้รหัสสำรองเช่�
 $_LANG['twofaconfirmpw'] = "ใส่รหัสผ่านของคุณ";
 $_LANG['twofa2ndfactorreq'] = "ปัจจัยที่สองของคุณจำเป็นสำหรับการเข้าสู่ระบบให้เสร็จสมบูรณ์";
 $_LANG['twofa2ndfactorincorrect'] = "ปัจจัยที่สองที่คุณระบุไม่ถูกต้อง กรุณาลองอีกครั้ง. คุณมี: ความพยายามที่เหลืออยู่";
-$_LANG['twofabackupcodereset'] = "Login via Backup Code Successful.<br />Backup Codes are valid once only. It will now be reset.";
+$_LANG['twofabackupcodereset'] = "เข้าสู่ระบบด้วยรหัสสำรองสำเร็จ<br />รหัสสำรองใช้ได้เพียงครั้งเดียว ตอนนี้มันจะถูกรีเซ็ต";
 $_LANG['twofacantaccess2ndfactor'] = "ไม่สามารถเข้าถึงอุปกรณ์ปัจจัยที่ 2 ของคุณ?";
 $_LANG['twofaloginusingbackupcode'] = "เข้าสู่ระบบโดยใช้รหัสสำรอง";
 $_LANG['twofageneralerror'] = "เกิดข้อผิดพลาดขณะโหลดโมดูล กรุณาลองอีกครั้ง.";
@@ -1531,7 +1531,7 @@ $_LANG['domaincontactdetails']['County'] = "เขต";
 $_LANG['domaincontactdetails']['Region'] = "ภูมิภาค";
 $_LANG['domaincontactdetails']['Postcode'] = "รหัสไปรษณีย์";
 $_LANG['domaincontactdetails']['ZIP Code'] = "รหัสไปรษณีย์";
-$_LANG['domaincontactdetails']['ZIP'] = "ZIP";
+$_LANG['domaincontactdetails']['ZIP'] = "รหัสไปรษณีย์";
 $_LANG['domaincontactdetails']['Country'] = "ประเทศ";
 $_LANG['domaincontactdetails']['Phone'] = "โทรศัพท์";
 $_LANG['domaincontactdetails']['Phone Number'] = "หมายเลขโทรศัพท์";
@@ -1571,12 +1571,12 @@ $_LANG['announcementsbymonth'] = "ตามเดือน";
 $_LANG['announcementsolder'] = "ประกาศที่เก่ากว่า";
 $_LANG['createnewcontact'] = "รายชื่อติดต่อใหม่ ...";
 $_LANG['due'] = "ครบกำหนด";
-$_LANG['affiliatessignups'] = "การสมัคร";
-$_LANG['affiliatesconversionrate'] = "Conversion";
+$_LANG['affiliatessignups'] = "สมัครสมาชิก";
+$_LANG['affiliatesconversionrate'] = "Conversions";
 $_LANG['affiliatesclicks'] = "คลิก";
 $_LANG['contacts'] = "ผู้ติดต่อ";
 $_LANG['backtoservicedetails'] = "กลับไปที่รายละเอียดบริการ";
-$_LANG['invoicesintro'] = "ประวัติใบแจ้งหนี้ของคุณกับเรา";
+$_LANG['invoicesintro'] = "ประวัติใบแจ้งหนี้ของคุณ";
 
 $_LANG['sidebars']['viewAccount']['yourAccount'] = "บัญชีของคุณ";
 $_LANG['sidebars']['viewAccount']['myDetails'] = "รายละเอียดของฉัน";
@@ -1634,7 +1634,7 @@ $_LANG['actions'] = "การดำเนินการ";
 
 $_LANG['upgradedowngradeshort'] = "ขึ้น / ดาวน์เกรด";
 
-$_LANG['masspayintro'] = "ชำระใบแจ้งหนี้เหล่านี้ทั้งหมดในขั้นตอนเดียว";
+$_LANG['masspayintro'] = "ชำระใบแจ้งหนี้ทั้งหมดในขั้นตอนเดียว";
 $_LANG['masspaymentselectgateway'] = "เลือก Mass Payment Gateway";
 
 $_LANG['ticketfeedbackrequest'] = "ขอความคิดเห็น";
@@ -2015,7 +2015,7 @@ $_LANG['orderForm']['errorNoProductGroup'] = "ไม่สามารถโห�
 $_LANG['orderForm']['errorNoProducts'] = "กลุ่มผลิตภัณฑ์ไม่มีผลิตภัณฑ์ที่มองเห็นได้";
 $_LANG['orderForm']['errorNoGateways'] = "ไม่มีช่องทางการชำระเงินจึงไม่สามารถดำเนินการสั่งซื้อได้";
 $_LANG['orderForm']['errorUnavailableGateway'] = "เกตเวย์ที่เลือกไม่พร้อมใช้งาน โปรดเลือกตัวเลือกจากส่วนรายละเอียดการชำระเงิน";
-$_LANG['orderForm']['requiredField'] = "(required fields are marked with *)";
+$_LANG['orderForm']['requiredField'] = "(ช่องที่มีเครื่องหมาย * จำเป็นต้องกรอก)";
 
 $_LANG['cloudSlider']['feature01Title'] = "เวลาทำงานของเซิร์ฟเวอร์สูงสุด";
 $_LANG['cloudSlider']['feature01Description'] = "ความพร้อมในการทำงานของเซิร์ฟเวอร์เป็นสิ่งสำคัญสำหรับทุกธุรกิจ - ถือว่าเป็นหัวใจสำคัญของการโฮสต์ธุรกิจของคุณ เซิร์ฟเวอร์ไฟล์และฐานข้อมูลอีเมลและเว็บเซิร์ฟเวอร์เป็นส่วนที่ขาดไม่ได้ในกระบวนการทางธุรกิจส่วนใหญ่และการหยุดทำงานมีผลเสียโดยตรงต่อผลผลิตการขายพนักงานและความพึงพอใจของลูกค้า นั่นเป็นเหตุผลว่าทำไมการตรวจสอบให้แน่ใจว่าเวลาทำงานของเซิร์ฟเวอร์สูงสุดจึงมีความสำคัญสำหรับเรา - เราต้องการให้กระบวนการทางธุรกิจของคุณทำงานได้ดีเพื่อให้ลูกค้าของคุณมีความสุข";
@@ -2356,7 +2356,7 @@ $_LANG['dateTime']['jan'] = "ม.ค.";
 $_LANG['dateTime']['feb'] = "ก.พ.";
 $_LANG['dateTime']['mar'] = "มี.ค.";
 $_LANG['dateTime']['apr'] = "เม.ย.";
-$_LANG['dateTime']['may'] = "อาจ";
+$_LANG['dateTime']['may'] = "พฤษภาคม";
 $_LANG['dateTime']['jun'] = "มิ.ย.";
 $_LANG['dateTime']['jul'] = "ก.ค.";
 $_LANG['dateTime']['aug'] = "ส.ค.";
@@ -3054,7 +3054,7 @@ $_LANG['support']['successAdd'] = "เพิ่ม :email เป็นผู้�
 $_LANG['support']['clientEmail'] = "ไม่สามารถเพิ่มที่อยู่อีเมลของลูกค้าเป็นผู้รับ cc";
 $_LANG['support']['emailNotPossible'] = "ไม่สามารถเพิ่ม :email เป็นผู้รับ cc";
 $_LANG['support']['invalidEmail'] = "ป้อนที่อยู่อีเมลไม่ถูกต้อง";
-$_LANG['support']['ipAddress'] = "IP Address";
+$_LANG['support']['ipAddress'] = "หมายเลขไอพี";
 
 $_LANG['confirmAndPay'] = "ยืนยันและชำระเงิน";
 $_LANG['paymentPreApproved'] = "อนุมัติการชำระเงินล่วงหน้าด้วย :gateway";
@@ -3247,7 +3247,7 @@ $_LANG['store']['marketgoo']['faqs']['a2'] = "marketgoo เป็นเครื
 $_LANG['store']['marketgoo']['faqs']['q3'] = "ทำไมฉันถึงต้องมี SEO?";
 $_LANG['store']['marketgoo']['faqs']['a3'] = "คุณทำงานกับ SEO ของคุณเพื่อปรับปรุงการจัดอันดับเว็บไซต์ของคุณในผลการค้นหา สิ่งนี้นำไปสู่การดึงดูดการเข้าชมมากขึ้นและเป็นการดีที่จะเปลี่ยนการเข้าชมให้เป็นลูกค้าและโอกาสในการขาย";
 $_LANG['store']['marketgoo']['adminPreview'] = "แผน Marketgoo ที่คุณเปิดใช้งานจะแสดงที่นี่";
-$_LANG['store']['marketgoo']['labelBestValue'] = "Best value!";
+$_LANG['store']['marketgoo']['labelBestValue'] = "คุ้มที่สุด!";
 
 $_LANG['upTo'] = "สูงสุด :num";
 $_LANG['weekly'] = "รายสัปดาห์";
@@ -3701,9 +3701,9 @@ $_LANG['store']['addon']['wptk']['featureTitle4'] = "Automate Updates";
 $_LANG['store']['addon']['wptk']['featureBody4'] = "Smart Updates automatically identifies and analyzes updates for compatibility and safety, then either installs or notifies you of any issue, ensuring your site’s safety.";
 $_LANG['store']['addon']['wptk']['featureTitle5'] = "Cloning &amp; Mass Hardening";
 $_LANG['store']['addon']['wptk']['featureBody5'] = "Create a duplicate of your live site to experiment with, all while protecting all of your WordPress sites with a single click.";
-$_LANG['store']['addon']['wptk']['featureTitle6'] = "Maintenance Mode";
+$_LANG['store']['addon']['wptk']['featureTitle6'] = "โหมดบำรุงรักษา";
 $_LANG['store']['addon']['wptk']['featureBody6'] = "Take your site down while displaying a custom message.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle1'] = "How Does It Work?";
+$_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle1'] = "มันทำงานอย่างไร?";
 $_LANG['store']['addon']['wptk']['smartUpdates']['featureBody1'] = "Smart Updates clones and updates a copy of the live website, then compares the two versions to determine success.";
 $_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle2'] = "What If An Update Is Safe?";
 $_LANG['store']['addon']['wptk']['smartUpdates']['featureBody2'] = "Safe updates can be automatically installed to the live website, at no risk of breaking or otherwise damaging the website.";
@@ -3731,12 +3731,12 @@ $_LANG['store']['addon']['wptk']['smartUpdates']['getStartedToday'] = "Get start
 $_LANG['store']['addon']['wptk']['chooseDomains'] = "Choose domains to add:";
 $_LANG['store']['addon']['wptk']['addAddonFor'] = "Add :addon for";
 $_LANG['store']['addon']['wptk']['unavailable'] = "Not available";
-$_LANG['store']['addon']['wptk']['for'] = "for";
+$_LANG['store']['addon']['wptk']['for'] = "สำหรับ";
 $_LANG['store']['addon']['wptk']['totalInCart'] = "Total in cart:";
 $_LANG['store']['addon']['wptk']['proceedToCheckout'] = "Proceed to Checkout";
 $_LANG['store']['addon']['wptk']['loginToSeePricing'] = "Login to see pricing to add to your existing web hosting";
-$_LANG['store']['addon']['wptk']['loginNow'] = "Log in Now";
-$_LANG['store']['addon']['wptk']['browsePackages'] = "Browse Hosting Packages";
+$_LANG['store']['addon']['wptk']['loginNow'] = "ลงชื่อเข้าใช้ตอนนี้";
+$_LANG['store']['addon']['wptk']['browsePackages'] = "เรียกดูแพ็คเกจโฮสติ้ง";
 $_LANG['store']['addon']['wptk']['faqQ1'] = "What is WP Toolkit?";
 $_LANG['store']['addon']['wptk']['faqA1'] = "WP Toolkit is a management interface for Wordpress from cPanel and Plesk that allows you to install, configure, and manage WordPress websites.";
 $_LANG['store']['addon']['wptk']['faqQ2'] = "How is WP Toolkit Deluxe different?";
@@ -3874,11 +3874,11 @@ $_LANG['store']['siteBuilder']['upgrade']['recommended'] = "The recommended plan
 $_LANG['store']['siteBuilder']['upgrade']['login'] = "To view the available options, please log in.";
 $_LANG['store']['siteBuilder']['upgrade']['no'] = "No upgrade available";
 $_LANG['store']['siteBuilder']['upgrade']['noUpgrade'] = "There is no upgrade available at this time.";
-$_LANG['store']['siteBuilder']['upgrade']['submitTicket'] = "Contact Support";
+$_LANG['store']['siteBuilder']['upgrade']['submitTicket'] = "ติดต่อฝ่ายสนับสนุน";
 $_LANG['store']['siteBuilder']['upgrade']['to'] = "Upgrade to :product for :amount";
 $_LANG['store']['siteBuilder']['upgrade']['noPlans'] = "No active Site Builder plans found.";
 $_LANG['store']['siteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
-$_LANG['store']['siteBuilder']['upgrade']['switchUser'] = "Log Out/Switch User";
+$_LANG['store']['siteBuilder']['upgrade']['switchUser'] = "ออกจากระบบ/เปลี่ยนผู้ใช้";
 
 $_LANG['domainRenewal']['freeWithService'] = "Free Renewal with Service";
 $_LANG['domainRenewal']['freeWithServiceDesc'] = "Renewal is provided automatically at no additional cost while the associated service is active.";
@@ -3936,15 +3936,15 @@ $_LANG['store']['siteBuilder']['featuresdescriptions']['store']['7'] = "Inventor
 $_LANG['store']['siteBuilder']['featuresdescriptions']['store']['8'] = "You can give your customers real-time carrier rates at checkout by connecting your online store with a carrier company such as USPS, FedEx, UPS, Australia Post, Canada Post, etc.";
 $_LANG['store']['siteBuilder']['featuresdescriptions']['store']['9'] = "Apply tax calculations for any country or define specific zones. Fully control the calculation of taxes; set up taxes per location, add tax per group of products, or setup tax-free products.";
 $_LANG['store']['siteBuilder']['featuresdescriptions']['store']['10'] = "Instantly receive order notifications via email. Manage and view an overview of all orders, search for orders, filter them by categories and update orders, customer information and add tacking number for shipping.";
-$_LANG['store']['siteBuilder']['viewPricing'] = "View pricing and packages";
+$_LANG['store']['siteBuilder']['viewPricing'] = "ดูราคาและแพ็คเกจ";
 $_LANG['store']['siteBuilder']['templatesTitle'] = "Business Accelerating Templates";
 $_LANG['store']['siteBuilder']['templatesOutro'] = "Get Site Builder to view all 150+ templates that give you a quick and easy way to get started.";
 $_LANG['store']['siteBuilder']['tryFree'] = "Try Site Builder for FREE";
 $_LANG['store']['siteBuilder']['tryFreeIntro'] = "With the Open Trial, you can try Site Builder and fully build your new website for FREE with no upfront costs.";
 $_LANG['store']['siteBuilder']['tryFreeIntro2'] = "Pay nothing until you're ready to publish!";
 $_LANG['store']['siteBuilder']['tryFreeCta'] = "Try Site Builder today for FREE";
-$_LANG['store']['siteBuilder']['pricingTitle'] = "Pricing";
-$_LANG['store']['siteBuilder']['featuresLabelTitle'] = "Features";
+$_LANG['store']['siteBuilder']['pricingTitle'] = "ราคา";
+$_LANG['store']['siteBuilder']['featuresLabelTitle'] = "คุณสมบัติ";
 $_LANG['store']['siteBuilder']['featuresLabels']['0'] = "Professional Quality Website Templates";
 $_LANG['store']['siteBuilder']['featuresLabels']['1'] = "User-First Design for All Skill Levels";
 $_LANG['store']['siteBuilder']['featuresLabels']['2'] = "Easy Drag & Drop Editing";
@@ -4033,16 +4033,16 @@ $_LANG['store']['siteBuilder']['templates']['home-decor'] = "Home Decor";
 $_LANG['store']['siteBuilder']['templates']['toy-store'] = "Toy Store";
 $_LANG['store']['siteBuilder']['templates']['tyre-repairs'] = "Tyre Repairs";
 
-$_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "Build Your Website";
+$_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "สร้างเว็บไซต์ของคุณ";
 $_LANG['store']['siteBuilder']['cartTitle'] = "Responsive site builder";
-$_LANG['store']['siteBuilder']['cartShortDescription'] = "Add our site builder to your order to create an awesome looking website, store or blog.";
+$_LANG['store']['siteBuilder']['cartShortDescription'] = "เพิ่มเครื่องมือสร้างเว็บไซต์ของเราในคำสั่งซื้อของคุณเพื่อสร้างเว็บไซต์ ร้านค้า หรือบล็อกที่ดูดี";
 
-$_LANG['clickHere'] = "Click here";
-$_LANG['buy'] = "Buy";
-$_LANG['viewMore'] = "View More...";
+$_LANG['clickHere'] = "คลิกที่นี่";
+$_LANG['buy'] = "ซื้อ";
+$_LANG['viewMore'] = "ดูเพิ่มเติม...";
 
 $_LANG['store']['siteBuilder']['promo']['sidebar']['title'] = "Add Site Builder";
-$_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "Create your website fast with Site Builder";
+$_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "สร้างเว็บไซต์ของคุณอย่างรวดเร็วด้วย Site Builder";
 
 $_LANG['cPanel']['wptk'] = "WordPress Toolkit";
 
