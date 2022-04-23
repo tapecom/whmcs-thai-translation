@@ -23,7 +23,7 @@ if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_LANG['locale'] = "th_TH";
 
-$_LANG['accountinfo'] = "ข้อมูลเกี่ยวกับบัญชี";
+$_LANG['accountinfo'] = "ข้อมูลบัญชี";
 $_LANG['accountstats'] = "สถิติบัญชี";
 $_LANG['addfunds'] = "เติมเงิน";
 $_LANG['addfundsamount'] = "จำนวนที่ต้องการเติม";
@@ -60,7 +60,7 @@ $_LANG['affiliatesstatus'] = "สถานะ";
 $_LANG['affiliatestitle'] = "พันธมิตร";
 $_LANG['affiliatesvisitorsreferred'] = "จำนวนผู้เยี่ยมชมที่อ้างถึง";
 $_LANG['affiliateswithdrawalrequestsuccessful'] = "ส่งคำขอถอนเงินของคุณแล้ว คุณจะได้รับการติดต่อกลับในไม่ช้า";
-$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "Your request for a withdrawal was not successful. Please try again later.";
+$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "คำขอถอนเงินของคุณไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง.";
 $_LANG['affiliateswithdrawn'] = "จำนวนเงินทั้งหมดที่ถอนออก";
 $_LANG['all'] = "ทั้งหมด";
 $_LANG['alreadyregistered'] = "เคยใช้บริการแล้ว?";
@@ -237,7 +237,7 @@ $_LANG['clientareastate'] = "รัฐ / ภูมิภาค";
 $_LANG['clientareastatus'] = "สถานะ";
 $_LANG['clientareasuspended'] = "ระงับชั่วคราว";
 $_LANG['clientareaterminated'] = "ยุติบริการ";
-$_LANG['clientareaticktoenable'] = "Check to enable";
+$_LANG['clientareaticktoenable'] = "ติ๊กเพื่อเปิดใช้งาน";
 $_LANG['clientareatitle'] = "พื้นที่ลูกค้า";
 $_LANG['clientareaunlimited'] = "ไม่จำกัด";
 $_LANG['clientareaupdatebutton'] = "อัปเดต";
@@ -739,8 +739,8 @@ $_LANG['sslinvalidlink'] = "ติดตามลิงก์ไม่ถูก�
 $_LANG['sslorderdate'] = "วันสั่ง";
 $_LANG['sslserverinfo'] = "ข้อมูลเซิร์ฟเวอร์";
 $_LANG['sslserverinfodetails'] = "Use your server's software to generate a Certificate Signing Request that includes the domain to issue the Certificate for. Select the most closely-related server from the list to receive a certificate format that is compatible with your server.";
-$_LANG['sslservertype'] = "Server Type";
-$_LANG['ssl']['selectWebserver'] = "Select a :serverType";
+$_LANG['sslservertype'] = "ประเภทเซิร์ฟเวอร์";
+$_LANG['ssl']['selectWebserver'] = "เลือก :serverType";
 $_LANG['sslstatus'] = "สถานะการกำหนดค่า";
 $_LANG['sslawaitingconfig'] = "กำลังรอการกำหนดค่า";
 $_LANG['sslconfigure'] = "กำหนดค่า";
@@ -1349,29 +1349,29 @@ $_LANG['supportticketsclose'] = "ปิด";
 $_LANG['affiliatesinitialthen'] = "เริ่มแรกแล้ว";
 $_LANG['invoicesoutstandingbalance'] = "ยอดคงค้าง";
 
-$_LANG['cpanellogin'] = "Log in to cPanel";
-$_LANG['cpanelwhmlogin'] = "Log in to WHM";
-$_LANG['cpanelwebmaillogin'] = "Log in to Webmail";
-$_LANG['enkompasslogin'] = "Log in to Enkompass";
-$_LANG['plesklogin'] = "Log in to Plesk";
-$_LANG['helmlogin'] = "Log in to Helm";
+$_LANG['cpanellogin'] = "เข้าสู่ระบบ cPanel";
+$_LANG['cpanelwhmlogin'] = "เข้าสู่ระบบ WHM";
+$_LANG['cpanelwebmaillogin'] = "เข้าสู่ระบบเว็บเมล";
+$_LANG['enkompasslogin'] = "เข้าสู่ระบบ Enkompass";
+$_LANG['plesklogin'] = "เข้าสู่ระบบ Plesk";
+$_LANG['helmlogin'] = "เข้าสู่ระบบ Helm";
 $_LANG['hypervmrestart'] = "รีสตาร์ทเซิร์ฟเวอร์ VPS";
-$_LANG['siteworxlogin'] = "Log in to SiteWorx";
-$_LANG['nodeworxlogin'] = "Log in to NodeWorx";
-$_LANG['veportallogin'] = "Log in to vePortal";
-$_LANG['virtualminlogin'] = "Log in to Control Panel";
-$_LANG['websitepanellogin'] = "Log in to Control Panel";
-$_LANG['whmsoniclogin'] = "Log in to Control Panel";
-$_LANG['xpanelmaillogin'] = "Log in to Webmail";
-$_LANG['xpanellogin'] = "Log in to XPanel";
-$_LANG['heartinternetlogin'] = "Log in to Control Panel";
-$_LANG['gamecplogin'] = "Log in to GameCP";
+$_LANG['siteworxlogin'] = "เข้าสู่ระบบ SiteWorx";
+$_LANG['nodeworxlogin'] = "เข้าสู่ระบบ NodeWorx";
+$_LANG['veportallogin'] = "เข้าสู่ระบบ vePortal";
+$_LANG['virtualminlogin'] = "เข้าสู่ระบบแผงควบคุม";
+$_LANG['websitepanellogin'] = "เข้าสู่ระบบแผงควบคุม";
+$_LANG['whmsoniclogin'] = "เข้าสู่ระบบแผงควบคุม";
+$_LANG['xpanelmaillogin'] = "เข้าสู่ระบบเว็บเมล";
+$_LANG['xpanellogin'] = "เข้าสู่ระบบ XPanel";
+$_LANG['heartinternetlogin'] = "เข้าสู่ระบบแผงควบคุม";
+$_LANG['gamecplogin'] = "เข้าสู่ระบบ GameCP";
 $_LANG['fluidvmrestart'] = "รีสตาร์ทเซิร์ฟเวอร์ VPS";
 $_LANG['enomtrustedesc'] = "แผงควบคุม TRUSTe ประกอบด้วยวิซาร์ดการตั้งค่าเพื่อให้นโยบายความเป็นส่วนตัวของคุณพร้อมใช้งาน";
-$_LANG['enomtrustelogin'] = "Log in to TrustE Control Panel";
-$_LANG['directadminlogin'] = "Log in to DirectAdmin";
-$_LANG['centovacastlogin'] = "Log in to Centova Cast";
-$_LANG['castcontrollogin'] = "Log in to Control Panel";
+$_LANG['enomtrustelogin'] = "เข้าสู่ระบบแผงควบคุม TrustE";
+$_LANG['directadminlogin'] = "เข้าสู่ระบบ DirectAdmin";
+$_LANG['centovacastlogin'] = "เข้าสู่ระบบ Centova Cast";
+$_LANG['castcontrollogin'] = "เข้าสู่ระบบแผงควบคุม";
 
 $_LANG['sslconfigurenow'] = "กำหนดค่าทันที";
 $_LANG['sslprovisioningdate'] = "วันที่จัดเตรียม SSL";
@@ -1412,7 +1412,7 @@ $_LANG['yourclientareahostingaddons'] = "คุณมีส่วนเสริ
 $_LANG['loginrequired'] = "ต้องเข้าสู่ระบบ";
 $_LANG['unsubscribe'] = "ยกเลิกการสมัคร";
 $_LANG['emailoptout'] = "จดหมายข่าวเลือกไม่รับ";
-$_LANG['emailoptoutdesc'] = "Check to unsubscribe from our newsletters";
+$_LANG['emailoptoutdesc'] = "ติ๊กเพื่อยกเลิกการสมัครรับจดหมายข่าวของเรา";
 $_LANG['alreadyunsubscribed'] = "คุณได้ยกเลิกการสมัครรับจดหมายข่าวของเราแล้ว";
 $_LANG['newsletterresubscribe'] = "หากคุณต้องการสมัครสมาชิกอีกครั้งคุณสามารถทำได้จากส่วน %sรายละเอียดของฉัน%s ในพื้นที่ลูกค้าของเราได้ตลอดเวลา";
 $_LANG['unsubscribehashinvalid'] = "ตามลิงค์ไม่ถูกต้อง กรุณาลองอีกครั้ง.";
@@ -1867,28 +1867,28 @@ $_LANG['projectManagement']['activeProjects'] = "โครงการที่�
 
 # cPanel Module
 
-$_LANG['packageDomain'] = "Package/Domain";
+$_LANG['packageDomain'] = "แพ็คเกจ/โดเมน";
 $_LANG['addonsExtras'] = "Addons and Extras";
-$_LANG['purchaseActivate'] = "Purchase and Activate";
+$_LANG['purchaseActivate'] = "ซื้อและเปิดใช้งาน";
 
-$_LANG['usageStats'] = "Usage Statistics";
-$_LANG['diskUsage'] = "Disk Usage";
-$_LANG['bandwidthUsage'] = "Bandwidth Usage";
-$_LANG['usageStatsBwLimitNear'] = "You are nearing your bandwidth limit.";
-$_LANG['usageStatsDiskLimitNear'] = "You are nearing your disk space limit.";
-$_LANG['usageUpgradeNow'] = "Upgrade Now";
-$_LANG['usageLastUpdated'] = "Last Updated";
+$_LANG['usageStats'] = "สถิติการใช้งาน";
+$_LANG['diskUsage'] = "การใช้ดิสก์";
+$_LANG['bandwidthUsage'] = "การใช้แบนด์วิดท์";
+$_LANG['usageStatsBwLimitNear'] = "คุณใกล้จะถึงขีดจำกัดแบนด์วิดท์แล้ว";
+$_LANG['usageStatsDiskLimitNear'] = "คุณกำลังใกล้ถึงขีดจำกัดเนื้อที่ดิสก์ของคุณ";
+$_LANG['usageUpgradeNow'] = "อัพเกรดเดี๋ยวนี้";
+$_LANG['usageLastUpdated'] = "อัพเดทล่าสุด";
 
 $_LANG['quickShortcuts'] = "Quick Shortcuts";
 $_LANG['cPanel']['emailAccounts'] = "บัญชีอีเมล";
 $_LANG['cPanel']['forwarders'] = "ผู้ส่งต่อ";
 $_LANG['cPanel']['autoresponders'] = "ระบบตอบรับอัตโนมัติ";
-$_LANG['fileManager'] = "File Manager";
+$_LANG['fileManager'] = "ตัวจัดการไฟล์";
 $_LANG['cPanel']['backup'] = "การสำรองข้อมูล";
 $_LANG['cPanel']['subdomains'] = "โดเมนย่อย";
 $_LANG['cPanel']['addonDomains'] = "โดเมน Addon";
 $_LANG['cPanel']['cronJobs'] = "งาน Cron";
-$_LANG['mysqlDatabases'] = "MySQL® Databases";
+$_LANG['mysqlDatabases'] = "ฐานข้อมูล MySQL®";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
 
@@ -2022,7 +2022,7 @@ $_LANG['domainChecker.additionalPricingOptions'] = "ตัวเลือกร�
 
 $_LANG['orderpaymenttermfree'] = "ฟรี";
 
-$_LANG['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
+$_LANG['usageStatsBwOverLimit'] = "คุณใช้แบนด์วิดท์เกินขีดจำกัดแล้ว";
 $_LANG['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
 $_LANG['insufficientstockmessage'] = "ขณะนี้เรามีสต็อกสินค้าบางรายการน้อย ปริมาณรถเข็นได้รับการปรับตาม";
 
@@ -2733,8 +2733,8 @@ $_LANG['fraud']['submitSuccessMsg'] = "Thank you! Documentation has been provide
 $_LANG['fraud']['status']['notRequested'] = "Not Requested";
 $_LANG['fraud']['status']['notReviewed'] = "Requested";
 $_LANG['fraud']['status']['reviewRequested'] = "Submitted";
-$_LANG['fraud']['status']['failed'] = "Failed";
-$_LANG['fraud']['status']['validated'] = "Verified";
+$_LANG['fraud']['status']['failed'] = "ล้มเหลว";
+$_LANG['fraud']['status']['validated'] = "ตรวจสอบแล้ว";
 
 $_LANG['navMarketConnectService']['codeguard'] = "การสำรองข้อมูลเว็บไซต์";
 $_LANG['store']['codeguard']['cartTitle'] = "การสำรองข้อมูลเว็บไซต์ CodeGuard";
@@ -2797,7 +2797,7 @@ $_LANG['store']['codeGuard']['adminPreview'] = "แผน CodeGuard ที่ค
 $_LANG['store']['codeguard']['promo']['sidebar']['title'] = "เพิ่มการสำรองข้อมูลเว็บไซต์";
 $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "ปกป้องเว็บไซต์ของคุณด้วยการสำรองข้อมูลอัตโนมัติทุกวัน";
 
-$_LANG['marketConnect']['codeguard']['manage'] = "Log in to CodeGuard Control Panel";
+$_LANG['marketConnect']['codeguard']['manage'] = "เข้าสู่ระบบแผงควบคุม CodeGuard";
 
 $_LANG['sslState']['sslInactive'] = "ไม่พบ SSL คลิกที่นี่เพื่อเรียกดูตัวเลือก SSL";
 $_LANG['sslState']['sslActive'] = "ตรวจพบ SSL ที่ถูกต้อง หมดอายุ :expiry";
@@ -3753,9 +3753,9 @@ $_LANG['store']['addon']['wptk']['addAddonFor'] = "Add :addon for";
 $_LANG['store']['addon']['wptk']['unavailable'] = "Not available";
 $_LANG['store']['addon']['wptk']['for'] = "สำหรับ";
 $_LANG['store']['addon']['wptk']['totalInCart'] = "Total in cart:";
-$_LANG['store']['addon']['wptk']['proceedToCheckout'] = "Proceed to Checkout";
+$_LANG['store']['addon']['wptk']['proceedToCheckout'] = "ดำเนินการชำระเงิน";
 $_LANG['store']['addon']['wptk']['loginToSeePricing'] = "Log in to see pricing to add to your existing hosting";
-$_LANG['store']['addon']['wptk']['loginNow'] = "Log In Now";
+$_LANG['store']['addon']['wptk']['loginNow'] = "เข้าสู่ระบบทันที";
 $_LANG['store']['addon']['wptk']['browsePackages'] = "เรียกดูแพ็คเกจโฮสติ้ง";
 $_LANG['store']['addon']['wptk']['faqQ1'] = "What is WP Toolkit?";
 $_LANG['store']['addon']['wptk']['faqA1'] = "WP Toolkit is a management interface for Wordpress from cPanel and Plesk that allows you to install, configure, and manage WordPress websites.";
