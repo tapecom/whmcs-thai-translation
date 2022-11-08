@@ -224,7 +224,7 @@ $_LANG['clientareapendingtransfer'] = "รอการย้าย";
 $_LANG['clientareaphonenumber'] = "หมายเลขโทรศัพท์";
 $_LANG['clientareapostcode'] = "รหัสไปรษณีย์";
 $_LANG['clientareaproductdetails'] = "รายละเอียดสินค้า";
-$_LANG['clientareaproducts'] = "ผลิตภัณฑ์ของฉัน &amp; บริการ";
+$_LANG['clientareaproducts'] = "ผลิตภัณฑ์ &amp; บริการของฉัน";
 $_LANG['clientareaproductsnone'] = "ไม่มีสินค้า / บริการสั่งซื้อ";
 $_LANG['clientarearegistrationperiod'] = "ระยะเวลาการลงทะเบียน";
 $_LANG['clientareasavechanges'] = "บันทึกการเปลี่ยนแปลง";
@@ -698,7 +698,7 @@ $_LANG['registerdomainname'] = "ลงทะเบียนชื่อโดเ
 $_LANG['relatedservice'] = "บริการที่เกี่ยวข้อง";
 $_LANG['rssfeed'] = "ฟีด";
 $_LANG['securityanswerrequired'] = "คุณจะต้องป้อนคำตอบเพื่อความปลอดภัย";
-$_LANG['securityquestionrequired'] = "You must select a security question";
+$_LANG['securityquestionrequired'] = "คุณต้องเลือกคำถามรักษาความปลอดภัย";
 $_LANG['securitybothnotmatch'] = "คำตอบและคำตอบยืนยันของคุณไม่ตรงกัน";
 $_LANG['securitycurrentincorrect'] = "คำถามและคำตอบปัจจุบันของคุณไม่ถูกต้อง";
 $_LANG['serverchangepassword'] = "เปลี่ยนรหัสผ่าน";
@@ -1667,7 +1667,7 @@ $_LANG['readyforquestions'] = "เราพร้อมและรอคำถ�
 
 $_LANG['restrictedpage'] = "หน้านี้ถูก จำกัด";
 $_LANG['enteremail'] = "กรอกอีเมล";
-$_LANG['restricted'] = "Restricted";
+$_LANG['restricted'] = "ถูกจำกัด";
 
 $_LANG['passwordtips'] = "<strong>เคล็ดลับในการตั้งรหัสผ่านที่ดี</strong><br />ใช้ทั้งตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก<br />ใส่สัญลักษณ์อย่างน้อย 1 ตัว (# $!% &amp; ฯลฯ ... )<br />อย่าใช้คำในพจนานุกรม";
 
@@ -1910,7 +1910,7 @@ $_LANG['cPanel']['statusSuspendedNotice'] = "คุณไม่สามาร�
 
 $_LANG['wordpress']['invalidPath'] = "The supplied path is invalid.";
 
-$_LANG['billingOverview'] = "Billing Overview";
+$_LANG['billingOverview'] = "ภาพรวมการเรียกเก็บเงิน";
 
 $_LANG['liveHelp']['chatNow'] = "คุยตอนนี้";
 
@@ -2257,7 +2257,7 @@ $_LANG['ssl']['reissueCertificate'] = "ออกใบรับรองให�
 $_LANG['ssl']['retrieveCertificate'] = "รับใบรับรอง";
 $_LANG['ssl']['selectValidation'] = "Select a Validation Method";
 $_LANG['ssl']['dnsMethod'] = "DNS";
-$_LANG['ssl']['emailMethod'] = "Email";
+$_LANG['ssl']['emailMethod'] = "อีเมล";
 $_LANG['ssl']['fileMethod'] = "HTTP File";
 $_LANG['ssl']['emailMethodDescription'] = "The Certificate Authority will perform validation by sending an email with further instructions to the address that you choose below.";
 $_LANG['ssl']['dnsMethodDescription'] = "The Certificate Authority will inspect the DNS records of the domain, looking for a specific record with a unique value. Make certain that you have permission to administer the domain's DNS settings. DNS record information will be provided after you complete the configuration process.";
@@ -2268,12 +2268,12 @@ $_LANG['ssl']['emailSteps'] = "The Certificate Authority will send further instr
 $_LANG['ssl']['fileSteps'] = "The Certificate Authority will now make requests to the URL below to validate whether the response is the provided value. After a response with the specified value is detected, the certificate will be issued.";
 $_LANG['ssl']['dnsSteps'] = "The Certificate Authority will now query the domain's DNS records for a record that matches the information below. Access your domain's DNS settings and create the record. After the record is found, the certificate will be issued.";
 $_LANG['ssl']['url'] = "URL";
-$_LANG['ssl']['value'] = "Value";
-$_LANG['ssl']['type'] = "Type";
-$_LANG['ssl']['host'] = "Host";
+$_LANG['ssl']['value'] = "ค่า";
+$_LANG['ssl']['type'] = "ประเภท";
+$_LANG['ssl']['host'] = "โฮสต์";
 $_LANG['ssl']['dnsRecordInformation'] = "DNS Record Information";
-$_LANG['ssl']['fileInformation'] = "File Information";
-$_LANG['ssl']['emailInformation'] = "Email Information";
+$_LANG['ssl']['fileInformation'] = "ข้อมูลไฟล์";
+$_LANG['ssl']['emailInformation'] = "ข้อมูลอีเมล";
 $_LANG['ssl']['dcv'] = "Domain Control Validation";
 $_LANG['ssl']['defaultcontacts'] = "Default Domain Contacts";
 
@@ -3726,7 +3726,7 @@ $_LANG['store']['addon']['wptk']['featureTitle2'] = "Experiment Safely";
 $_LANG['store']['addon']['wptk']['featureBody2'] = "Clone any existing WordPress site to test designs, plugins, or any aspect of your site. Then sync back to your live site anytime you choose.";
 $_LANG['store']['addon']['wptk']['featureTitle3'] = "Enjoy Security";
 $_LANG['store']['addon']['wptk']['featureBody3'] = "A single click of a button will scan and harden your WordPress websites against your selected security risks. You can also password protect specific sites or pages.";
-$_LANG['store']['addon']['wptk']['featureTitle4'] = "Automate Updates";
+$_LANG['store']['addon']['wptk']['featureTitle4'] = "อัปเดตอัตโนมัติ";
 $_LANG['store']['addon']['wptk']['featureBody4'] = "Smart Updates automatically identifies and analyzes updates for compatibility and safety, then either installs or notifies you of any issue, ensuring your site’s safety.";
 $_LANG['store']['addon']['wptk']['featureTitle5'] = "Cloning &amp; Mass Hardening";
 $_LANG['store']['addon']['wptk']['featureBody5'] = "Create a duplicate of your live site to experiment with, all while protecting all of your WordPress sites with a single click.";
@@ -3818,7 +3818,7 @@ $_LANG['ox']['settings']['davSettings'] = "ปฏิทินและที่�
 $_LANG['ox']['settings']['davSettingsIntro'] = "ในการเข้าถึงปฏิทินและรายชื่อผู้ติดต่อบนอุปกรณ์ส่วนตัวของคุณคุณต้องกำหนดค่าไคลเอนต์ให้เชื่อมต่อกับ CalDAV สำหรับปฏิทินและ CardDAV สำหรับผู้ติดต่อ ใช้ข้อมูลด้านล่างเพื่อกำหนดค่าไคลเอนต์ของคุณ";
 $_LANG['ox']['settings']['caldavPassword'] = "ป้อนรหัสผ่านเดียวกับที่คุณใช้สำหรับการเข้าสู่ระบบอีเมลของคุณ";
 $_LANG['ox']['settings']['serverUrl'] = "URL ของเซิร์ฟเวอร์";
-$_LANG['ox']['settings']['migrationTitle'] = "Migration Tool";
+$_LANG['ox']['settings']['migrationTitle'] = "เครื่องมือสำหรับย้ายข้อมูล";
 $_LANG['ox']['settings']['migrationIntro'] = "Migrate from all popular email services including Apple iCloud, Gmail, Outlook.com/Windows Live/Hotmail, Yahoo Mail, GMX, or T-Online, or manually enter your provider's information using IMAP/POP3 or other available preferred protocols.";
 $_LANG['ox']['settings']['migrationLaunch'] = "Launch Migration Tool";
 $_LANG['ox']['displayName'] = "ชื่อที่แสดง";
@@ -3839,7 +3839,7 @@ $_LANG['ox']['alias']['emailAliases'] = "Email Aliases";
 $_LANG['ox']['alias']['deleteTitle'] = "Delete alias <span class=\"alias\"></span>@:domain?";
 $_LANG['ox']['alias']['deleteQuestion'] = "Are you sure you want to delete this alias?";
 $_LANG['ox']['alias']['deleteSuccess'] = "Alias deleted successfully.";
-$_LANG['ox']['alias']['createButton'] = "Create";
+$_LANG['ox']['alias']['createButton'] = "สร้าง";
 $_LANG['ox']['alias']['createSuccess'] = "Alias created successfully.";
 
 $_LANG['orderForm']['upgradeQuantityCannotBeLowerThanMinimum'] = "ไม่สามารถเปลี่ยนแปลงปริมาณการใช้บริการได้ต่ำกว่าค่าต่ำสุด (:minimum)";
