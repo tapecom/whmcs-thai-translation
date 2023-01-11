@@ -2098,6 +2098,7 @@ $_ADMINLANG['fields']['ipaddress'] = "ที่อยู่ IP";
 $_ADMINLANG['fields']['ipaddressorrange'] = "ที่อยู่ IP / ช่วง";
 $_ADMINLANG['fields']['ipaddressorrangeinfo'] = "อาจมีการระบุช่วง IP ในรูปแบบ CIDR";
 $_ADMINLANG['fields']['mb'] = "ลบ";
+$_ADMINLANG['fields']['microsoftappid'] = "Application (client) ID";
 $_ADMINLANG['fields']['clientid'] = "รหัสลูกค้า";
 $_ADMINLANG['fields']['clientsecret'] = "ความลับของลูกค้า";
 $_ADMINLANG['fields']['connectiontoken'] = "โทเค็นการเชื่อมต่อ";
@@ -3037,6 +3038,9 @@ $_ADMINLANG['gateways']['displayname'] = "ชื่อที่แสดง";
 $_ADMINLANG['gateways']['currencyconvert'] = "แปลงเป็นสำหรับการประมวลผล";
 $_ADMINLANG['gateways']['activate'] = "เปิดใช้งาน";
 $_ADMINLANG['gateways']['deactivate'] = "ปิดใช้งาน";
+$_ADMINLANG['gateways']['move'] = "Move";
+$_ADMINLANG['gateways']['moveDesc'] = "Drag and drop to rearrange gateway order.";
+$_ADMINLANG['gateways']['configureDesc'] = "Click to configure gateway.";
 $_ADMINLANG['gateways']['activatemodule'] = "เปิดใช้งานโมดูล";
 $_ADMINLANG['gateways']['deactivatemodule'] = "ปิดใช้งานโมดูล";
 $_ADMINLANG['gateways']['deactivatemoduleinfo'] = "ในการปิดใช้งานโมดูลเกตเวย์นี้ก่อนอื่นคุณต้องเลือกทางเลือกอื่นสำหรับผลิตภัณฑ์และใบแจ้งหนี้ที่กำหนดให้ในปัจจุบันเพื่อเปลี่ยนไปใช้";
@@ -3045,12 +3049,15 @@ $_ADMINLANG['gateways']['activatesuccess'] = "เปิดใช้งานเ�
 $_ADMINLANG['gateways']['deactivatesuccess'] = "ขณะนี้เกตเวย์การชำระเงินที่เลือกถูกปิดใช้งานแล้ว";
 $_ADMINLANG['gateways']['sortchangesuccess'] = "อัปเดตการเรียงลำดับเกตเวย์การชำระเงินแล้ว";
 $_ADMINLANG['gateways']['savesuccess'] = "บันทึกการเปลี่ยนแปลงการตั้งค่าเกตเวย์การชำระเงินแล้ว";
-$_ADMINLANG['gateways']['nonesetup'] = "ไม่มีการตั้งค่าวิธีการชำระเงินจึงไม่สามารถดำเนินการต่อได้ โปรดเปิดใช้งานโมดูลเกตเวย์อย่างน้อยหนึ่งโมดูลใน <a href=\"configgateways.php\">การกำหนดค่าเกตเวย์การชำระเงิน</a> แล้วลองอีกครั้ง";
+$_ADMINLANG['gateways']['nonesetup'] = "No payment methods are currently available. Activate at least one payment gateway app in the <a href=\":paymentGatewayURI\">Payments section in Apps & Integrations</a> and try again";
 $_ADMINLANG['gateways']['noGatewaysActive'] = "ไม่มีเกตเวย์การชำระเงินที่ใช้งานอยู่:";
 $_ADMINLANG['gateways']['activateGatewayFirst'] = "เปิดใช้งานโมดูลเกตเวย์การชำระเงินอย่างน้อยหนึ่งโมดูลก่อนที่จะพยายามกำหนดค่าที่นี่";
 $_ADMINLANG['gateways']['moduleunavailable'] = "ไม่สามารถโหลดโมดูลโซลูชันการชำระเงินนี้ได้ซึ่งส่วนใหญ่เป็นเพราะถูกลบออกไปแล้ว คุณควรปิดการใช้งานทันที";
 $_ADMINLANG['gateways']['changesUnsaved'] = "ยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ";
 $_ADMINLANG['gateways']['noConfigFound'] = "<strong>ข้อผิดพลาดโมดูลเกตเวย์:</strong> ไม่พบฟังก์ชันการกำหนดค่า (_config) ใน: <br>";
+$_ADMINLANG['gateways']['visitAppsIntegrationsDesc'] = "Looking to activate a new payment gateway? Visit <strong>Apps & Integrations</strong> for a full list of our payment gateway integrations.";
+$_ADMINLANG['gateways']['visitAppsIntegrationsButton'] = "Visit Apps & Integrations";
+$_ADMINLANG['gateways']['visitMarketplaceDesc'] = "Many more payment gateways, while not included in WHMCS by default, have modules for WHMCS. You can find them in the <a href=\":marketplaceURI\" target=\"_blank\">WHMCS Marketplace</a>.";
 
 # Backups
 $_ADMINLANG['backups']['title'] = "การสำรองข้อมูลอัตโนมัติ";
@@ -4023,11 +4030,12 @@ $_ADMINLANG['supportticketdepts']['mailproviderstandard'] = "POP3 / IMAP";
 $_ADMINLANG['supportticketdepts']['pop3port'] = "พอร์ตเซิร์ฟเวอร์เมล";
 $_ADMINLANG['supportticketdepts']['pop3user'] = "ที่อยู่อีเมล";
 $_ADMINLANG['supportticketdepts']['pop3pass'] = "อีเมลพาส";
-$_ADMINLANG['supportticketdepts']['pop3testconnection'] = "ทดสอบการเชื่อมต่อ";
+$_ADMINLANG['supportticketdepts']['pop3testconfiguration'] = "Test Configuration";
 $_ADMINLANG['supportticketdepts']['pop3connectiontestinprogress'] = "กำลังพยายามเชื่อมต่อ ...";
 $_ADMINLANG['supportticketdepts']['pop3testconnectionsuccess'] = "การทดสอบการนำเข้าเมลสำเร็จแล้ว";
 $_ADMINLANG['supportticketdepts']['pop3testconnectionerror'] = "การทดสอบการนำเข้าเมลล้มเหลว";
-$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1>คู่มือการตั้งค่า Google OAuth</h1><p>1. เข้าสู่ระบบ <a href=\"https://console.developers.google.com/\" target=\"_blank\">Google Developer Console</a>.</p><p>2. เลือกโครงการที่มีอยู่หรือสร้างใหม่</p><p>3. สร้างข้อมูลรับรอง OAuth โดยใช้ <i>Redirect URI</i> ให้มา</p><p>4. ป้อน <strong>ID ไคลเอนต์ / รหัสลับ</strong> สร้างขึ้นสำหรับคุณในฟิลด์ที่ให้ไว้</p><p>5. คลิก <strong>&quot;เชื่อมต่อ&quot;</strong> เพื่อสร้างโทเค็นการเชื่อมต่อ</p><p>6. คลิก <strong>&quot;ทดสอบการเชื่อมต่อ&quot;</strong> เพื่อตรวจสอบการตั้งค่าของคุณ</p>";
+$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1>Google OAuth Setup Guide</h1><p>1. Login to the <a href=\"https://console.developers.google.com/\" target=\"_blank\">Google Developer Console</a>.</p><p>2. Choose an existing or create a new project.</p><p>3. Create OAuth Credentials using the <i>Redirect URI</i> provided.</p><p>4. Enter the <strong>Client ID/Secret</strong> generated for you into the provided fields.</p><p>5. Click <strong>&quot;Connect&quot;</strong> to generate the Connection Token.</p><p>6. Click <strong>&quot;Test Configuration&quot;</strong> to verify your setup.</p>";
+$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Microsoft'] = "<h1>Microsoft® OAuth Setup Guide</h1><p>1. Log in to the <a href=\"https://portal.azure.com/\" target=\"_blank\">Microsoft Azure® Console</a>.</p><p>2. Choose <strong>Azure Active Directory</strong>.</p><p>3. Create a new app registration using the displayed <strong>Redirect URI</strong>.</p><p>4. Enter the generated <strong>Client ID</strong> and <strong>Client Secret</strong>.</p><p>5. Click <strong>Connect</strong> to generate the connection token.</p><p>6. Click <strong>&quot;Test Configuration&quot;</strong> to verify your setup.</p>";
 $_ADMINLANG['supportticketdepts']['feedbackRequest'] = "ขอความคิดเห็น";
 $_ADMINLANG['supportticketdepts']['feedbackRequestDescription'] = "ส่งคำติชมเกี่ยวกับตั๋ว / คำขอตรวจสอบเมื่อใกล้ตั๋ว";
 $_ADMINLANG['supportticketdepts']['emailCannotBeAdmin'] = "ที่อยู่อีเมลถูกใช้งานโดยผู้ใช้ระดับผู้ดูแลระบบ กรุณาระบุที่อยู่อีเมลที่แตกต่างกัน.";
@@ -5230,22 +5238,26 @@ $_ADMINLANG['mentions']['aNote'] = "หมายเหตุสำหรับ: 
 
 # PHP Compat Util
 $_ADMINLANG['phpCompatUtil']['title'] = "ความเข้ากันได้ของเวอร์ชัน PHP";
-$_ADMINLANG['phpCompatUtil']['compatUtilDesc'] = "ยูทิลิตี้นี้ตรวจสอบ WHMCS ของคุณสำหรับไฟล์ที่เข้ารหัส ionCube และสร้างรายงานการประเมิน<br/>การประเมินจะให้ภาพรวมของความเข้ากันได้ของ PHP ที่เกี่ยวข้องกับไฟล์ที่เข้ารหัสของคุณเพื่อให้คุณสามารถแก้ไขปัญหาที่อาจเกิดขึ้นก่อนที่จะอัปเดตเป็น PHP เวอร์ชันอื่น";
-$_ADMINLANG['phpCompatUtil']['report'] = "รายงานการประเมิน";
-$_ADMINLANG['phpCompatUtil']['scanError'] = "เกิดข้อผิดพลาดขณะสร้างรายงานการประเมิน";
+$_ADMINLANG['phpCompatUtil']['compatUtilDesc'] = "This utility analyzes encoded files in the WHMCS installation and determines their encoding compatibility across a set of PHP versions.<br/>This analysis can help identify file encoding issues prior to updating to a different PHP version.<br/>We recommend updating to the latest supported ionCube Loader&reg; version that is compatible with both the current and desired PHP versions.";
+$_ADMINLANG['phpCompatUtil']['scanError'] = "An error occurred while analyzing installation files.";
 $_ADMINLANG['phpCompatUtil']['file'] = "ไฟล์";
 $_ADMINLANG['phpCompatUtil']['updated'] = "อัปเดตแล้ว";
 $_ADMINLANG['phpCompatUtil']['never'] = "ไม่เลย";
 $_ADMINLANG['phpCompatUtil']['scan'] = "สแกน";
 $_ADMINLANG['phpCompatUtil']['rescan'] = "สแกนซ้ำ";
-$_ADMINLANG['phpCompatUtil']['clickToScan'] = "คลิกสแกนเพื่อสร้างรายงานการประเมิน";
+$_ADMINLANG['phpCompatUtil']['clickToScan'] = "Click Scan to analyze installation files.";
+$_ADMINLANG['phpCompatUtil']['selectPhpDesc'] = "Select the version of PHP that you wish to upgrade to in order to view encoded file compatibility results for that version.";
 $_ADMINLANG['phpCompatUtil']['compatNoDesc'] = "ไฟล์เหล่านี้ไม่สามารถถอดรหัสโดย ionCube Loader สำหรับเวอร์ชัน PHP ที่ระบุ หากคุณต้องการใช้ PHP เวอร์ชันนี้คุณจะต้องติดต่อผู้จำหน่ายดั้งเดิมและรับเวอร์ชันที่เข้ารหัสด้วยความเข้ากันได้สำหรับเวอร์ชันเป้าหมาย PHP ที่คุณต้องการ";
 $_ADMINLANG['phpCompatUtil']['compatNoTitle'] = "การเข้ารหัสที่เข้ากันไม่ได้";
 $_ADMINLANG['phpCompatUtil']['compatUnknownDesc1'] = "ไม่สามารถระบุสภาพแวดล้อม PHP ที่รองรับสำหรับไฟล์ที่เข้ารหัสเหล่านี้ได้ หากคุณได้รับไฟล์เหล่านี้หลังเดือนกันยายน 2016 ไฟล์เหล่านี้อาจถูกถอดรหัสด้วยเวอร์ชัน PHP ที่เลือก อย่างไรก็ตามเราขอแนะนำให้ติดต่อผู้จำหน่ายดั้งเดิมเพื่อยืนยันความเข้ากันได้ของไฟล์ก่อนทำการอัพเกรด";
 $_ADMINLANG['phpCompatUtil']['compatUnknownDesc2'] = "ไฟล์ที่เข้ารหัสโดยใช้ตัวเข้ารหัส V9 หรือ V10 (ที่ไม่มีบันเดิล) ไม่สามารถแยกความแตกต่างได้ดังนั้นเราจึงไม่สามารถยืนยันความเข้ากันได้ หากได้รับไฟล์ก่อนเดือนมีนาคม 2018 เป็นไปได้ว่าไฟล์เหล่านั้นถูกเข้ารหัสโดยใช้ ionCube V9 หรือก่อนหน้าและจะไม่สามารถใช้งานร่วมกับ PHP เวอร์ชันที่เลือก เราขอแนะนำให้ติดต่อผู้จำหน่ายเดิมเพื่อยืนยันความเข้ากันได้ของไฟล์ก่อนที่จะอัปเกรด";
 $_ADMINLANG['phpCompatUtil']['compatUnknownTitle'] = "ไม่ทราบความเข้ากันได้ของการเข้ารหัส";
-$_ADMINLANG['phpCompatUtil']['compatYesDesc'] = "ไฟล์เหล่านี้สามารถถอดรหัสโดย ionCube Loader สำหรับเวอร์ชัน PHP ที่ระบุ สิ่งนี้ถูกกำหนดโดยลายเซ็นการเข้ารหัส ionCube หรือข้อมูลเฉพาะที่ฝังอยู่ในนั้น";
+$_ADMINLANG['phpCompatUtil']['compatYesDesc'] = "These files can be decoded by ionCube Loader&reg; for the specified PHP version. This was determined by the ionCube encoding signature or specific information embedded therein.";
 $_ADMINLANG['phpCompatUtil']['compatYesTitle'] = "การเข้ารหัสที่เข้ากันได้";
+$_ADMINLANG['phpCompatUtil']['currentLoaderVersion'] = "Detected ionCube Loader&reg; Version";
+$_ADMINLANG['phpCompatUtil']['tooltipCurrentPhpVersion'] = "Current PHP version";
+$_ADMINLANG['phpCompatUtil']['updateIonCubeLoader'] = "PHP :php_version requires at least ionCube Loader&reg; :required.";
+$_ADMINLANG['phpCompatUtil']['phpUnsupported'] = "Your WHMCS installation does not support this PHP version.";
 
 $_ADMINLANG['whmimport']['title'] = "นำเข้าโดเมนจาก cPanel / WHM";
 $_ADMINLANG['whmimport']['desc'] = "WHM Import Script นี้สามารถช่วยคุณประหยัดเวลาได้หลายชั่วโมง มันจะนำเข้าโดเมนและชื่อผู้ใช้จากเซิร์ฟเวอร์ cPanel ของคุณโดยอัตโนมัติเพื่อช่วยให้คุณไม่ต้องป้อนโดเมนเหล่านั้นลงใน WHMCS ด้วยตนเอง";
@@ -5346,9 +5358,9 @@ $_ADMINLANG['maxmind']['manualReview'] = "คำสั่งซื้อขอ�
 $_ADMINLANG['maxmind']['panels']['general'] = "ทั่วไป";
 $_ADMINLANG['maxmind']['results']['ip_address']['city']['names']['en'] = "ชื่อเมือง";
 $_ADMINLANG['maxmind']['results']['ip_address']['city']['confidence'] = "ความมั่นใจที่ถูกต้องของเมือง";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['iso_code'] = "ISO แผนกย่อย";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['names']['en'] = "ชื่อหน่วยงาน";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['confidence'] = "ความเชื่อมั่นของหน่วยงานย่อย";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['iso_code'] = "ISO แผนกย่อย";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['names']['en'] = "ชื่อหน่วยงาน";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['confidence'] = "ความเชื่อมั่นของหน่วยงานย่อย";
 $_ADMINLANG['maxmind']['results']['ip_address']['continent']['code'] = "ISO ทวีป";
 $_ADMINLANG['maxmind']['results']['ip_address']['continent']['names']['en'] = "ชื่อทวีป";
 $_ADMINLANG['maxmind']['results']['ip_address']['country']['confidence'] = "ความเชื่อมั่นของประเทศ";
@@ -5760,7 +5772,10 @@ $_ADMINLANG['apps']['searchMatchesFound'] = "พบรายการที่�
 $_ADMINLANG['apps']['searchMinSearchTerm'] = "โปรดป้อนข้อความค้นหาอย่างน้อย 3 อักขระขึ้นไป";
 $_ADMINLANG['apps']['searchNoResultsFound'] = "โปรดลองขยายข้อความค้นหาของคุณให้กว้างขึ้นหรือลองใช้คำหลักอื่น";
 $_ADMINLANG['apps']['recommendedTitle'] = "แนะนำสำหรับคุณ";
+$_ADMINLANG['apps']['listView'] = "List View";
+$_ADMINLANG['apps']['gridView'] = "Grid View";
 $_ADMINLANG['apps']['categoriesTitle'] = "หมวดหมู่";
+$_ADMINLANG['apps']['additionalApps'] = "Additional apps";
 $_ADMINLANG['apps']['viewAll'] = "ดูทั้งหมด";
 $_ADMINLANG['apps']['noActiveApps'] = "คุณไม่มีแอพที่ใช้งานอยู่ในขณะนี้!";
 
@@ -5780,6 +5795,7 @@ $_ADMINLANG['apps']['info']['useApp'] = "ใช้แอพ";
 $_ADMINLANG['apps']['info']['getItFrom'] = "รับจากไฟล์";
 $_ADMINLANG['apps']['info']['buyItNow'] = "ซื้อเลย";
 $_ADMINLANG['apps']['info']['startFreeTrial'] = "เริ่มทดลองใช้ฟรี";
+$_ADMINLANG['apps']['info']['noImage'] = "no image available";
 
 $_ADMINLANG['utilities']['serverSync']['title'] = "เซิร์ฟเวอร์ซิงค์";
 $_ADMINLANG['utilities']['serverSync']['results'] = "ผลลัพธ์ต่อไปนี้เกิดขึ้น:";
@@ -5996,6 +6012,9 @@ $_ADMINLANG['mail']['test'] = "ทดสอบการกำหนดค่า"
 $_ADMINLANG['mail']['testSuccess'] = "การทดสอบการกำหนดค่าผู้ให้บริการเมลสำเร็จแล้ว";
 $_ADMINLANG['mail']['configuredProvider'] = "ผู้ให้บริการอีเมล";
 $_ADMINLANG['mail']['configureProvider'] = "กำหนดค่าผู้ให้บริการเมล";
+$_ADMINLANG['mail']['connectionTokenSuccess'] = "Connection was successful. Click Save to complete configuration.";
+$_ADMINLANG['mail']['debug'] = "Debugging";
+$_ADMINLANG['mail']['debugdescription'] = "Enable verbose logging for sending email";
 $_ADMINLANG['mail']['sparkPost']['accountType'] = "บัญชี SparkPost";
 $_ADMINLANG['mail']['sparkPost']['EU'] = "SparkPost EU";
 $_ADMINLANG['mail']['sparkPost']['nonEU'] = "SparkPost";
@@ -6008,7 +6027,8 @@ $_ADMINLANG['mail']['mailgun']['EU'] = "ภูมิภาคสหภาพย�
 $_ADMINLANG['mail']['mailgun']['nonEU'] = "ภูมิภาคของสหรัฐอเมริกา";
 $_ADMINLANG['mail']['mailgun']['apiKey'] = "คีย์ API ส่วนตัวของ Mailgun";
 $_ADMINLANG['mail']['mailgun']['sendingDomain'] = "กำลังส่งโดเมน";
-$_ADMINLANG['mail']['error']['systemUrlMissing'] = "โปรดกำหนดค่า URL ของระบบในการตั้งค่าทั่วไป การตั้งค่านี้จำเป็นสำหรับตัวเลือกการกำหนดค่าผู้ให้บริการอีเมลบางรายการ";
+$_ADMINLANG['mail']['error']['systemUrlMissing'] = "Please configure a System URL at Configuration > System Settings > General Settings. This setting is required for some Mail Provider configuration options.";
+$_ADMINLANG['mail']['error']['friendlyUrlModeInvalid'] = "To use Microsoft® mail services, you must set Friendly URLs at Configuration > System Settings > General Settings to \"Full Friendly Rewrite\" or \"Friendly index.php\".";
 
 $_ADMINLANG['healthCheck']['cronTimeZone'] = "เขตเวลา Cron PHP";
 $_ADMINLANG['healthCheck']['cronTimeZoneAligned'] = "เขตเวลาที่สคริปต์ WHMCS cron ใช้และการจับคู่ UI";
@@ -6064,6 +6084,8 @@ $_ADMINLANG['customAdminPathWarning']['description'] = "ตรวจพบคว
 
 $_ADMINLANG['social']['accounts'] = "บัญชีโซเชียล";
 
+$_ADMINLANG['configOptions']['pageTitle'] = "Configurable Option Groups";
+$_ADMINLANG['configOptions']['pageDescription'] = "Configurable options allow you to offer addons and customisation options with your products. Options are assigned to groups and groups can then be applied to products.";
 $_ADMINLANG['configOptions']['optionGroupDelete'] = "The option group has been deleted successfully!";
 $_ADMINLANG['configOptions']['optionGroupDuplicated'] = "The option group has been duplicated successfully!";
 $_ADMINLANG['configOptions']['optionGroupDuplicate'] = "Duplicate a Group";
