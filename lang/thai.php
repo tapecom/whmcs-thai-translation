@@ -2222,7 +2222,7 @@ $_LANG['store']['sitelock']['features']['numberOfPages'] = "เลขหน้�
 $_LANG['store']['sitelock']['features']['dailyBlacklistMonitoring'] = "การตรวจสอบบัญชีดำรายวัน";
 $_LANG['store']['sitelock']['features']['sitelockRiskScore'] = "คะแนนความเสี่ยงของ SiteLock";
 $_LANG['store']['sitelock']['features']['websiteAppScan'] = "สแกนแอปพลิเคชันเว็บไซต์";
-$_LANG['store']['sitelock']['features']['sqlInjectionScan'] = "SQL Injection Scan";
+$_LANG['store']['sitelock']['features']['sqlInjectionScan'] = "ตรวจสอบ SQL Injection";
 $_LANG['store']['sitelock']['features']['xssScan'] = "สแกนข้ามไซต์ (XSS)";
 $_LANG['store']['sitelock']['features']['trustSeal'] = "Sitelock&trade; Trust Seal";
 $_LANG['store']['sitelock']['features']['dailySmartScans'] = "สแกน SMART รายวัน";
@@ -2248,7 +2248,7 @@ $_LANG['pricingCycleLong']['biennially'] = "2 ปี";
 $_LANG['pricingCycleLong']['triennially'] = "3 ปี";
 
 $_LANG['navManageSsl'] = "จัดการใบรับรอง SSL";
-$_LANG['almostDone'] = "Almost Done";
+$_LANG['almostDone'] = "เกือบเสร็จแล้ว";
 
 $_LANG['invoicesPaymentPending'] = "รอการชำระเงิน";
 
@@ -2338,12 +2338,12 @@ $_LANG['errorPage']['404']['submitTicket'] = "ติดต่อฝ่ายส�
 
 $_LANG['creditCard']['removeDescription'] = "แน่ใจไหมว่าต้องการลบรายละเอียดบัตรเครดิต";
 
-$_LANG['marketConnect']['websiteBuilder']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['websiteBuilder']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['websiteBuilder']['ftpPassword'] = "FTP Password";
-$_LANG['marketConnect']['websiteBuilder']['ftpPath'] = "FTP Path";
+$_LANG['marketConnect']['websiteBuilder']['ftpHost'] = "โฮสต์ FTP";
+$_LANG['marketConnect']['websiteBuilder']['ftpUsername'] = "ชื่อผู้ใช้ FTP";
+$_LANG['marketConnect']['websiteBuilder']['ftpPassword'] = "รหัสผ่าน FTP";
+$_LANG['marketConnect']['websiteBuilder']['ftpPath'] = "เส้นทาง FTP";
 $_LANG['marketConnect']['websiteBuilder']['updateFtp'] = "Update FTP Credentials";
-$_LANG['marketConnect']['websiteBuilder']['manage'] = "Log in to Weebly Site Builder";
+$_LANG['marketConnect']['websiteBuilder']['manage'] = "ลงชื่อเข้าใช้เครื่องมือสร้างเว็บไซต์ Weebly";
 
 $_LANG['domainChecker']['contactSupport'] = "ติดต่อฝ่ายสนับสนุนเพื่อซื้อ";
 
@@ -2748,7 +2748,7 @@ $_LANG['fraud']['anonymousProxy'] = "เราไม่อนุญาตให�
 $_LANG['fraud']['userVerification'] = "User Verification";
 $_LANG['fraud']['furtherVal'] = "Further verification is required to process your order. Click the button and follow the steps for the secure submission process. You'll be done in less than a minute.";
 $_LANG['fraud']['furtherValShort'] = "Further verification is required. Click the button and follow the steps provided.";
-$_LANG['fraud']['submitDocs'] = "Submit Documents";
+$_LANG['fraud']['submitDocs'] = "ส่งเอกสาร";
 $_LANG['fraud']['submitSuccessMsg'] = "Thank you! Documentation has been provided, and will be manually reviewed by our team.";
 $_LANG['fraud']['status']['notRequested'] = "Not Requested";
 $_LANG['fraud']['status']['notReviewed'] = "Requested";
@@ -3221,17 +3221,17 @@ $_LANG['store']['login'] = "เข้าสู่ระบบ";
 $_LANG['store']['addToExistingPackage'] = "เพื่อเพิ่มสิ่งนี้ลงในแพ็คเกจโฮสติ้งที่มีอยู่";
 
 $_LANG['marketConnect']['sitelock']['manageSecurity'] = "จัดการความปลอดภัยของคุณ";
-$_LANG['marketConnect']['sitelock']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['sitelock']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['sitelock']['ftpPassword'] = "FTP Password";
-$_LANG['marketConnect']['sitelock']['ftpPath'] = "FTP Path";
+$_LANG['marketConnect']['sitelock']['ftpHost'] = "โฮสต์ FTP";
+$_LANG['marketConnect']['sitelock']['ftpUsername'] = "ชื่อผู้ใช้ FTP";
+$_LANG['marketConnect']['sitelock']['ftpPassword'] = "รหัสผ่าน FTP";
+$_LANG['marketConnect']['sitelock']['ftpPath'] = "เส้นทาง FTP";
 $_LANG['marketConnect']['sitelock']['updateFtp'] = "Update FTP Credentials";
 $_LANG['marketConnect']['sitelock']['manage'] = "Log in to SiteLock";
 $_LANG['marketConnect']['sitelockvpn']['manageVPN'] = "จัดการ VPN ของคุณ";
-$_LANG['marketConnect']['emailServices']['manageEmail'] = "Manage Your Email";
-$_LANG['marketConnect']['emailServices']['manage'] = "Log in to SpamExperts";
-$_LANG['marketConnect']['sitelockvpn']['manage'] = "Log in to SiteLock VPN";
-$_LANG['marketConnect']['websiteBuilder']['buildWebsite'] = "Build Your Website";
+$_LANG['marketConnect']['emailServices']['manageEmail'] = "จัดการอีเมลของคุณ";
+$_LANG['marketConnect']['emailServices']['manage'] = "เข้าสู่ระบบ SpamExperts";
+$_LANG['marketConnect']['sitelockvpn']['manage'] = "เข้าสู่ระบบ SiteLock VPN";
+$_LANG['marketConnect']['websiteBuilder']['buildWebsite'] = "สร้างเว็บไซต์ของคุณ";
 
 $_LANG['creditCardHolderName'] = "ชื่อผู้ถือบัตร";
 
@@ -3294,7 +3294,7 @@ $_LANG['daily'] = "ทุกวัน";
 $_LANG['limited'] = "ถูก จำกัด";
 
 $_LANG['marketConnect']['marketgoo']['manageSEO'] = "Marketgoo SEO";
-$_LANG['marketConnect']['marketgoo']['manage'] = "Log in to Dashboard";
+$_LANG['marketConnect']['marketgoo']['manage'] = "เข้าสู่ระบบแดชบอร์ด";
 
 $_LANG['store']['marketgoo']['cartTitle'] = "Marketgoo เครื่องมือ SEO";
 $_LANG['store']['marketgoo']['cartShortDescription'] = "ปรับปรุงการเข้าชมไซต์ของคุณและขยายธุรกิจของคุณด้วยเครื่องมือ SEO ที่ต้องทำด้วยตัวเองจาก marketgoo";
@@ -3315,7 +3315,7 @@ $_LANG['twoFactor']['yubico']['description'] = "สร้างรหัสโ�
 
 $_LANG['orderForm']['selectCategory'] = "โปรดเลือกหมวดหมู่จากเมนูแถบด้านข้าง";
 
-$_LANG['marketConnect']['ox']['manage'] = "Log in to OX App Suite";
+$_LANG['marketConnect']['ox']['manage'] = "เข้าสู่ระบบ OX App Suite";
 
 $_LANG['store']['sampleProduct'] = "นี่คือสินค้าตัวอย่าง";
 $_LANG['store']['emailServices']['tab']['overview'] = "ภาพรวม";
@@ -3770,10 +3770,10 @@ $_LANG['store']['addon']['wptk']['smartUpdates']['screenshotDescFree'] = "Smart 
 $_LANG['store']['addon']['wptk']['getStartedToday'] = "Get started with WP Toolkit Deluxe today!";
 $_LANG['store']['addon']['wptk']['smartUpdates']['getStartedToday'] = "Get started with Smart Updates for WP Toolkit today!";
 $_LANG['store']['addon']['wptk']['chooseDomains'] = "Choose domains to add:";
-$_LANG['store']['addon']['wptk']['addAddonFor'] = "Add :addon for";
+$_LANG['store']['addon']['wptk']['addAddonFor'] = "เพิ่ม :addon สำหรับ";
 $_LANG['store']['addon']['wptk']['unavailable'] = "Not available";
 $_LANG['store']['addon']['wptk']['for'] = "สำหรับ";
-$_LANG['store']['addon']['wptk']['totalInCart'] = "Total in cart:";
+$_LANG['store']['addon']['wptk']['totalInCart'] = "ยอดรวมในตะกร้า:";
 $_LANG['store']['addon']['wptk']['proceedToCheckout'] = "ดำเนินการชำระเงิน";
 $_LANG['store']['addon']['wptk']['loginToSeePricing'] = "Log in to see pricing to add to your existing hosting";
 $_LANG['store']['addon']['wptk']['loginNow'] = "เข้าสู่ระบบทันที";
@@ -3795,7 +3795,7 @@ $_LANG['store']['addon']['wptk']['faqA7'] = "If you have access, you will find a
 
 $_LANG['store']['addon']['notFound']['productUnavailable'] = "Product unavailable";
 $_LANG['store']['addon']['notFound']['productUnavailableText'] = "This product is not currently available.<br>Please contact us if you believe this to be an error.";
-$_LANG['store']['addon']['notFound']['contactSupport'] = "Contact Support";
+$_LANG['store']['addon']['notFound']['contactSupport'] = "ติดต่อฝ่ายสนับสนุน";
 $_LANG['store']['addon']['notFound']['ref'] = "Ref";
 
 $_LANG['ox']['intro'] = "Here, you can create and manage users, mailboxes, and aliases for your OX App Suite subscription.";
@@ -3910,10 +3910,10 @@ $_LANG['requestor'] = "ผู้ร้องขอ";
 $_LANG['facebook']['notAuthorized'] = "คุณไม่ได้อนุญาตให้ใช้ Facebook ในการตรวจสอบสิทธิ์ เราไม่สามารถใช้เพื่อล็อกอินคุณได้";
 
 $_LANG['navMarketConnectService']['siteBuilder'] = "Site Builder";
-$_LANG['marketConnect']['siteBuilder']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['siteBuilder']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['siteBuilder']['ftpPassword'] = "FTP Password";
-$_LANG['marketConnect']['siteBuilder']['ftpPath'] = "FTP Path";
+$_LANG['marketConnect']['siteBuilder']['ftpHost'] = "โฮสต์ FTP";
+$_LANG['marketConnect']['siteBuilder']['ftpUsername'] = "ชื่อผู้ใช้ FTP";
+$_LANG['marketConnect']['siteBuilder']['ftpPassword'] = "รหัสผ่าน FTP";
+$_LANG['marketConnect']['siteBuilder']['ftpPath'] = "เส้นทาง FTP";
 $_LANG['marketConnect']['siteBuilder']['updateFtp'] = "Update FTP Credentials";
 $_LANG['marketConnect']['siteBuilder']['manage'] = "Log in to Site Builder";
 $_LANG['store']['siteBuilder']['upgrade']['title'] = "Site Builder Upgrade";
@@ -3939,7 +3939,7 @@ $_LANG['store']['siteBuilder']['intro2'] = "Whether you want to promote yourself
 $_LANG['store']['siteBuilder']['featuresTitle'] = "Site Builder Features";
 $_LANG['store']['siteBuilder']['featuresEssentials'] = "The Essentials";
 $_LANG['store']['siteBuilder']['featuresSocial'] = "Social Media and Blog";
-$_LANG['store']['siteBuilder']['featuresStore'] = "Online Store";
+$_LANG['store']['siteBuilder']['featuresStore'] = "ร้านค้าออนไลน์";
 $_LANG['store']['siteBuilder']['features']['essentials']['tagline'] = "Our Site Builder includes the full set of features.";
 $_LANG['store']['siteBuilder']['features']['blog']['tagline'] = "Sharing your story makes all the difference. Connect with your visitors through social media and your blog.";
 $_LANG['store']['siteBuilder']['features']['store']['tagline'] = "Online sales can fuel your business. Build your website as a shop, boutique, or a store.";
@@ -3998,9 +3998,9 @@ $_LANG['store']['siteBuilder']['featuresLabels']['0'] = "Professional Quality We
 $_LANG['store']['siteBuilder']['featuresLabels']['1'] = "User-First Design for All Skill Levels";
 $_LANG['store']['siteBuilder']['featuresLabels']['2'] = "Easy Drag & Drop Editing";
 $_LANG['store']['siteBuilder']['featuresLabels']['3'] = "Responsive to Mobile Devices";
-$_LANG['store']['siteBuilder']['featuresLabels']['4'] = "Free Image Gallery";
+$_LANG['store']['siteBuilder']['featuresLabels']['4'] = "คลังภาพฟรี";
 $_LANG['store']['siteBuilder']['featuresLabels']['5'] = "Component Based Building Blocks";
-$_LANG['store']['siteBuilder']['featuresLabels']['6'] = "Blog";
+$_LANG['store']['siteBuilder']['featuresLabels']['6'] = "บล็อก";
 $_LANG['store']['siteBuilder']['featuresLabels']['7'] = "Auto Layouts for Proportional Spacing";
 $_LANG['store']['siteBuilder']['featuresLabels']['8'] = "Contact Form Builder";
 $_LANG['store']['siteBuilder']['featuresLabels']['9'] = "Restore Websites";
@@ -4025,39 +4025,39 @@ $_LANG['store']['siteBuilder']['compare5desc'] = "Half the price of other websit
 $_LANG['store']['siteBuilder']['templates']['singlePage'] = "Single Page Templates";
 $_LANG['store']['siteBuilder']['templates']['multiPage'] = "Multi-Page Templates";
 $_LANG['store']['siteBuilder']['templates']['eCommerce'] = "e-Commerce Templates";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['single'] = "Single Page";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['multi'] = "Multi-Page";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['ecom'] = "e-Commerce";
-$_LANG['store']['siteBuilder']['templates']['barber-shop'] = "Barber Shop";
+$_LANG['store']['siteBuilder']['templates']['typeLabels']['single'] = "หน้าเดียว";
+$_LANG['store']['siteBuilder']['templates']['typeLabels']['multi'] = "หลายหน้า";
+$_LANG['store']['siteBuilder']['templates']['typeLabels']['ecom'] = "อีคอมเมิร์ซ";
+$_LANG['store']['siteBuilder']['templates']['barber-shop'] = "ร้านตัดผม";
 $_LANG['store']['siteBuilder']['templates']['bike-event'] = "Bike Event";
 $_LANG['store']['siteBuilder']['templates']['childcare'] = "Childcare";
 $_LANG['store']['siteBuilder']['templates']['conference'] = "Conference";
 $_LANG['store']['siteBuilder']['templates']['creative-portfolio'] = "Creative Portfolio";
 $_LANG['store']['siteBuilder']['templates']['dj'] = "DJ";
 $_LANG['store']['siteBuilder']['templates']['gardener'] = "Gardener";
-$_LANG['store']['siteBuilder']['templates']['makeup-artist'] = "Makeup Artist";
-$_LANG['store']['siteBuilder']['templates']['painters'] = "Painters";
-$_LANG['store']['siteBuilder']['templates']['landscape-photographer'] = "Landscape Photographer";
-$_LANG['store']['siteBuilder']['templates']['rock-band'] = "Rock Band";
-$_LANG['store']['siteBuilder']['templates']['seafood-restaurant'] = "Seafood Restaurant";
-$_LANG['store']['siteBuilder']['templates']['sushi-restaurant'] = "Sushi Restaurant";
-$_LANG['store']['siteBuilder']['templates']['tailor-shop'] = "Tailor Shop";
+$_LANG['store']['siteBuilder']['templates']['makeup-artist'] = "ช่างแต่งหน้า";
+$_LANG['store']['siteBuilder']['templates']['painters'] = "จิตรกร";
+$_LANG['store']['siteBuilder']['templates']['landscape-photographer'] = "ช่างภาพทิวทัศน์";
+$_LANG['store']['siteBuilder']['templates']['rock-band'] = "วงร็อค";
+$_LANG['store']['siteBuilder']['templates']['seafood-restaurant'] = "ร้านอาหารทะเล";
+$_LANG['store']['siteBuilder']['templates']['sushi-restaurant'] = "ร้านซูชิ";
+$_LANG['store']['siteBuilder']['templates']['tailor-shop'] = "ร้านตัดเสื้อ";
 $_LANG['store']['siteBuilder']['templates']['training-courses'] = "Training Courses";
 $_LANG['store']['siteBuilder']['templates']['travel-tours'] = "Travel Tours";
 $_LANG['store']['siteBuilder']['templates']['wedding-planner'] = "Wedding Planner";
 $_LANG['store']['siteBuilder']['templates']['writer'] = "Writer";
-$_LANG['store']['siteBuilder']['templates']['architect'] = "Architect";
-$_LANG['store']['siteBuilder']['templates']['beauty-salon'] = "Beauty Salon";
+$_LANG['store']['siteBuilder']['templates']['architect'] = "สถาปนิก";
+$_LANG['store']['siteBuilder']['templates']['beauty-salon'] = "ร้านเสริมสวย";
 $_LANG['store']['siteBuilder']['templates']['biography'] = "Biography";
 $_LANG['store']['siteBuilder']['templates']['blog-page'] = "Blog Page";
 $_LANG['store']['siteBuilder']['templates']['burger-cafe'] = "Burger Cafe";
-$_LANG['store']['siteBuilder']['templates']['car-dealer'] = "Car Dealer";
+$_LANG['store']['siteBuilder']['templates']['car-dealer'] = "ตัวแทนจำหน่ายรถยนต์";
 $_LANG['store']['siteBuilder']['templates']['catering-services'] = "Catering Services";
 $_LANG['store']['siteBuilder']['templates']['city-hotel'] = "City Hotel";
-$_LANG['store']['siteBuilder']['templates']['cleaning-services'] = "Cleaning Services";
+$_LANG['store']['siteBuilder']['templates']['cleaning-services'] = "บริการทำความสะอาด";
 $_LANG['store']['siteBuilder']['templates']['coffee-house'] = "Coffee House";
 $_LANG['store']['siteBuilder']['templates']['crossfit'] = "Crossfit";
-$_LANG['store']['siteBuilder']['templates']['dentist-v2'] = "Dentist";
+$_LANG['store']['siteBuilder']['templates']['dentist-v2'] = "ทันตแพทย์";
 $_LANG['store']['siteBuilder']['templates']['event-venue'] = "Event Venue";
 $_LANG['store']['siteBuilder']['templates']['handyman'] = "Handyman";
 $_LANG['store']['siteBuilder']['templates']['life-coach'] = "Life Coach";
@@ -4076,11 +4076,11 @@ $_LANG['store']['siteBuilder']['templates']['beauty-store'] = "Beauty Store";
 $_LANG['store']['siteBuilder']['templates']['blinds'] = "Blinds";
 $_LANG['store']['siteBuilder']['templates']['bookstore'] = "Bookstore";
 $_LANG['store']['siteBuilder']['templates']['furniture-collection'] = "Furniture Collection";
-$_LANG['store']['siteBuilder']['templates']['grape-farm'] = "Grape Farm";
-$_LANG['store']['siteBuilder']['templates']['grocery-store'] = "Grocery Store";
-$_LANG['store']['siteBuilder']['templates']['home-decor'] = "Home Decor";
-$_LANG['store']['siteBuilder']['templates']['toy-store'] = "Toy Store";
-$_LANG['store']['siteBuilder']['templates']['tyre-repairs'] = "Tyre Repairs";
+$_LANG['store']['siteBuilder']['templates']['grape-farm'] = "ไร่องุ่น";
+$_LANG['store']['siteBuilder']['templates']['grocery-store'] = "ร้านขายของชำ";
+$_LANG['store']['siteBuilder']['templates']['home-decor'] = "การตกแต่งบ้าน";
+$_LANG['store']['siteBuilder']['templates']['toy-store'] = "ร้านขายของเล่น";
+$_LANG['store']['siteBuilder']['templates']['tyre-repairs'] = "ซ่อมยาง";
 
 $_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "สร้างเว็บไซต์ของคุณ";
 $_LANG['store']['siteBuilder']['cartTitle'] = "Responsive site builder";
@@ -4095,14 +4095,14 @@ $_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "สร้างเ
 
 $_LANG['cPanel']['wptk'] = "WordPress Toolkit";
 
-$_LANG['wptk']['goToWebsite'] = "Go to Website";
-$_LANG['wptk']['goToAdmin'] = "Admin";
-$_LANG['wptk']['createNew'] = "Create New";
+$_LANG['wptk']['goToWebsite'] = "ไปที่เว็บไซต์";
+$_LANG['wptk']['goToAdmin'] = "ผู้ดูแลระบบ";
+$_LANG['wptk']['createNew'] = "สร้างใหม่";
 $_LANG['wptk']['installationSuccess'] = "<strong>Success!</strong> <a href=\"\" target=\"_blank\" id=\"newWordPressLink\">Visit</a> your new WordPress® installation, or go to the <a href=\"\" target=\"_blank\" id=\"newWordPressAdminLink\">Admin Area</a>.";
-$_LANG['wptk']['installWordPress'] = "Install WordPress";
-$_LANG['wptk']['installWordPressShort'] = "Install";
+$_LANG['wptk']['installWordPress'] = "ติดตั้งเวิร์ดเพรส";
+$_LANG['wptk']['installWordPressShort'] = "ติดตั้ง";
 
-$_LANG['api']['client']['countryError'] = "Valid country required";
+$_LANG['api']['client']['countryError'] = "ต้องระบุประเทศที่ถูกต้อง";
 
 $_LANG['plesk']['mail'] = "Mail";
 $_LANG['plesk']['applications'] = "Applications";
@@ -4165,9 +4165,9 @@ $_LANG['idna']['unknownError'] = "An unknown error occurred.";
 $_LANG['domains']['europeanDomainTerms'] = "Important Information Regarding Your Contact Data: We are contractually obligated to share your personal information with the registry for this TLD. We will transfer your personal information to the registry, which may publish it to WHOIS publicly. For details on why we share your personal information, review our privacy policy and the domain registration agreement.";
 
 
-$_LANG['store']['ssl']['shared']['oneYearPrice'] = "1 Year";
-$_LANG['store']['ssl']['shared']['twoYearPrice'] = "2 Years";
-$_LANG['store']['ssl']['shared']['threeYearPrice'] = "3 Years";
+$_LANG['store']['ssl']['shared']['oneYearPrice'] = "1 ปี";
+$_LANG['store']['ssl']['shared']['twoYearPrice'] = "2 ปี";
+$_LANG['store']['ssl']['shared']['threeYearPrice'] = "3 ปี";
 
 $_LANG['store']['ssl']['landingPage']['multiYear']['title'] = "Multi-Year SSL Certificates";
 $_LANG['store']['ssl']['landingPage']['multiYear']['p1'] = "Multi-year certificates allow you to pay a single discounted price for two or three years of SSL certificate coverage. When you purchase a multi-year SSL certificate, you lock in a single price for up to 3 years of coverage.";
@@ -4268,9 +4268,9 @@ $_LANG['store']['cPanelSEO']['faq9'] = "There are tasks I've already covered. Wh
 $_LANG['store']['cPanelSEO']['faq9ans'] = "<p>There are two reasons why you might see tasks you've already solved or covered. As mentioned above, tasks are a mix of basic SEO measures and issues found in weekly automated audits of your website.</p><p>First, the tasks covering basic SEO measures are the same for everyone and are not tailored to your website or business. For example, we don't know whether you created a Google account for your business and set up Search Console or if you installed SEO plugins. If you already did—great work! Simply flag those tasks as Done.</p><p>The second reason is that the Advisor is automatically updated based on the results of automated weekly Site Audits. In other words, if a Site Audit identifies any issues concerning a task you completed in the past, it will automatically be updated and pop up in the Open section.</p>";
 $_LANG['store']['cPanelSEO']['faq10'] = "What is Project Visibility?";
 $_LANG['store']['cPanelSEO']['faq10ans'] = "<p>Maybe you already stopped to think, “Wait, but I don't care about my visibility for keywords that have nothing to do with my business.” And you are right. While Visibility is a great score to get an idea of your overall performance and compare websites in general, it's not tailored to your specific keyword set.</p><p>That's why we provide <em>Project Visibility</em>. This metric is calculated the same way as Visibility, but instead of using 500,000 cross-industry keywords, Project Visibility is exclusively based on keywords in your Rank Tracker.</p><p>In other words, Project Visibility is a custom visibility score for the unique set of keywords relevant to your business.</p><p>You'll find Project Visibility here: <em>Projects → Rank Tracker → Visibility</em>.</p><p>As you might already know, you can also track your competitors' rankings in your Rank Tracker. That way, you'll get Project Visibility for them, too, allowing for a much more realistic comparison. So, even if they have a slightly different product or service portfolio, Project Visibility accounts exclusively for keywords you actually share.</p>";
-$_LANG['store']['cPanelSEO']['faq11'] = "Why is Visibility score useful?";
+$_LANG['store']['cPanelSEO']['faq11'] = "เหตุใดคะแนนการมองเห็นจึงมีประโยชน์";
 $_LANG['store']['cPanelSEO']['faq11ans'] = "<p>Use your Visibility score as an indicator of your overall SEO performance, problems, and potential for optimization.</p><p><strong>1. Get An Idea of Your Overall SEO Performance</strong></p><p>You can track rankings for single keywords and know which position you rank on. It's an important thing to do. However, rank tracking does not give you a bird's eye view perspective of the overall improvement of your rankings—but Visibility does. When your SEO measures are effective and rankings improve, so does your Visibility score.</p><p><strong>2. Diagnose SEO Problems</strong></p><p>A sudden drop in your Visibility indicates problems in your SEO performance. Use Visibility like an alert. If it drops significantly, start digging for what happened. Here's a list of common reasons:</p><ul><li>You were hit with a <strong>Google Penalty</strong>. Check Search Console for notifications. Make sure to follow <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\">Google's Webmaster Guidelines</a>.</li><li>There are ramifications from a recent change in Google's algorithm. Inquire about recent <strong>Google Updates</strong> and what they entail.</li><li>Your competitors optimized their websites and content, and now they out-compete you. Compare their (historical) <strong>Visibility</strong> with yours. Use the <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback Machine</a> to compare how their content changed.</li><li>You relaunched your site without SEO in mind. For example, check <em>robots.txt</em> and <em>.htaccess</em> for accidentally blocked pages, increased 404 status codes, faulty 301-redirects, and internal links.<br><br>You changed your content in a way that didn't help your rankings. Consider reversing the changes.<br><br>Your website has technical issues. Run a <em>Site Audit</em> or check your <strong><em>Advisor</em></strong> for open technical tasks. Check your backend for outdated, recently updated, or incompatible <strong>plugins</strong> that may cause havoc.<br><br>Hosting issues are the cause. Inquire whether your host made recent changes, has been hacked, moved their servers, or experienced technical difficulties. See if your server has issues.</li></ul><p>Keep in mind that this list is not exhaustive. One or more of those reasons can apply simultaneously, or there could be other reasons altogether.</p><p><strong>3. Competitor Comparison</strong></p><p>Visibility is a great metric for a quick comparison of two or more websites. Check your Visibility against theirs. Who is out-competing who? Has a competitor outperformed you in the past or vice versa? Who's leading the field, and how big is the gap between you and your fiercest competitor? Answering those questions will help you develop an SEO strategy to come out (and stay) at the top of your niche.</p><p><strong>4. Track Visibility Development Over Time With Historical Data</strong></p><p>Want to know how a website fared over time? We provide historical data going all the way back to 2009, free of seasonal fluctuations. That way, you can track and compare historic Visibility and see their development over long periods of time.</p>";
-$_LANG['store']['cPanelSEO']['faq12'] = "How Can I Improve My Visibility Score?";
+$_LANG['store']['cPanelSEO']['faq12'] = "ฉันจะปรับปรุงคะแนนการมองเห็นของฉันได้อย่างไร";
 $_LANG['store']['cPanelSEO']['faq12ans'] = "<p>Short answer: Don't make improving Visibility a goal in your SEO strategy.</p><p>Long answer: Visibility <em>reflects</em> the quality of your rankings in a single metric; it won't lead to better rankings. Make it your goal to improve your rankings for relevant keywords that prospective customers actually use to find products and services like yours. Improving your rankings will improve your Visibility, too. But it's your rankings that really matter.</p><p>As a rule of thumb, your Visibility score will be higher if</p><ul><li>Your domain's URLs rank in good positions</li><li>You have a high number of indexed URLs with good rankings</li><li>You rank well for keywords with a high search volume</li></ul>";
 $_LANG['store']['cPanelSEO']['promo']['sidebar']['title'] = "SEO Tools";
 $_LANG['store']['cPanelSEO']['promo']['sidebar']['body'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
