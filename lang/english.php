@@ -2276,6 +2276,17 @@ $_LANG['ssl']['fileInformation'] = "File Information";
 $_LANG['ssl']['emailInformation'] = "Email Information";
 $_LANG['ssl']['dcv'] = "Domain Control Validation";
 $_LANG['ssl']['defaultcontacts'] = "Default Domain Contacts";
+$_LANG['ssl']['reissueInfo1'] = "If you have lost your certificate, need to move servers, or had a problem with the installation, you can reissue your certificate to generate a new one.";
+$_LANG['ssl']['reissueInfo2'] = "When reissuing a certificate, you cannot change the domain name and it must remain exactly the same.";
+$_LANG['ssl']['reissueSuccess'] = "Reissue request submitted successfully!";
+$_LANG['ssl']['reissueSuccessInfo'] = "<p>Your request to reissue your certificate has been submitted to the certificate authority.</p><p>You will receive an email shortly to <em>:approverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['approverEmailUpdateSuccess'] = "Approver email updated successfully!";
+$_LANG['ssl']['approverEmailUpdateInfo'] = "<p>You will receive an email shortly to <em>:newApproverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['disableWhoisPrivacy'] = "Please disable any WHOIS privacy services before proceeding.";
+$_LANG['ssl']['selectDcvEmail'] = "Select an active email address from the list below. You will receive an email to approve the SSL certificate.";
+$_LANG['ssl']['approverEmailProcess'] = "<h4>About the Approver Email Process</h4><p>In order to issue an SSL certificate, the Certificate Authority has to validate the certificate order's authenticity to ensure that the request is legitimate and comes from an authorized owner of the domain.</p><p>Email-based domain validation is the most common certificate validation mechanism for certificate orders. The certificate authority compiles a list of approved email addresses using common administrative email addresses (for example, admin or webmaster) in combination with the public WHOIS data for the domain. You can only use one of these email addresses to confirm ownership.</p>";
+
+
 
 $_LANG['upgradeCredit'] = "Upgrade Credit";
 $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
@@ -3057,7 +3068,7 @@ $_LANG['store']['ssl']['landingPage']['faq']['a3'] = "There are 3 different leve
 $_LANG['store']['ssl']['landingPage']['faq']['q4'] = "What is a Wildcard SSL Certificate";
 $_LANG['store']['ssl']['landingPage']['faq']['a4'] = "A Wildcard SSL certificate provides the same encryption and authentication features as other SSL certificates but can also be applied to an unlimited number of subdomains of a website. A Wildcard SSL certificate supports the root domain (example.com) as well as its subdomains.";
 $_LANG['store']['ssl']['landingPage']['faq']['q5'] = "What are the advantages of an EV SSL Certificate?";
-$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV, or Extended Validation, is the highest class of SSL available today and gives more credibility and trust to your website than other SSL Certificates. They include features such as the green address bar and display of your company name that have been proven to boost trust and consumer confidence.";
+$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV or Extended Validation certificates are the highest class of SSL available and give the most credibility and trust to your website. EV assures consumers that their personal and financial information is protected at the highest levels of authentication. Additional verifications are performed, such as corporate agency record checks, applicant contact info, and whether the business has existed for a minimum of 3 years. EV certificates are best suited for business-critical webpages.";
 $_LANG['store']['ssl']['landingPage']['faq']['q6'] = "What if I already have an SSL Certificate?";
 $_LANG['store']['ssl']['landingPage']['faq']['a6'] = "You can switch to us at any time.  We offer highly competitive pricing and if you already have an existing certificate, we'll add any remaining validity that you have on your existing competitor SSL Certificate up to a maximum of an additional 12 months.";
 
@@ -3160,6 +3171,7 @@ $_LANG['back'] = "Back";
 
 $_LANG['errors']['badRequest'] = "Bad Request";
 $_LANG['errors']['badRequestTryAgain'] = "An Error Occurred. Please try again.";
+$_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
 $_LANG['paymentMethods']['mandateAcceptance'] = "By providing your IBAN and confirming this payment, you are authorizing :companyName and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.";
