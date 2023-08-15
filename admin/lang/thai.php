@@ -1513,6 +1513,14 @@ $_ADMINLANG['support']['unimportedReplies'] = "Unimported Replies";
 $_ADMINLANG['support']['ticketCreationFailed'] = "Ticket Creation Failed: :error";
 $_ADMINLANG['support']['errorUnableToCreateTicketNumber'] = "The system could not generate a ticket number because it reached the maximum number of attempts.";
 
+$_ADMINLANG['supportticketsstatus']['answered'] = "Answered";
+$_ADMINLANG['supportticketsstatus']['closed'] = "Closed";
+$_ADMINLANG['supportticketsstatus']['closeticket'] = "If resolved, click here to close the ticket";
+$_ADMINLANG['supportticketsstatus']['customerreply'] = "Customer-Reply";
+$_ADMINLANG['supportticketsstatus']['inprogress'] = "In Progress";
+$_ADMINLANG['supportticketsstatus']['onhold'] = "On Hold";
+$_ADMINLANG['supportticketsstatus']['open'] = "Open";
+
 # Network Issues
 $_ADMINLANG['networkissues']['title'] = "ปัญหาเครือข่าย";
 $_ADMINLANG['networkissues']['open'] = "เปิด";
@@ -1560,10 +1568,12 @@ $_ADMINLANG['networkIssues']['existingIssueSaved'] = "อัปเดตปั�
 # Currencies
 $_ADMINLANG['currencies']['title'] = "สกุลเงิน";
 $_ADMINLANG['currencies']['currency'] = "สกุลเงิน";
+$_ADMINLANG['currencies']['delsure'] = "Deleting an in-use currency may cause errors. Are you sure that you want to delete this currency?";
 $_ADMINLANG['currencies']['exchrateupdate'] = "ผลการอัปเดตอัตราแลกเปลี่ยน";
 $_ADMINLANG['currencies']['updatedpricing'] = "อัปเดตราคา";
 $_ADMINLANG['currencies']['updatepricinginfo'] = "ราคาสกุลเงินเพิ่มเติมทั้งหมดได้รับการอัปเดตตามอัตราแลกเปลี่ยนปัจจุบัน";
 $_ADMINLANG['currencies']['info'] = "คุณสามารถขายในสกุลเงินต่างๆพร้อมกันได้โดยตั้งค่าด้านล่าง ลูกค้าที่เยี่ยมชมไซต์ของคุณสามารถเลือกซื้อสินค้าในสกุลเงินท้องถิ่นของตนได้";
+$_ADMINLANG['currencies']['deleteinuse'] = "You cannot delete a currency that a client is using.";
 $_ADMINLANG['currencies']['code'] = "รหัสสกุลเงิน";
 $_ADMINLANG['currencies']['prefix'] = "คำนำหน้า";
 $_ADMINLANG['currencies']['suffix'] = "คำต่อท้าย";
@@ -5753,7 +5763,7 @@ $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['feature'] = "Fe
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['RRP'] = ":price RRP";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['tagLine'] = "Ideal For";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['servers'] = "Servers";
-$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['monitors'] = "Monitors";
+$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['monitors'] = "Websites";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['timeIntervals'] = "Time Intervals";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['alerting'] = "Alerting";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['dataRetention'] = "Data Retention";
@@ -5774,6 +5784,10 @@ $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['emailOnly'] = "
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['multiChannel'] = "multi-channel";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['manual'] = "manual";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['yes'] = "yes";
+$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['comparePrices'] = "Compare Prices";
+$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['comparePlans'] = "Compare Plans";
+$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['siteMonitoring'] = "Site Monitoring";
+$_ADMINLANG['marketConnect']['threesixtymonitoring']['pricing']['serverMonitoring'] = "Server Monitoring";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['faq']['h1'] = "Frequently Asked Questions";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['faq']['q1'] = "How does Website Monitoring work?";
 $_ADMINLANG['marketConnect']['threesixtymonitoring']['faq']['a1a'] = "Website Monitoring is an automated service that performs tests on a website at regular intervals (every 1, 5, or 10 minutes, depending on the plan). These tests detect current and potential problems with customers' websites. When an issue is detected, 360 Monitoring sends an alert and records the issue for later analysis.";
