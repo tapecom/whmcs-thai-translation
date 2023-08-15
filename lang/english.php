@@ -2421,6 +2421,7 @@ $_LANG['dateTime']['abbr']['minute'] = "min";
 $_LANG['dateTime']['abbr']['second'] = "sec";
 $_LANG['dateTime']['title']['days'] = "Days";
 $_LANG['dateTime']['title']['hours'] = "Hours";
+$_LANG['dateTime']['symbol']['second'] = "s";
 
 $_LANG['emailMarketing']['joinOurMailingList'] = "Join our mailing list";
 
@@ -3371,7 +3372,7 @@ $_LANG['store']['threesixtymonitoring']['websitePricing']['title'] = "Pricing";
 $_LANG['store']['threesixtymonitoring']['websitePricing']['cta'] = ":tagOpenLooking for Server Monitoring?:tagClose Metrics like CPU, network, memory, and disk usage.";
 $_LANG['store']['threesixtymonitoring']['serverPricing']['cta'] = ":tagOpenLooking for Website Monitoring?:tagClose Metrics like uptime, performance, and health.";
 $_LANG['store']['threesixtymonitoring']['comparison']['servers'] = "Servers";
-$_LANG['store']['threesixtymonitoring']['comparison']['monitors'] = "Monitors";
+$_LANG['store']['threesixtymonitoring']['comparison']['monitors'] = "Websites";
 $_LANG['store']['threesixtymonitoring']['comparison']['timeIntervals'] = "Time Intervals";
 $_LANG['store']['threesixtymonitoring']['comparison']['alerting'] = "Alerting";
 $_LANG['store']['threesixtymonitoring']['comparison']['dataRetention'] = "Data Retention";
@@ -3381,6 +3382,7 @@ $_LANG['store']['threesixtymonitoring']['comparison']['highPriorityCrawls'] = "H
 $_LANG['store']['threesixtymonitoring']['comparison']['recurringScheduledCrawls'] = "Recurring Scheduled Crawls";
 $_LANG['store']['threesixtymonitoring']['comparison']['crawlDepth'] = "Crawl Depth (URLs)";
 $_LANG['store']['threesixtymonitoring']['comparison']['startingFrom'] = "Starting From";
+$_LANG['store']['threesixtymonitoring']['comparison']['tagLine'] = "";
 $_LANG['store']['threesixtymonitoring']['comparison']['tagLite'] = "Free 1 Site";
 $_LANG['store']['threesixtymonitoring']['comparison']['tagPersonal'] = "Ideal for 1 Site ";
 $_LANG['store']['threesixtymonitoring']['comparison']['tagPlus'] = "Ideal for 3 Sites";
@@ -3417,7 +3419,7 @@ $_LANG['store']['threesixtymonitoring']['faq']['a11'] = "Full Site Check protect
 
 $_LANG['marketConnect']['threesixtymonitoring']['clientPanel']['title'] = "360 Monitoring";
 $_LANG['marketConnect']['threesixtymonitoring']['clientPanel']['servers'] = "Servers";
-$_LANG['marketConnect']['threesixtymonitoring']['clientPanel']['monitors'] = "Monitors";
+$_LANG['marketConnect']['threesixtymonitoring']['clientPanel']['monitors'] = "Websites";
 $_LANG['marketConnect']['threesixtymonitoring']['clientPanel']['alerts'] = "Alerts";
 
 $_LANG['store']['noDomain'] = "No Domain Required";
