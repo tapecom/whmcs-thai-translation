@@ -344,15 +344,15 @@ $_LANG['domainprice'] = "Price";
 $_LANG['domainregisterns'] = "Register Nameservers";
 $_LANG['domainregisternscurrentip'] = "Current IP Address";
 $_LANG['domainregisternsdel'] = "Delete a NameServer";
-$_LANG['domainregisternsdelsuccess'] = "The nameserver  was successfully deleted";
+$_LANG['domainregisternsdelsuccess'] = "The nameserver was successfully deleted.";
 $_LANG['domainregisternsexplanation'] = "From here you can create and manage custom nameservers for your domain (eg. NS1.example.com, NS2.example.com...).";
 $_LANG['domainregisternsip'] = "IP Address";
 $_LANG['domainregisternsmod'] = "Modify a NameServer IP";
-$_LANG['domainregisternsmodsuccess'] = "The nameserver  was successfully modified";
+$_LANG['domainregisternsmodsuccess'] = "The nameserver was successfully modified.";
 $_LANG['domainregisternsnewip'] = "New IP Address";
 $_LANG['domainregisternsns'] = "Nameserver";
 $_LANG['domainregisternsreg'] = "Register a NameServer Name";
-$_LANG['domainregisternsregsuccess'] = "The nameserver  was successfully registered";
+$_LANG['domainregisternsregsuccess'] = "The nameserver was successfully registered.";
 $_LANG['domainregistrantchoose'] = "Select the contact you want to use here";
 $_LANG['domainregistrantinfo'] = "Domain Registrant Information";
 $_LANG['domainregistrarlock'] = "Registrar Lock";
@@ -420,7 +420,7 @@ $_LANG['firstpaymentamount'] = "First Payment Amount";
 $_LANG['flashtutorials'] = "Flash Tutorials";
 $_LANG['flashtutorialsdescription'] = "Click here to view tutorials showing you how to use your hosting control panel";
 $_LANG['flashtutorialsheadertext'] = "Our Flash Tutorials are here to help you fully utilise your web hosting control panel. Choose a task from below to see a step by step tutorial on how to complete it.";
-$_LANG['forwardingtogateway'] = "Please wait while you are redirected to the gateway you chose to make payment...";
+$_LANG['forwardingtogateway'] = "Please wait while the system redirects you to complete payment using the selected payment method.";
 $_LANG['globalsystemname'] = "Portal Home";
 $_LANG['globalyouarehere'] = "You are here";
 $_LANG['go'] = "Go";
@@ -1551,9 +1551,9 @@ $_LANG['hosting'] = "Hosting";
 
 $_LANG['enomfrregistration']['Heading'] = ".fr domains have different required values depending on your nationality and type of registration:";
 $_LANG['enomfrregistration']['French Individuals']['Name'] = "French Individuals";
-$_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\".";
+$_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", \"Birthplace Postcode\", and \"Legal ID\".";
 $_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = "EU Non-French Individuals";
-$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = "Please provide your \"Birthdate\".";
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = "Please provide your \"Birthdate\" and \"Legal ID\".";
 $_LANG['enomfrregistration']['French Companies']['Name'] = "French Companies";
 $_LANG['enomfrregistration']['French Companies']['Requirements'] = "Please provide the \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\" for the owner contact, along with your SIRET number.";
 $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French Companies";
@@ -1789,6 +1789,7 @@ $_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domai
 $_LANG['clientAlerts']['invoicesUnpaid'] = "You have :numberOfInvoices unpaid invoice(s). Pay them early for peace of mind.";
 $_LANG['clientAlerts']['invoicesOverdue'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
 $_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
+$_LANG['clientAlerts']['servicesRenewingSoon'] = "You have :numberOfServices service(s) that are due for renewal soon.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Unpaid Invoices";
@@ -1806,6 +1807,8 @@ $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Foun
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
 $_LANG['clientHomePanels']['productsAndServices'] = "Browse our Products/Services";
+$_LANG['clientHomePanels']['serviceRenewingSoon'] = "Services Renewing Soon";
+$_LANG['clientHomePanels']['serviceRenewingSoonMsg'] = "You have :numberOfServices service(s) that are due for renewal soon. Renew them today for peace of mind.";
 
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
 $_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
@@ -1919,6 +1922,8 @@ $_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: "
 $_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
+
+$_LANG['wpsquared']['login'] = "Log in to WP Squared";
 
 $_LANG['wordpress']['invalidPath'] = "The supplied path is invalid.";
 
@@ -2547,6 +2552,29 @@ $_LANG['upgradeService']['chooseNew'] = "Choose New Product/Plan";
 $_LANG['upgradeService']['currentProduct'] = "Your Current Product";
 $_LANG['upgradeService']['recommended'] = "Recommended";
 $_LANG['upgradeService']['select'] = "Select";
+
+$_LANG['servicesRenew'] = "Renew";
+$_LANG['renewService']['titlePlural'] = "Renew Services";
+$_LANG['renewService']['titleSingular'] = "Renew Service";
+$_LANG['renewService']['titleAltPlural'] = "Service Renewals";
+$_LANG['renewService']['titleAltSingular'] = "Service Renewal";
+$_LANG['renewService']['noServices'] = "You do not currently have any services that are eligible for renewal.";
+$_LANG['renewService']['showingServices'] = "Showing :showing of :totalCount services.";
+$_LANG['renewService']['renewingIn'] = "Renewing in :days days";
+$_LANG['renewService']['renewalUnavailable'] = "Renewal Unavailable";
+$_LANG['renewService']['serviceNextDueDateBasic'] = "Next Due Date: :nextDueDate";
+$_LANG['renewService']['serviceNextDueDateExtended'] = "Next Due Date: :nextDueDate (:nextDueDateFormatted)";
+$_LANG['renewService']['renewalPeriodLabel'] = "Renewal Period";
+$_LANG['renewService']['renewalPeriod'] = "(:nextDueDate - :nextPayUntilDate) @ :renewalPrice";
+$_LANG['renewService']['searchPlaceholder'] = "Search by Name, Domain, or ID";
+
+$_LANG['renewService']['statusInfo']['notSupported'] = "On-Demand Renewal Not Supported by Service";
+$_LANG['renewService']['statusInfo']['nonRecurring'] = "Service is Non-Recurring";
+$_LANG['renewService']['statusInfo']['outsideRenewal'] = "Service is Outside of Renewal Period";
+$_LANG['renewService']['statusInfo']['serviceStatus'] = "Service Status is :serviceStatus";
+$_LANG['renewService']['statusInfo']['unpaidInvoices'] = "Service Has :unpaidInvoiceCount Unpaid Invoice(s)";
+
+$_LANG['renewServiceAddon']['titleAltSingular'] = "Addon Renewal";
 
 $_LANG['feeds']['itemsInBasket'] = "You have <b>:count</b> items in your basket";
 
@@ -3896,6 +3924,7 @@ $_LANG['idnLanguage']['uzb'] = "Uzbek";
 $_LANG['idnLanguage']['vie'] = "Vietnamese";
 $_LANG['idnLanguage']['wel'] = "Welsh";
 $_LANG['idnLanguage']['yid'] = "Yiddish";
+$_LANG['idnLanguage']['invalidSelectionForTld'] = "Invalid IDN language selected for :tld TLD";
 $_LANG['cart']['idnLanguageDescription'] = "We detected the domain you entered is an international domain name. In order to continue, please select your desired domain language.";
 $_LANG['cart']['idnLanguage'] = "Choose IDN Language";
 $_LANG['cart']['selectIdnLanguageForRegister'] = "Please select the language of the domain you wish to register.";
@@ -4418,6 +4447,7 @@ $_LANG['usagebilling']['metric']['subDomains'] = "Sub Domains";
 $_LANG['usagebilling']['metric']['mysqlDatabases'] = "MySQL Databases";
 $_LANG['usagebilling']['metric']['mysqlDiskUsage'] = "MySQL Disk Usage";
 $_LANG['usagebilling']['metric']['subAccounts'] = "Sub-Accounts";
+$_LANG['usagebilling']['metric']['wpInstances'] = "WordPress Instances";
 
 $_LANG['idna']['emptyLabel'] = "The domain name input is empty.";
 $_LANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum length.";
@@ -4539,5 +4569,22 @@ $_LANG['store']['xoviNow']['promo']['sidebar']['title'] = "SEO Tools";
 $_LANG['store']['xoviNow']['promo']['sidebar']['body'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
 $_LANG['store']['xoviNow']['cartTitle'] = "SEO Tools";
 $_LANG['store']['xoviNow']['cartShortDescription'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
+
+$_LANG['ssl']['status']['awaitingConfiguration'] = "Awaiting Configuration";
+$_LANG['ssl']['status']['awaitingIssuance'] = "Awaiting Issuance";
+$_LANG['ssl']['status']['cancelled'] = "Cancelled";
+$_LANG['ssl']['status']['completed'] = "Completed";
+$_LANG['ssl']['status']['configurationSubmitted'] = "Configuration Submitted";
+$_LANG['ssl']['status']['expired'] = "Expired";
+$_LANG['ssl']['status']['reissueFailed'] = "Reissue Failed";
+$_LANG['ssl']['status']['reissuePending'] = "Reissue Pending";
+$_LANG['ssl']['status']['reissued'] = "Reissued";
+$_LANG['ssl']['x500DN']['organization'] = "Organization";
+$_LANG['ssl']['x500DN']['organizationUnit'] = "Organization Unit";
+$_LANG['ssl']['x500DN']['locality'] = "Locality";
+$_LANG['ssl']['x500DN']['country'] = "Country";
+$_LANG['ssl']['x500DN']['state'] = "State";
+$_LANG['ssl']['x500DN']['commonName'] = "Common Name";
+$_LANG['ssl']['x500DN']['domainName'] = "Domain Name";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
