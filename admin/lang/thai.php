@@ -739,6 +739,7 @@ $_ADMINLANG['domains']['pricingtitle'] = "โดเมน / TLDS";
 $_ADMINLANG['domains']['pricetitle'] = "ราคาโดเมนสำหรับ";
 $_ADMINLANG['domains']['checkBoxToEnable'] = "Check to enable the pricing for that currency and term.";
 $_ADMINLANG['domains']['leaveAtNegativeOne'] = "ตั้งราคาโอน / ต่ออายุเป็น -1 เพื่อปิดใช้งานการโอนและการต่ออายุสำหรับคำนั้น";
+$_ADMINLANG['domains']['multiyearTransferNote'] = "Most registrars and TLDs do not support multi-year transfers.";
 $_ADMINLANG['domains']['delsureextension'] = "แน่ใจไหมว่าต้องการลบส่วนขยายโดเมนนี้ออกจากรายการราคา";
 $_ADMINLANG['domains']['pricinginfo'] = "นี่คือที่ที่คุณกำหนดค่า TLD ที่คุณต้องการอนุญาตให้ไคลเอ็นต์ลงทะเบียนหรือโอนให้คุณ เช่นเดียวกับการกำหนดราคาคุณสามารถกำหนดส่วนเสริมที่เสนอให้กับแต่ละ TLD ได้หากจำเป็นต้องใช้รหัส EPP สำหรับการโอนและการลงทะเบียนควรเป็นแบบอัตโนมัติหรือไม่หากเป็นเช่นนั้นกับผู้รับจดทะเบียน";
 $_ADMINLANG['domains']['autoreg'] = "การลงทะเบียนอัตโนมัติ";
@@ -808,7 +809,7 @@ $_ADMINLANG['domains']['gracePeriod'] = "ระยะเวลาผ่อนผ
 $_ADMINLANG['domains']['redemptionPeriod'] = "ระยะไถ่ถอน";
 $_ADMINLANG['domains']['fee'] = "ค่าธรรมเนียม";
 $_ADMINLANG['domains']['duration'] = "ระยะเวลา";
-$_ADMINLANG['domains']['bulkYearsDescription'] = "ตั้ง 2-10 ปีขึ้นอยู่กับราคา 1 ปี";
+$_ADMINLANG['domains']['bulkYearsDescription'] = "Set 2–10 year prices based on the one-year price for registrations and renewals.";
 $_ADMINLANG['domains']['massUpdateConfirm'] = "แน่ใจไหมว่าต้องการอัปเดตส่วนขยายที่เลือก";
 $_ADMINLANG['domains']['massUpdateError'] = "โปรดเลือก TLD และกรอกข้อมูลอย่างน้อยหนึ่งช่องสำหรับการกระทำจำนวนมาก";
 
@@ -999,6 +1000,9 @@ $_ADMINLANG['orders']['addonFeature'] = "Add-On Feature";
 $_ADMINLANG['orders']['invalidAffiliate'] = "Invalid affiliate.";
 $_ADMINLANG['orders']['selfReferral'] = "Self-referrals are invalid.";
 $_ADMINLANG['orders']['referralSuccess'] = "Affiliate has been successfully assigned.";
+$_ADMINLANG['orders']['serviceRenewal']['title'] = "Service Renewal";
+$_ADMINLANG['orders']['serviceRenewal']['serviceId'] = "Service ID #:id";
+$_ADMINLANG['orders']['serviceRenewal']['notFoundWarning'] = "The system could not find Service ID #:id in the WHMCS database.";
 
 
 # Billing Cycles
@@ -1869,7 +1873,7 @@ $_ADMINLANG['utilities']['emailCampaigns']['noFailedEmails'] = "ไม่มี�
 $_ADMINLANG['utilities']['emailCampaigns']['confirm'] = "เมื่อกำหนดเวลาส่งแคมเปญอีเมลแล้วจะไม่สามารถแก้ไขแคมเปญได้อีกต่อไป";
 $_ADMINLANG['utilities']['emailCampaigns']['updated'] = "อัปเดตแคมเปญอีเมลเรียบร้อยแล้ว";
 $_ADMINLANG['utilities']['emailCampaigns']['draftCreated'] = "สร้างแคมเปญอีเมลฉบับร่างสำเร็จแล้ว";
-$_ADMINLANG['utilities']['emailCampaigns']['immediately'] = "ทันที";
+$_ADMINLANG['utilities']['emailCampaigns']['immediately'] = "Immediately (with the next cron invocation)";
 $_ADMINLANG['utilities']['emailCampaigns']['future'] = "กำหนดการส่ง";
 $_ADMINLANG['utilities']['emailCampaigns']['manage'] = "จัดการแคมเปญ";
 $_ADMINLANG['utilities']['emailCampaigns']['sendRetried'] = "อีเมลถูกส่งกลับไปที่คิวการส่งแล้ว";
@@ -2833,6 +2837,7 @@ $_ADMINLANG['products']['groupTagline'] = "แท็กไลน์กลุ่�
 $_ADMINLANG['products']['groupTaglinePlaceHolder'] = "เช่น. ด้วยการรับประกันคืนเงินภายใน 30 วันคุณจะไม่ผิดพลาด!";
 $_ADMINLANG['products']['groupTemplateUseSystemDefault'] = "ใช้ค่าเริ่มต้นของระบบ";
 $_ADMINLANG['products']['groupTemplateUseSpecificTemplate'] = "ใช้เทมเพลตเฉพาะ";
+$_ADMINLANG['products']['productSpecificOnDemandRenewalConfiguration'] = "Use Product-Specific Configuration";
 $_ADMINLANG['products']['noModuleConfigurationRequired'] = "ไม่จำเป็นต้องกำหนดค่าโมดูล";
 $_ADMINLANG['products']['serverConfigurationInvalid'] = "ไม่สามารถเชื่อมต่อเนื่องจากการกำหนดค่าเซิร์ฟเวอร์ไม่สมบูรณ์";
 $_ADMINLANG['products']['serverReturnedError'] = "การพยายามดึงข้อมูลจากเซิร์ฟเวอร์ส่งกลับข้อผิดพลาดต่อไปนี้: :error";
@@ -3403,6 +3408,7 @@ $_ADMINLANG['mergefields']['lastpaymentamount'] = "จำนวนเงิน�
 $_ADMINLANG['mergefields']['lastpaymenttransid'] = "รหัสธุรกรรมการชำระเงินล่าสุด";
 $_ADMINLANG['mergefields']['paymentlink'] = "ลิงค์การชำระเงิน";
 $_ADMINLANG['mergefields']['invoicelink'] = "ลิงค์ใบแจ้งหนี้";
+$_ADMINLANG['mergefields']['invoiceurl'] = 'Invoice URL';
 $_ADMINLANG['mergefields']['prevbalance'] = "ยอดคงเหลือก่อนหน้า";
 $_ADMINLANG['mergefields']['invoicesbalance'] = "ยอดคงเหลือในใบแจ้งหนี้ที่ครบกำหนด";
 $_ADMINLANG['mergefields']['product'] = "สินค้า / บริการที่เกี่ยวข้อง";
@@ -3416,6 +3422,7 @@ $_ADMINLANG['mergefields']['nameserver'] = "Nameserver";
 $_ADMINLANG['mergefields']['ip'] = "IP";
 $_ADMINLANG['mergefields']['suspreason'] = "ระงับเหตุผล";
 $_ADMINLANG['mergefields']['canceltype'] = "ประเภทการยกเลิก";
+$_ADMINLANG['mergefields']['immediateCancel'] = "Service is cancelled immediately (bool)";
 $_ADMINLANG['mergefields']['customfieldsarray'] = "ฟิลด์ที่กำหนดเอง (อาร์เรย์)";
 $_ADMINLANG['mergefields']['order'] = "สั่งซื้อที่เกี่ยวข้อง";
 $_ADMINLANG['mergefields']['duetoday'] = "ยอดรวมวันนี้";
@@ -3575,6 +3582,9 @@ $_ADMINLANG['general']['randomuser'] = "เปิดใช้งานชื่�
 $_ADMINLANG['general']['randomuserinfo'] = "Check to generate random usernames for services rather than use the first 8 letters of the domain";
 $_ADMINLANG['general']['prorataanniversary'] = "ลงทะเบียนครบรอบ Prorata";
 $_ADMINLANG['general']['prorataanniversaryinfo'] = "ผลิตภัณฑ์ Prorata ถึงวันครบรอบการสมัครใช้งานของลูกค้าหากเปิดใช้งาน prorata (เช่นรายการทั้งหมดที่ครบกำหนดในวันเดียวกันต่อลูกค้าหนึ่งราย)";
+$_ADMINLANG['general']['onDemandRenewals'] = "On-Demand Renewals";
+$_ADMINLANG['general']['onDemandRenewalsInfo'] = "Check to allow clients to place renewal orders early.";
+$_ADMINLANG['general']['onDemandRenewalPeriodInfo'] = "The period (in days) during which clients can place early renewal orders before the service's due date.";
 $_ADMINLANG['general']['recommendationEnable'] = "Enable Product Cross-selling";
 $_ADMINLANG['general']['recommendationEnableInfo'] = "Check to display product cross-sells in the shopping cart";
 $_ADMINLANG['general']['recommendationLocation'] = "Product Cross-sell Locations";
@@ -4380,6 +4390,7 @@ $_ADMINLANG['reports']['group']['clients'] = "Clients";
 $_ADMINLANG['reports']['group']['support'] = "Support";
 $_ADMINLANG['reports']['group']['exports'] = "Exports";
 $_ADMINLANG['reports']['group']['system'] = "System";
+$_ADMINLANG['reports']['clientStatement']['previousBalance'] = "Previous Balance";
 
 # WHOIS
 $_ADMINLANG['whois']['title'] = "การค้นหาโดเมน WHOIS";
@@ -4469,6 +4480,8 @@ $_ADMINLANG['configservers']['defaultsignups'] = "กำหนดให้เซ
 $_ADMINLANG['configservers']['accounts'] = "Accounts";
 $_ADMINLANG['configservers']['domains'] = "Domains";
 $_ADMINLANG['configservers']['services'] = "Services";
+$_ADMINLANG['configservers']['invalidProfile']['cpanel'] = "This module requires a cPanel & WHM server with a valid license and the 'Standard' server profile.";
+$_ADMINLANG['configservers']['invalidProfile']['wps'] = "This module requires a WP Squared server with a valid license.";
 
 $_ADMINLANG['configservers']['testconnection'] = "ทดสอบการเชื่อมต่อ";
 $_ADMINLANG['configservers']['testconnectionloading'] = "กำลังพยายามเชื่อมต่อกับเซิร์ฟเวอร์ ...";
@@ -4709,6 +4722,10 @@ $_ADMINLANG['healthCheck']['legacySmartyTags']['heading'] = "Legacy Smarty Tags"
 $_ADMINLANG['healthCheck']['legacySmartyTags']['body']['tagsOnly'] = "The system detected that legacy Smarty tags may be in use. :anchorReportClick here:anchorClose to view files and templates that include legacy tags. For steps to correct this issue, see :anchorDocsour documentation.:anchorClose";
 $_ADMINLANG['healthCheck']['legacySmartyTags']['body']['settingOnly'] = "The system detected that the Allow Smarty PHP Tags setting is enabled. :anchorSettingsClick here:anchorClose to go to General Settings to disable the Allow Smarty PHP Tags setting. For steps to correct this issue, see :anchorDocsour documentation.:anchorClose";
 $_ADMINLANG['healthCheck']['legacySmartyTags']['body']['tagsAndSetting'] = "The system detected that legacy Smarty tags may be in use and that the Allow Smarty PHP Tags setting is enabled. :anchorReportClick here:anchorClose to view files and templates that include legacy tags. :anchorSettingsClick here:anchorClose to go to General Settings to disable the Allow Smarty PHP Tags setting. For steps to correct this issue, see :anchorDocsour documentation.:anchorClose";
+
+$_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['title'] = 'System URL Check';
+$_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['pass'] = '<p>You have successfully configured the System URL for your WHMCS installation.</p>';
+$_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['fail'] = '<p>You have not configured the System URL for your WHMCS installation. Go to :anchorOpenGeneral Settings:anchorClose to configure it now.</p><p>For help, see our :anchorDocsdocumentation:anchorClose.</p>';
 
 $_ADMINLANG['updater']['failure'] = "เกิดข้อผิดพลาดร้ายแรงขณะเรียกการอัปเดต<br/>โปรดตรวจสอบว่าขีด จำกัด หน่วยความจำและเวลาดำเนินการของคุณถูกตั้งค่าเป็น <a href=\"https://docs.whmcs.com/Automatic_Updater#System_Requirements\" target=\"_blank\">ค่าที่แนะนำ</a>";
 $_ADMINLANG['appLinks']['description'] = "ลิงค์แอปพลิเคชันช่วยให้คุณสามารถให้สิทธิ์การเข้าถึงบัญชีผู้ใช้ใน WHMCS จากแอปพลิเคชันบุคคลที่สาม";
@@ -6049,6 +6066,7 @@ $_ADMINLANG['usagebilling']['metric']['subDomains'] = "Subdomains";
 $_ADMINLANG['usagebilling']['metric']['mysqlDatabases'] = "MySQL® Databases";
 $_ADMINLANG['usagebilling']['metric']['mysqlDiskUsage'] = "MySQL® Disk Usage";
 $_ADMINLANG['usagebilling']['metric']['subAccounts'] = "Sub-Accounts";
+$_ADMINLANG['usagebilling']['metric']['wpInstances'] = "WordPress Instances";
 
 $_ADMINLANG['paypalCheckout']['linkAccount'] = "เชื่อมโยงบัญชี PayPal";
 $_ADMINLANG['paypalCheckout']['unlinkAccount'] = "ยกเลิกการเชื่อมโยงบัญชี PayPal";
@@ -6080,6 +6098,8 @@ $_ADMINLANG['legacySmartyTagsWarning']['description']['settingOnly'] = "The syst
 $_ADMINLANG['legacySmartyTagsWarning']['description']['tagsAndSetting'] = "The system detected that legacy Smarty tags may be in use and that the Allow Smarty PHP Tags setting is enabled. :anchorOpenLearn more here.:anchorClose";
 $_ADMINLANG['globalWarning']['2CheckoutInline']['title'] = "2Checkout Legacy Inline";
 $_ADMINLANG['globalWarning']['2CheckoutInline']['description'] = "2Checkout has deprecated their legacy inline checkout style and now presents their standard experience to customers. We plan to remove the checkout style option soon.";
+$_ADMINLANG['globalWarning']['systemUrlIsSet']['title'] = "Missing System URL";
+$_ADMINLANG['globalWarning']['systemUrlIsSet']['description'] = "You have not configured the System URL for your WHMCS installation. Go to :anchorOpenGeneral Settings:anchorClose to configure it now.";
 
 $_ADMINLANG['twoFactor']['duosecurity']['friendlyName'] = "Duo Security";
 $_ADMINLANG['twoFactor']['duosecurity']['description'] = "รับรหัสผ่าน Duo Push, SMS หรือ Phone Callback";
