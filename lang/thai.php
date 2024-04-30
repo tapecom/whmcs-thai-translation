@@ -1789,7 +1789,7 @@ $_LANG['clientAlerts']['domainsExpiringSoon'] = "คุณมีโดเมน 
 $_LANG['clientAlerts']['invoicesUnpaid'] = "คุณมีใบแจ้งหนี้ที่ยังไม่ได้ชำระเงิน :numberOfInvoices ใบ จ่ายล่วงหน้าเพื่อความสบายใจ";
 $_LANG['clientAlerts']['invoicesOverdue'] = "คุณมีใบแจ้งหนี้ที่เกินกำหนดชำระ :numberOfInvoices ใบ โดยมียอดเงินที่ครบกำหนดชำระรวม :balanceDue ชำระเงินตอนนี้เพื่อหลีกเลี่ยงการถูกระงับบริการ";
 $_LANG['clientAlerts']['creditBalance'] = "คุณมียอดคงเหลือเครดิตของ :creditBalance";
-$_LANG['clientAlerts']['servicesRenewingSoon'] = "You have :numberOfServices service(s) that are due for renewal soon.";
+$_LANG['clientAlerts']['servicesRenewingSoon'] = "You have :numberOfServices service(s) that are available for renewal soon.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "ใบแจ้งหนี้ที่ยังไม่ได้ชำระ";
@@ -1808,7 +1808,7 @@ $_LANG['clientHomePanels']['affiliateSummary'] = "ยอดคอมมิชช
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "ยอดค่าคอมมิชชั่นปัจจุบันของคุณคือ :commissionBalance คุณสามารถถอนรายได้ของคุณตอนนี้";
 $_LANG['clientHomePanels']['productsAndServices'] = "เรียกดูผลิตภัณฑ์ / บริการของเรา";
 $_LANG['clientHomePanels']['serviceRenewingSoon'] = "Services Renewing Soon";
-$_LANG['clientHomePanels']['serviceRenewingSoonMsg'] = "You have :numberOfServices service(s) that are due for renewal soon. Renew them today for peace of mind.";
+$_LANG['clientHomePanels']['serviceRenewingSoonMsg'] = "You have :numberOfServices service(s) that are available for renewal soon. Renew them today for peace of mind.";
 
 $_LANG['upgradeNotPossible'] = "ไม่สามารถอัพเกรดผลิตภัณฑ์นี้ได้ หากคุณเชื่อว่าคุณมาถึงหน้านี้ด้วยความผิดพลาดโปรดแจ้งฝ่ายสนับสนุนของเรา มิฉะนั้นให้กลับไปตรวจสอบการเลือกของคุณอีกครั้ง";
 $_LANG['upgradeSameProductMustExtendCycle'] = "หากต้องการอัปเกรดรอบการเรียกเก็บเงินของคุณโปรดเลือกรอบที่มากกว่ารอบการเรียกเก็บเงินปัจจุบันของคุณ";
@@ -2567,14 +2567,18 @@ $_LANG['renewService']['serviceNextDueDateExtended'] = "Next Due Date: :nextDueD
 $_LANG['renewService']['renewalPeriodLabel'] = "Renewal Period";
 $_LANG['renewService']['renewalPeriod'] = "(:nextDueDate - :nextPayUntilDate) @ :renewalPrice";
 $_LANG['renewService']['searchPlaceholder'] = "Search by Name, Domain, or ID";
+$_LANG['renewService']['hideShowServices']['hide'] = "Hide Non-Renewable Items";
+$_LANG['renewService']['hideShowServices']['show'] = "Show Non-Renewable Items";
 
-$_LANG['renewService']['statusInfo']['notSupported'] = "On-Demand Renewal Not Supported by Service";
-$_LANG['renewService']['statusInfo']['nonRecurring'] = "Service is Non-Recurring";
-$_LANG['renewService']['statusInfo']['outsideRenewal'] = "Service is Outside of Renewal Period";
-$_LANG['renewService']['statusInfo']['serviceStatus'] = "Service Status is :serviceStatus";
-$_LANG['renewService']['statusInfo']['unpaidInvoices'] = "Service Has :unpaidInvoiceCount Unpaid Invoice(s)";
+$_LANG['renewService']['statusInfo']['notSupported'] = "This product does not support on-demand renewals.";
+$_LANG['renewService']['statusInfo']['nonRecurring'] = "This is a one-time service that does not use recurring billing.";
+$_LANG['renewService']['statusInfo']['outsideRenewal'] = "This service is not within its renewal period.";
+$_LANG['renewService']['statusInfo']['serviceStatus'] = "This service is :serviceStatus. Renewals require an Active status.";
+$_LANG['renewService']['statusInfo']['unpaidInvoices'] = "The service has :unpaidInvoiceCount unpaid invoice(s).";
+$_LANG['renewService']['statusInfo']['metricUsage'] = "This is a usage-billed service that cannot support on-demand renewals.";
 
 $_LANG['renewServiceAddon']['titleAltSingular'] = "Addon Renewal";
+$_LANG['renewServiceAddon']['titleAltPlural'] = "Addon Renewals";
 
 $_LANG['feeds']['itemsInBasket'] = "คุณมี <b>:count</b> รายการในตะกร้าของคุณ";
 
@@ -3459,7 +3463,8 @@ $_LANG['errors']['badRequestTryAgain'] = "เกิดข้อผิดพล�
 $_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
-$_LANG['paymentMethods']['mandateAcceptance'] = "การให้ IBAN ของคุณและยืนยันการชำระเงินนี้แสดงว่าคุณได้รับอนุญาตให้ :companyName และ Stripe ผู้ให้บริการการชำระเงินของเราส่งคำแนะนำไปยังธนาคารของคุณเพื่อหักบัญชีของคุณและธนาคารของคุณเพื่อหักบัญชีของคุณตามคำแนะนำเหล่านั้น คุณมีสิทธิ์ได้รับเงินคืนจากธนาคารของคุณภายใต้ข้อกำหนดและเงื่อนไขของข้อตกลงกับธนาคารของคุณ คุณต้องขอรับเงินคืนภายใน 8 สัปดาห์นับจากวันที่หักบัญชีของคุณ";
+$_LANG['paymentMethods']['mandateAcceptance'] = "By providing your payment information and confirming this payment, you authorise (A) :companyName and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank. You agree to receive notifications for future debits up to 2 days before they occur.";
+$_LANG['paymentMethods']['achMandateAcceptance'] = "By clicking 'Submit Payment', you authorise :companyName to debit the bank account specified above for any amount owed for charges arising from your use of :companyName's services and/or purchase of products from :companyName, pursuant to :companyName's website and terms, until this authorisation is revoked. You may amend or cancel this authorisation at any time by providing notice to :companyName with 30 (thirty) days notice. If you use :companyName services or purchase additional products periodically pursuant to :companyName's terms, you authorise :companyName to debit your bank account periodically. Payments that fall outside the regular debits authorised above will only be debited after your authorisation is obtained.";
 
 $_LANG['metrics']['title'] = "เมตริก";
 $_LANG['metrics']['explanation'] = "ผลิตภัณฑ์นี้มีการเรียกเก็บเงินตามการใช้งานนอกเหนือจากราคาฐาน เมตริกการใช้งานและข้อมูลราคาแสดงอยู่ด้านล่าง";
@@ -3526,7 +3531,13 @@ $_LANG['marketConnect']['nordvpn']['clientOutput']['4'] = 'If you already have a
 $_LANG['creditCardHolderName'] = "ชื่อผู้ถือบัตร";
 
 $_LANG['redirectingToCompleteCheckout'] = "กำลังเปลี่ยนเส้นทางให้คุณดำเนินการชำระเงิน โปรดรอ...";
+
 $_LANG['paypalEmailAddress'] = "ที่อยู่อีเมล PayPal";
+$_LANG['paypalCommerce']['payerApprovedPlaceholder'] = "Linked Account";
+$_LANG['paypalCommerce']['paymentInstructions'] = "To complete payment with PayPal, choose an existing linked PayPal account or link a new account.";
+$_LANG['paypalCommerce']['payerApprovedInstructions'] = "Click below to finish checking out with PayPal.";
+$_LANG['paypalCommerce']['linkAccount'] = "Link a New PayPal Account";
+$_LANG['paypalCommerce']['error']['noAccount'] = "You must select an existing linked PayPal account or link a new account before making payment.";
 
 $_LANG['fromJust'] = "จากเพียง";
 $_LANG['forJust'] = "เพียงแค่";
@@ -4586,5 +4597,20 @@ $_LANG['ssl']['x500DN']['country'] = "Country";
 $_LANG['ssl']['x500DN']['state'] = "State";
 $_LANG['ssl']['x500DN']['commonName'] = "Common Name";
 $_LANG['ssl']['x500DN']['domainName'] = "Domain Name";
+
+$_LANG['sitejetBuilder']['dashboardPanelTitle'] = "Sitejet Builder";
+$_LANG['sitejetBuilder']['editWebsite'] = "Edit Website";
+$_LANG['sitejetBuilder']['chooseWebsite'] = "Choose a website to manage:";
+$_LANG['sitejetBuilder']['servicePage']['menuEdit'] = "Edit with Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['visitSite'] = "Visit";
+$_LANG['sitejetBuilder']['servicePage']['editSite'] = "Edit with Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['panelTitle'] = "Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['publishProgress'] = "Publishing in progress...";
+$_LANG['sitejetBuilder']['servicePage']['publishSuccess'] = "Success! Your website is published.";
+$_LANG['sitejetBuilder']['get']['title'] = "Get Sitejet Builder";
+$_LANG['sitejetBuilder']['upgradeTo']['title'] = "Upgrade to Sitejet Builder";
+$_LANG['sitejetBuilder']['upsellDescription'] = "A powerful drag-and-drop website builder that helps you build and publish your website.";
+$_LANG['activateNowFor'] = "Activate Now for :price";
+$_LANG['upgradeToFor'] = "Upgrade to :package for :price";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
