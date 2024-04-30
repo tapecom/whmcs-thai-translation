@@ -1789,7 +1789,7 @@ $_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domai
 $_LANG['clientAlerts']['invoicesUnpaid'] = "You have :numberOfInvoices unpaid invoice(s). Pay them early for peace of mind.";
 $_LANG['clientAlerts']['invoicesOverdue'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
 $_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
-$_LANG['clientAlerts']['servicesRenewingSoon'] = "You have :numberOfServices service(s) that are due for renewal soon.";
+$_LANG['clientAlerts']['servicesRenewingSoon'] = "You have :numberOfServices service(s) that are available for renewal soon.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Unpaid Invoices";
@@ -1808,7 +1808,7 @@ $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balanc
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
 $_LANG['clientHomePanels']['productsAndServices'] = "Browse our Products/Services";
 $_LANG['clientHomePanels']['serviceRenewingSoon'] = "Services Renewing Soon";
-$_LANG['clientHomePanels']['serviceRenewingSoonMsg'] = "You have :numberOfServices service(s) that are due for renewal soon. Renew them today for peace of mind.";
+$_LANG['clientHomePanels']['serviceRenewingSoonMsg'] = "You have :numberOfServices service(s) that are available for renewal soon. Renew them today for peace of mind.";
 
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
 $_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
@@ -2567,14 +2567,18 @@ $_LANG['renewService']['serviceNextDueDateExtended'] = "Next Due Date: :nextDueD
 $_LANG['renewService']['renewalPeriodLabel'] = "Renewal Period";
 $_LANG['renewService']['renewalPeriod'] = "(:nextDueDate - :nextPayUntilDate) @ :renewalPrice";
 $_LANG['renewService']['searchPlaceholder'] = "Search by Name, Domain, or ID";
+$_LANG['renewService']['hideShowServices']['hide'] = "Hide Non-Renewable Items";
+$_LANG['renewService']['hideShowServices']['show'] = "Show Non-Renewable Items";
 
-$_LANG['renewService']['statusInfo']['notSupported'] = "On-Demand Renewal Not Supported by Service";
-$_LANG['renewService']['statusInfo']['nonRecurring'] = "Service is Non-Recurring";
-$_LANG['renewService']['statusInfo']['outsideRenewal'] = "Service is Outside of Renewal Period";
-$_LANG['renewService']['statusInfo']['serviceStatus'] = "Service Status is :serviceStatus";
-$_LANG['renewService']['statusInfo']['unpaidInvoices'] = "Service Has :unpaidInvoiceCount Unpaid Invoice(s)";
+$_LANG['renewService']['statusInfo']['notSupported'] = "This product does not support on-demand renewals.";
+$_LANG['renewService']['statusInfo']['nonRecurring'] = "This is a one-time service that does not use recurring billing.";
+$_LANG['renewService']['statusInfo']['outsideRenewal'] = "This service is not within its renewal period.";
+$_LANG['renewService']['statusInfo']['serviceStatus'] = "This service is :serviceStatus. Renewals require an Active status.";
+$_LANG['renewService']['statusInfo']['unpaidInvoices'] = "The service has :unpaidInvoiceCount unpaid invoice(s).";
+$_LANG['renewService']['statusInfo']['metricUsage'] = "This is a usage-billed service that cannot support on-demand renewals.";
 
 $_LANG['renewServiceAddon']['titleAltSingular'] = "Addon Renewal";
+$_LANG['renewServiceAddon']['titleAltPlural'] = "Addon Renewals";
 
 $_LANG['feeds']['itemsInBasket'] = "You have <b>:count</b> items in your basket";
 
@@ -3459,7 +3463,8 @@ $_LANG['errors']['badRequestTryAgain'] = "An Error Occurred. Please try again.";
 $_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
-$_LANG['paymentMethods']['mandateAcceptance'] = "By providing your IBAN and confirming this payment, you are authorizing :companyName and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.";
+$_LANG['paymentMethods']['mandateAcceptance'] = "By providing your payment information and confirming this payment, you authorise (A) :companyName and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank. You agree to receive notifications for future debits up to 2 days before they occur.";
+$_LANG['paymentMethods']['achMandateAcceptance'] = "By clicking 'Submit Payment', you authorise :companyName to debit the bank account specified above for any amount owed for charges arising from your use of :companyName's services and/or purchase of products from :companyName, pursuant to :companyName's website and terms, until this authorisation is revoked. You may amend or cancel this authorisation at any time by providing notice to :companyName with 30 (thirty) days notice. If you use :companyName services or purchase additional products periodically pursuant to :companyName's terms, you authorise :companyName to debit your bank account periodically. Payments that fall outside the regular debits authorised above will only be debited after your authorisation is obtained.";
 
 $_LANG['metrics']['title'] = "Metrics";
 $_LANG['metrics']['explanation'] = "This product has usage-based billing charges in addition to the base price. Usage metrics and their pricing information are displayed below.";
@@ -3526,7 +3531,13 @@ $_LANG['marketConnect']['nordvpn']['clientOutput']['4'] = 'If you already have a
 $_LANG['creditCardHolderName'] = "Card Holder Name";
 
 $_LANG['redirectingToCompleteCheckout'] = "Redirecting you to complete checkout. Please wait...";
+
 $_LANG['paypalEmailAddress'] = "PayPal Email Address";
+$_LANG['paypalCommerce']['payerApprovedPlaceholder'] = "Linked Account";
+$_LANG['paypalCommerce']['paymentInstructions'] = "To complete payment with PayPal, choose an existing linked PayPal account or link a new account.";
+$_LANG['paypalCommerce']['payerApprovedInstructions'] = "Click below to finish checking out with PayPal.";
+$_LANG['paypalCommerce']['linkAccount'] = "Link a New PayPal Account";
+$_LANG['paypalCommerce']['error']['noAccount'] = "You must select an existing linked PayPal account or link a new account before making payment.";
 
 $_LANG['fromJust'] = "from just";
 $_LANG['forJust'] = "for just";
@@ -4586,5 +4597,20 @@ $_LANG['ssl']['x500DN']['country'] = "Country";
 $_LANG['ssl']['x500DN']['state'] = "State";
 $_LANG['ssl']['x500DN']['commonName'] = "Common Name";
 $_LANG['ssl']['x500DN']['domainName'] = "Domain Name";
+
+$_LANG['sitejetBuilder']['dashboardPanelTitle'] = "Sitejet Builder";
+$_LANG['sitejetBuilder']['editWebsite'] = "Edit Website";
+$_LANG['sitejetBuilder']['chooseWebsite'] = "Choose a website to manage:";
+$_LANG['sitejetBuilder']['servicePage']['menuEdit'] = "Edit with Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['visitSite'] = "Visit";
+$_LANG['sitejetBuilder']['servicePage']['editSite'] = "Edit with Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['panelTitle'] = "Sitejet Builder";
+$_LANG['sitejetBuilder']['servicePage']['publishProgress'] = "Publishing in progress...";
+$_LANG['sitejetBuilder']['servicePage']['publishSuccess'] = "Success! Your website is published.";
+$_LANG['sitejetBuilder']['get']['title'] = "Get Sitejet Builder";
+$_LANG['sitejetBuilder']['upgradeTo']['title'] = "Upgrade to Sitejet Builder";
+$_LANG['sitejetBuilder']['upsellDescription'] = "A powerful drag-and-drop website builder that helps you build and publish your website.";
+$_LANG['activateNowFor'] = "Activate Now for :price";
+$_LANG['upgradeToFor'] = "Upgrade to :package for :price";
 
 ////////// End of english language file.  Do not place any translation strings below this line!

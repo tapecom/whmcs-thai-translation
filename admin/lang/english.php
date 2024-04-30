@@ -173,6 +173,7 @@ $_ADMINLANG['global']['required'] = "Required";
 $_ADMINLANG['global']['saved'] = "Saved!";
 $_ADMINLANG['global']['operationCompletedSuccessfully'] = "The operation completed successfully.";
 $_ADMINLANG['global']['refresh'] = "Refresh";
+$_ADMINLANG['global']['available'] = "Available";
 $_ADMINLANG['global']['notAvailable'] = "Not Available";
 $_ADMINLANG['global']['clipboardCopy'] = "Copy to clipboard";
 $_ADMINLANG['global']['typeToSearchContacts'] = "Start Typing to Search Contacts";
@@ -220,6 +221,7 @@ $_ADMINLANG['global']['desc'] = "Desc";
 $_ADMINLANG['global']['seeformore'] = "For more information, see :subject.";
 $_ADMINLANG['global']['recentlyVisited'] = "Recently Visited";
 $_ADMINLANG['global']['reloadTryAgain'] = "Reload the page and try again.";
+$_ADMINLANG['global']['warning'] = "Warning";
 
 # Errors
 $_ADMINLANG['error']['connection'] = "Connection Error";
@@ -227,6 +229,7 @@ $_ADMINLANG['error']['authentication'] = "Authentication Error";
 $_ADMINLANG['error']['widgetError'] = "Widget Loading Error";
 $_ADMINLANG['error']['balanceWidgetError'] = "Balance unable to be retrieved";
 $_ADMINLANG['error']['balanceWidgetDescription'] = "Please reference the :moduleName Documentation and check the :moduleName module configuration.";
+$_ADMINLANG['error']['formInputVarsExceededError'] = "The system could not process your submission because PHP’s max_input_vars setting is too low. <a href=\"https://go.whmcs.com/1809/PHP-max-input-vars-Setting-Errors\" class=\"alert-link\">Click here</a> for more information.";
 
 # Home
 $_ADMINLANG['home']['title'] = "Home";
@@ -558,6 +561,13 @@ $_ADMINLANG['services']['deprovisionsuccess'] = "Add-on Feature Deprovisioned Su
 $_ADMINLANG['services']['suspend-featuresuccess'] = "Add-on Feature Suspended Successfully";
 $_ADMINLANG['services']['unsuspend-featuresuccess'] = "Add-on Feature Unsuspended Successfully";
 
+$_ADMINLANG['services']['sitejetBuilder']['ssoButton'] = "Log in to Sitejet Builder";
+$_ADMINLANG['services']['sitejetBuilder']['unavailable'] = "Sitejet Builder is not available for this service.";
+$_ADMINLANG['services']['sitejetBuilder']['publishError'] = "The system could not publish the changes to Sitejet Builder.";
+$_ADMINLANG['services']['sitejetBuilder']['publishProgress']['title'] = "Sitejet Builder Publication Progress";
+$_ADMINLANG['services']['sitejetBuilder']['publishProgress']['visitWebsite'] = "Visit Website";
+$_ADMINLANG['services']['sitejetBuilder']['publishProgress']['success'] = "Success! Your website is published.";
+
 $_ADMINLANG['sso']['fatalerror'] = "A fatal error occurred. Please see activity log for more details.";
 $_ADMINLANG['sso']['servicelogin'] = "Login to Control Panel";
 $_ADMINLANG['sso']['adminlogin'] = "Login to Control Panel";
@@ -650,6 +660,10 @@ $_ADMINLANG['addons']['predefinedNotice'] = "You're creating a predefined addon 
 $_ADMINLANG['addons']['predefinedSuccessInfo'] = "Your predefined addon has been added successfully, and settings have been configured for you. Please configure pricing and save changes.";
 $_ADMINLANG['addons']['predefinedActive'] = "Active";
 $_ADMINLANG['addons']['invalidModuleForType'] = "The selected module is not valid for the addon type.";
+$_ADMINLANG['addons']['productSpecificOnDemandRenewalConfiguration'] = "Use Addon-Specific Configuration";
+$_ADMINLANG['addons']['predefinedAddons']['sitejet']['title'] = "Sitejet Builder";
+$_ADMINLANG['addons']['predefinedAddons']['sitejet']['panelDescription'] = "Automate provisioning of Sitejet Builder for :panel hosting accounts.";
+$_ADMINLANG['addons']['predefinedAddons']['sitejet']['defaultDescription'] = "Sitejet Builder is a fully-integrated do-it-yourself website builder. It allows you to build and launch competitive websites, fast.";
 
 # Domains
 $_ADMINLANG['domains']['title'] = "Domains";
@@ -761,7 +775,8 @@ $_ADMINLANG['domains']['deactivatepricingslabconfirm'] = "Are you sure you want 
 $_ADMINLANG['domains']['resetpricingslab'] = "Reset to Base Slab Pricing";
 $_ADMINLANG['domains']['resetpricingslabconfirm'] = "Are you sure you want to reset the pricing of this slab to base slab?";
 $_ADMINLANG['domains']['domainregcontact'] = "Domain Registration Contact";
-$_ADMINLANG['domains']['domainregcontactorderinfo'] = "Defines the name and address information to use for all domain registrations within this order. If you need to add a new contact, %screate the contact first%s and then begin the order again.";
+$_ADMINLANG['domains']['domainregcontactorderinfo'] = "Defines the name and address information to use for all domain registrations within this order. If you need to add a new contact, :createLink and then begin the order again.";
+$_ADMINLANG['domains']['domainregcontactordercreate'] = "create the contact first";
 $_ADMINLANG['domains']['domaincontactchoose'] = "Choose Contact";
 $_ADMINLANG['domains']['domaincontactuseprimary'] = "Use Primary Profile";
 $_ADMINLANG['domains']['domaincontactprimary'] = "Account Owner's Details";
@@ -1003,6 +1018,9 @@ $_ADMINLANG['orders']['referralSuccess'] = "Affiliate has been successfully assi
 $_ADMINLANG['orders']['serviceRenewal']['title'] = "Service Renewal";
 $_ADMINLANG['orders']['serviceRenewal']['serviceId'] = "Service ID #:id";
 $_ADMINLANG['orders']['serviceRenewal']['notFoundWarning'] = "The system could not find Service ID #:id in the WHMCS database.";
+$_ADMINLANG['orders']['addonRenewal']['title'] = "Addon Renewal";
+$_ADMINLANG['orders']['addonRenewal']['addonId'] = "Addon ID #:id";
+$_ADMINLANG['orders']['addonRenewal']['notFoundWarning'] = "The system could not find Addon ID #:id in the WHMCS database.";
 
 
 # Billing Cycles
@@ -1157,6 +1175,11 @@ $_ADMINLANG['invoices']['deleteConfirm'] = "How do you want to proceed?";
 $_ADMINLANG['invoices']['massTransactionMissingInvoice'] = "The following invoice IDs could not be found and have had no payment applied: :invoiceIds.";
 $_ADMINLANG['invoices']['invalidInvoiceIDs'] = "The invoice IDs you entered could not be found: :invoiceIds";
 $_ADMINLANG['invoices']['addNewItem'] = "Add new invoice item.";
+$_ADMINLANG['invoices']['adminViewInvoiceWarning'] = "You are viewing this invoice as an admin.";
+$_ADMINLANG['invoices']['adminViewInvoiceSolution'] = "Log in as the client to make a payment.";
+$_ADMINLANG['invoices']['viewInvoice'] = "View Invoice";
+$_ADMINLANG['invoices']['manageInvoice'] = "Manage Invoice";
+$_ADMINLANG['invoices']['autoCancellation'] = "Automatic Cancellation after :dayCount days overdue - :dateTime.";
 
 # Billable Items
 $_ADMINLANG['billableitems']['title'] = "Billable Items";
@@ -1697,6 +1720,36 @@ $_ADMINLANG['utilities']['ticketMailLog']['footer']['importNew'] = "You can impo
 $_ADMINLANG['utilities']['ticketMailLog']['ticketAlert'] = "The following replies were blocked and are not visible in this ticket:";
 $_ADMINLANG['utilities']['whoislog'] = "WHOIS Lookup Log";
 $_ADMINLANG['utilities']['phpcompat'] = "PHP Version Compatibility";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['prompt']['title'] = "Sitejet Builder (Now Available in cPanel & WHM and Plesk)";
+$_ADMINLANG['utilities']['sitejetBuilder']['prompt']['description'] = "Sitejet Builder integration is now included in both cPanel & WHM and Plesk at no additional cost. Activate Sitejet Builder in WHMCS to easily offer it to your customers as part of hosting plans or as an optional addon. Sitejet Builder is available in <a href='https://go.whmcs.com/1821/cpanel-sitejet-builder' title='Learn more about Sitejet Builder in cPanel' target='_blank'>cPanel & WHM version 116 and later</a> and <a href='https://go.whmcs.com/1825/plesk-sitejet-builder' title='Learn more about Sitejet in Plesk' target='_blank'>Plesk 18.0.57</a> and later.";
+$_ADMINLANG['utilities']['sitejetBuilder']['prompt']['activateButton'] = "Get Started";
+$_ADMINLANG['utilities']['sitejetBuilder']['title'] = "Sitejet Builder";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature1']['title'] = "Easy Access from the Client Area";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature1']['description'] = "Customers can access Sitejet Builder directly from the WHMCS Client Area, without needing to log in to their hosting accounts.";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature2']['title'] = "Customized Hosting Plan View";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature2']['description'] = "Customers with Sitejet Builder access will see a Log In to Sitejet Builder link in the Client Area.";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature3']['title'] = "Automated Promotions";
+$_ADMINLANG['utilities']['sitejetBuilder']['feature3']['description'] = "WHMCS will automatically display promotions for Sitejet Builder if it’s available as a hosting plan upgrade or addon.";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['offerBundleAll']['title'] = "Bundle Sitejet Builder with All Hosting Plans";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerBundleAll']['description'] = "You can choose to provide Sitejet Builder to all of your cPanel & WHM and Plesk hosting customers by default, with no upgrades or addons necessary.";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['offerBundleSelect']['title'] = "Bundle Sitejet Builder with Selected Hosting Plans";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerBundleSelect']['description'] = "You can also choose to only allow selected cPanel & WHM and Plesk packages to access Sitejet Builder. WHMCS will automatically show upgrade promotions to other customers if upgrades are available for their hosting plans.";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerBundleSelect']['button'] = "Manage Hosting Plans";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['offerAddon']['title'] = "Offer Sitejet Builder as an Addon";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerAddon']['description'] = "Offer Sitejet Builder as an optional addon for selected hosting packages. WHMCS will automatically show addon promotions to customers if Sitejet Builder is available to purchase for their hosting plan.";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerAddon']['button'] = "Create Sitejet Builder Addon Plan";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['sitejetHosted']['title'] = "Looking for Sitejet Studio?";
+$_ADMINLANG['utilities']['sitejetBuilder']['sitejetHosted']['description'] = "Coming Soon to WHMCS MarketConnect: Sitejet Studio, with the ability to host websites on Sitejet's infrastructure with no cPanel & WHM or Plesk server required.";
+
+$_ADMINLANG['utilities']['sitejetBuilder']['featureSection']['title'] = "Sitejet Builder Features in WHMCS";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerSection']['title'] = "Offer Sitejet Builder Your Way";
+$_ADMINLANG['utilities']['sitejetBuilder']['offerSection']['description'] = "WHMCS gives you choices for offering Sitejet Builder to your customers:";
+
 $_ADMINLANG['utilities']['linkTracking']['title'] = "Link Tracking";
 $_ADMINLANG['utilities']['linkTracking']['description'] = "The Link Tracking system allows you to track how people are arriving at your site (what links they are clicking on) and then how many conversions you get from people who have clicked on that link.";
 $_ADMINLANG['utilities']['linkTracking']['addNew'] = "Add a New Link";
@@ -1799,6 +1852,7 @@ $_ADMINLANG['utilities']['automationStatusDetail']['domainRenewalNotices']['fail
 $_ADMINLANG['utilities']['automationStatusDetail']['domainRenewalNotices']['noFailed'] = "There were no failed domain renewal reminders";
 $_ADMINLANG['utilities']['automationStatusDetail']['closeInactiveTickets']['success']['detail'] = "Tickets Closed";
 $_ADMINLANG['utilities']['automationStatusDetail']['closeInactiveTickets']['noSuccess'] = "There were no tickets closed for inactivity";
+$_ADMINLANG['utilities']['automationStatusDetail']['invoiceAutoCancellation']['success']['detail'] = "Cancelled Invoices";
 $_ADMINLANG['utilities']['automationStatusDetail']['viewModuleQueue'] = "View Module Queue";
 $_ADMINLANG['utilities']['automationStatusDetail']['noModuleQueue'] = "No Module Queue";
 $_ADMINLANG['utilities']['automationStatusDetail']['title'] = "Automation Status";
@@ -1840,6 +1894,7 @@ $_ADMINLANG['utilities']['automationStatusDetail']['task']['inactiveTickets'] = 
 $_ADMINLANG['utilities']['automationStatusDetail']['task']['delayedAffiliateCommissions'] = "Delayed Affiliate Commissions";
 $_ADMINLANG['utilities']['automationStatusDetail']['task']['emailMarketerRules'] = "Email Marketer Rules";
 $_ADMINLANG['utilities']['automationStatusDetail']['task']['clientStatusUpdate'] = "Client Status Update";
+$_ADMINLANG['utilities']['automationStatusDetail']['task']['overdueInvoiceCancellations'] = "Overdue Invoice Cancellation";
 $_ADMINLANG['utilities']['automationStatusDetail']['health']['notOk'] = "Not OK";
 $_ADMINLANG['utilities']['automationStatusDetail']['health']['notConfigured'] = "Not Configured";
 $_ADMINLANG['utilities']['automationStatusDetail']['health']['noRecentCronRun'] = "No cron run detected within the last 24 hours. Please double-check your cron configuration.";
@@ -2075,6 +2130,7 @@ $_ADMINLANG['fields']['notes'] = "Notes";
 $_ADMINLANG['fields']['note'] = "Note";
 $_ADMINLANG['fields']['description'] = "Description";
 $_ADMINLANG['fields']['amount'] = "Amount";
+$_ADMINLANG['fields']['invoiceamount'] = "Invoice Amount";
 $_ADMINLANG['fields']['totaldue'] = "Total Due";
 $_ADMINLANG['fields']['balance'] = "Balance";
 $_ADMINLANG['fields']['transid'] = "Transaction ID";
@@ -2276,6 +2332,8 @@ $_ADMINLANG['status']['paused'] = "Paused";
 $_ADMINLANG['status']['sending'] = "Sending";
 $_ADMINLANG['status']['deleted'] = "Deleted";
 $_ADMINLANG['status']['queued'] = "Queued";
+$_ADMINLANG['status']['new'] = "New";
+$_ADMINLANG['status']['deprecated'] = "Deprecated";
 
 # Permissions
 $_ADMINLANG['permissions']['accessdenied'] = "Access Denied";
@@ -2336,6 +2394,7 @@ $_ADMINLANG['permissions']['31'] = "Delete Transaction";
 $_ADMINLANG['permissions']['33'] = "List Invoices";
 $_ADMINLANG['permissions']['34'] = "Create Invoice";
 $_ADMINLANG['permissions']['124'] = "Generate Due Invoices";
+$_ADMINLANG['permissions']['158'] = "View Invoice";
 $_ADMINLANG['permissions']['35'] = "Manage Invoice";
 $_ADMINLANG['permissions']['36'] = "Delete Invoice";
 $_ADMINLANG['permissions']['92'] = "Refund Invoice Payments";
@@ -2655,12 +2714,15 @@ $_ADMINLANG['transactions']['duplicateTransaction'] = "Transaction ID Already Ex
 $_ADMINLANG['transactions']['forceDuplicateTransaction'] = "The Transaction ID entered already exists. This could indicate the transaction is being duplicated.<br />Are you sure you wish to continue?";
 $_ADMINLANG['transactions']['amountInAndOutSpecified'] = "You specified Amount In and Amount Out. You can only specify one of these values.";
 $_ADMINLANG['transactions']['information']['transactionId'] = "Transaction ID";
+$_ADMINLANG['transactions']['information']['relatedTransaction'] = "Related Transaction";
 $_ADMINLANG['transactions']['information']['amount'] = "Amount";
+$_ADMINLANG['transactions']['information']['merchant_amount'] = "Merchant Amount";
 $_ADMINLANG['transactions']['information']['type'] = "Transaction Type";
 $_ADMINLANG['transactions']['information']['currency'] = "Transaction Currency";
 $_ADMINLANG['transactions']['information']['description'] = "Description";
 $_ADMINLANG['transactions']['information']['fee'] = "Transaction Fee";
 $_ADMINLANG['transactions']['information']['status'] = "Status";
+$_ADMINLANG['transactions']['information']['extendedStatus'] = "Additional Status";
 $_ADMINLANG['transactions']['information']['created'] = "Created Date";
 $_ADMINLANG['transactions']['information']['availableOn'] = "Available Date";
 $_ADMINLANG['transactions']['information']['originalAmount'] = "Original Amount";
@@ -2672,6 +2734,10 @@ $_ADMINLANG['transactions']['information']['receiptUrl'] = "Customer Receipt";
 $_ADMINLANG['transactions']['information']['title'] = "Transaction Information";
 $_ADMINLANG['transactions']['information']['tooltip'] = "View transaction details.";
 $_ADMINLANG['transactions']['information']['gateway'] = "Payment Gateway";
+$_ADMINLANG['transactions']['information']['paymentInstrument'] = "Payment Instrument";
+$_ADMINLANG['transactions']['information']['gatewayOrder'] = "Gateway Order";
+$_ADMINLANG['transactions']['information']['gatewayNetworkReference'] = "Gateway Network Reference";
+$_ADMINLANG['transactions']['information']['disbursementMode'] = "Disbursement Mode";
 $_ADMINLANG['transactions']['information']['disputed'] = "Transaction Disputed";
 $_ADMINLANG['transactions']['information']['disputeReason'] = "Dispute Reason";
 $_ADMINLANG['transactions']['information']['disputeStatus'] = "Dispute Status";
@@ -2691,6 +2757,7 @@ $_ADMINLANG['products']['description'] = "This is where you configure all your p
 $_ADMINLANG['products']['createnewgroup'] = "Create a New Group";
 $_ADMINLANG['products']['createnewproduct'] = "Create a New Product";
 $_ADMINLANG['products']['duplicateproduct'] = "Duplicate a Product";
+$_ADMINLANG['products']['refreshFeatureStatus'] = "Refresh Feature Status";
 $_ADMINLANG['products']['duplicable'] = "Duplicable Products";
 $_ADMINLANG['products']['nonDuplicable'] = "Non-duplicable Products";
 $_ADMINLANG['products']['nonDuplicableWarn'] = "Some products, such as MarketConnect services, cannot be duplicated.";
@@ -2710,6 +2777,7 @@ $_ADMINLANG['products']['productgroupnamePlaceHolder'] = "eg. Shared Hosting";
 $_ADMINLANG['products']['paytype'] = "Pay Type";
 $_ADMINLANG['products']['stock'] = "Stock";
 $_ADMINLANG['products']['autosetup'] = "Auto Setup";
+$_ADMINLANG['products']['features'] = "Features";
 $_ADMINLANG['products']['navmoveup'] = "Move Up";
 $_ADMINLANG['products']['navmovedown'] = "Move Down";
 $_ADMINLANG['products']['navdel'] = "Delete";
@@ -3050,6 +3118,10 @@ $_ADMINLANG['automation']['moduleLogPruning'] = "Module Log Pruning";
 $_ADMINLANG['automation']['moduleLogPruningOlderThan'] = "Prune records older than";
 $_ADMINLANG['automation']['freeDomainReminders'] = "Free Domain Reminders";
 $_ADMINLANG['automation']['freeDomainRemindersDescription'] = "Check to send reminders for free domains.";
+$_ADMINLANG['automation']['invoiceAutoCancellation'] = "Enable Auto Cancellation";
+$_ADMINLANG['automation']['invoiceAutoCancellationInfo'] = "Check to enable automatic cancellation of overdue Unpaid invoices. Cancellation of these invoices does not explicitly trigger additional actions. However, other automation may occur due to cancelled invoices, depending on your automation settings.";
+$_ADMINLANG['automation']['invoiceAutoCancellationDaysDue'] = "Days Overdue";
+$_ADMINLANG['automation']['invoiceAutoCancellationDaysDueInfo'] = "Enter a number of days after the invoice due date. After this many days, Auto Cancellation will occur and the status of the applicable overdue Unpaid invoices will change to Cancelled.";
 
 # Payment Gateways
 $_ADMINLANG['gateways']['intro'] = "This is where you configure the payment methods/gateways you want to offer & accept from your clients. If the gateway you want to use is not listed here, then you can build your own modules for WHMCS - the docs for which can be found @";
@@ -3506,7 +3578,8 @@ $_ADMINLANG['fraud']['verificationProviders'] = "Identity Verification Providers
 $_ADMINLANG['general']['title'] = "General Settings";
 $_ADMINLANG['general']['changesuccess'] = "Changes Saved Successfully!";
 $_ADMINLANG['general']['changesuccessinfo'] = "Configuration settings have been saved successfully";
-$_ADMINLANG['general']['errorinvnumtoosml'] = "The next invoice number must be greater than the highest existing invoice number";
+$_ADMINLANG['general']['errorinvnuminvalid'] = "The next invoice number must be greater than the highest existing invoice number and less than 500,000,000.";
+$_ADMINLANG['general']['errorinvoiceincrementinvalid'] = "The invoice increment number must be between 1 and 999.";
 $_ADMINLANG['general']['tabgeneral'] = "General";
 $_ADMINLANG['general']['tablocalisation'] = "Localisation";
 $_ADMINLANG['general']['tabordering'] = "Ordering";
@@ -3585,6 +3658,10 @@ $_ADMINLANG['general']['prorataanniversaryinfo'] = "Prorata products to the clie
 $_ADMINLANG['general']['onDemandRenewals'] = "On-Demand Renewals";
 $_ADMINLANG['general']['onDemandRenewalsInfo'] = "Check to allow clients to place renewal orders early.";
 $_ADMINLANG['general']['onDemandRenewalPeriodInfo'] = "The period (in days) during which clients can place early renewal orders before the service's due date.";
+$_ADMINLANG['general']['onDemandRenewalsAdHocInfo'] = "Select the On-Demand Renewals configuration to use for undefined product addons:";
+$_ADMINLANG['general']['onDemandRenewalsAdHocGlobal'] = "Use Global Settings";
+$_ADMINLANG['general']['onDemandRenewalsAdHocParent'] = "Use Parent Product Settings";
+$_ADMINLANG['general']['onDemandRenewalsAdHocDisabled'] = "Disabled";
 $_ADMINLANG['general']['recommendationEnable'] = "Enable Product Cross-selling";
 $_ADMINLANG['general']['recommendationEnableInfo'] = "Check to display product cross-sells in the shopping cart";
 $_ADMINLANG['general']['recommendationLocation'] = "Product Cross-sell Locations";
@@ -3739,9 +3816,9 @@ $_ADMINLANG['general']['issuestart'] = "Issue Number/Start Date";
 $_ADMINLANG['general']['issuestartinfo'] = "Check to show these fields for credit card payments";
 $_ADMINLANG['general']['tcpdffont'] = "PDF Font Family";
 $_ADMINLANG['general']['invoiceinc'] = "Invoice # Incrementation";
-$_ADMINLANG['general']['invoiceincinfo'] = "Enter the difference you want between invoice numbers generated by the system (Default: 1)";
+$_ADMINLANG['general']['invoiceincinfo'] = "Enter the desired difference between generated invoice numbers (Default: 1, Maximum: 999)";
 $_ADMINLANG['general']['invoicestartno'] = "Invoice Starting #";
-$_ADMINLANG['general']['invoicestartnoinfo'] = "Enter to set the next invoice number, must be greater than last #";
+$_ADMINLANG['general']['invoicestartnoinfo'] = "Enter a value to set the next invoice number (Minimum: :minValue, Maximum: 499,999,999).";
 $_ADMINLANG['general']['blanknochange'] = "Blank for no change";
 $_ADMINLANG['general']['enabledisable'] = "Enable/Disable";
 $_ADMINLANG['general']['enablecredit'] = "Check to enable adding of funds by clients from the client area";
@@ -4535,6 +4612,7 @@ $_ADMINLANG['emailmarketer']['delete'] = "Are you sure you want to delete this m
 $_ADMINLANG['linktracking']['delete'] = "Are you sure you want to delete this link?";
 
 $_ADMINLANG['email']['sentSuccessfully'] = "The email was sent successfully.";
+$_ADMINLANG['email']['sentSuccessfullyTo'] = "Email Sent Successfully to :entityName";
 $_ADMINLANG['email']['emailAborted'] = "Email sending aborted.";
 
 // eNom Name Spinner
@@ -4635,6 +4713,7 @@ $_ADMINLANG['healthCheck']['phpVersionWhmcsSupported'] = "Your PHP version <stro
 $_ADMINLANG['healthCheck']['phpVersionWhmcsUnsupported'] = "Your PHP version <strong>:version</strong> is not supported by WHMCS. WHMCS requires at least PHP version 5.3.7.";
 $_ADMINLANG['healthCheck']['phpVersionPhpSupported'] = "Your PHP version is actively supported by PHP for both bug fix and security releases.";
 $_ADMINLANG['healthCheck']['phpVersionPhpSecurityUpdatesOnly'] = "The PHP :version branch no longer receives regular bug fixes and will only receive critical security updates until it reaches its end of life. Please see <a href=\"https://docs.whmcs.com/System_Environment_Guide#PHP_Version\">our documentation</a> for more information.";
+$_ADMINLANG['healthCheck']['phpVersionPhpMaxSupported'] = "Your PHP version does not receive regular updates but is the latest supported by WHMCS.";
 $_ADMINLANG['healthCheck']['phpVersionPhpUnsupported'] = "The PHP :version branch has reached end of life status and will not receive critical bug or security fixes. Please see <a href=\"https://docs.whmcs.com/System_Environment_Guide#PHP_Version\">our documentation</a> for more information.";
 $_ADMINLANG['healthCheck']['requiredPhpExtensions'] = "Required PHP Extensions";
 $_ADMINLANG['healthCheck']['requiredPhpExtensionsSuccess'] = "Your PHP installation has all extensions loaded and enabled required for WHMCS to operate.";
@@ -4726,6 +4805,11 @@ $_ADMINLANG['healthCheck']['legacySmartyTags']['body']['tagsAndSetting'] = "The 
 $_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['title'] = 'System URL Check';
 $_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['pass'] = '<p>You have successfully configured the System URL for your WHMCS installation.</p>';
 $_ADMINLANG['healthCheck']['checkSystemUrlIsSet']['fail'] = '<p>You have not configured the System URL for your WHMCS installation. Go to :anchorOpenGeneral Settings:anchorClose to configure it now.</p><p>For help, see our :anchorDocsdocumentation:anchorClose.</p>';
+
+$_ADMINLANG['healthCheck']['checkCloudflareProxy']['title'] = 'CloudFlare® Proxy Check';
+$_ADMINLANG['healthCheck']['checkCloudflareProxy']['notDetected'] = 'WHMCS is not running behind a CloudFlare proxy.';
+$_ADMINLANG['healthCheck']['checkCloudflareProxy']['pass'] = 'The CloudFlare IP address is a trusted proxy.';
+$_ADMINLANG['healthCheck']['checkCloudflareProxy']['fail'] = "WHMCS may be operating behind a proxy or CDN, but you have not configured trusted proxy settings using CloudFlare IP addresses. This may cause login sessions to end prematurely. <form class='inline' method='post' action=':url'><button class='btn-link-default'>Apply settings now</button></form> to correct this issue.";
 
 $_ADMINLANG['updater']['failure'] = "A fatal error occurred while fetching the update.<br/>Please check to make sure your memory limits and execution time are set to the <a href=\"https://docs.whmcs.com/Automatic_Updater#System_Requirements\" target=\"_blank\">recommended values</a>.";
 $_ADMINLANG['appLinks']['description'] = "Application Links allow you to grant access to user accounts in WHMCS from third party applications.";
@@ -6075,6 +6159,35 @@ $_ADMINLANG['paypalCheckout']['unlinkSandboxAccount'] = "Unlink Sandbox Account"
 $_ADMINLANG['paypalCheckout']['unlinkAccountMsg'] = "<p><strong>** :mode **</strong></p><p>If you proceed, WHMCS will no longer receive payment notifications for any PayPal Subscriptions that have been set up while this account link has been active. As a result, WHMCS will not be aware of successful payments.</p><p>Are you sure you want to continue?</p><p><strong>Warning:</strong> This action is irreversible and cannot be undone.</p>";
 $_ADMINLANG['paypalCheckout']['sslRequired'] = "<strong>PayPal requires an HTTPS secured connection for API requests.</strong> Your current <a :configGeneral>WHMCS System URL</a> setting does not begin with https and will be rejected.<br> To link PayPal, please add an SSL certificate to the domain that you installed WHMCS on and update your WHMCS System URL setting. <a :learnMore>Learn more</a>";
 
+$_ADMINLANG['paypalCommerce']['labelEnvironment'] = "Account";
+$_ADMINLANG['paypalCommerce']['labelEnvironmentLive'] = "Live Account";
+$_ADMINLANG['paypalCommerce']['labelEnvironmentSandbox'] = "Sandbox Account";
+$_ADMINLANG['paypalCommerce']['linkLiveAccount'] = "Link PayPal Account";
+$_ADMINLANG['paypalCommerce']['unlinkLiveAccount'] = "Unlink PayPal Account";
+$_ADMINLANG['paypalCommerce']['linkSandboxAccount'] = "Link Sandbox Account";
+$_ADMINLANG['paypalCommerce']['unlinkSandboxAccount'] = "Unlink Sandbox Account";
+$_ADMINLANG['paypalCommerce']['messageAccountLimited'] = "[:environment] PayPal has limited your account. Check for an email from PayPal with the next steps to start receiving payments.";
+$_ADMINLANG['paypalCommerce']['messageVerifyEmail'] = "[:environment] Your PayPal account's email address is unconfirmed. Check for an email from PayPal and confirm your email address to start accepting payments.";
+$_ADMINLANG['paypalCommerce']['messageAccountNotVaultCapable'] = "[:environment] You cannot currently use automated recurring billing with this module. This may occur if PayPal does not support PayPal Vault for your merchant account's country. If you are in an <a href=\"http://go.whmcs.com/1797/PayPal-Merchant-Status\" target=\"_blank\">unsupported country or region</a>, we recommend using PayPal Checkout until PayPal Vault is available. If PayPal Vault is available in your country, contact PayPal for next steps.";
+$_ADMINLANG['paypalCommerce']['labelPaymentsReceivable'] = "Payments Receivable";
+$_ADMINLANG['paypalCommerce']['labelEmailVerified'] = "Email Verified";
+$_ADMINLANG['paypalCommerce']['unlinkAccountMsg'] = "<p><strong>** :mode **</strong></p><p>If you proceed, WHMCS will stop capturing payment using vaulted pay methods that customers stored while this account link was active.</p><p>Are you sure that you want to continue?</p><p><strong>Warning:</strong> This action is irreversible and you cannot undo it.</p>";
+$_ADMINLANG['paypalCommerce']['unlinkErrorGeneral'] = "An error occurred while unlinking your PayPal account.";
+$_ADMINLANG['paypalCommerce']['sslRequired'] = "<strong>PayPal requires an HTTPS-secured connection for API requests.</strong> Your current <a :configGeneral>WHMCS System URL</a> setting does not begin with <i>https</i> and PayPal will reject it.<br> To link PayPal, add an SSL certificate to the domain that you installed WHMCS on and update your <strong>WHMCS System URL</strong> setting. <a :learnMore>Learn more</a>";
+$_ADMINLANG['paypalCommerce']['deactivateUnavailableModuleAdvCards'] = "You must deactivate the :sibling payment gateway module before you can deactivate this module.";
+$_ADMINLANG['paypalCommerce']['visibleRequiredWhenModuleAdvCards'] = "PayPal requires you to display the :required_module payment gateway if you are displaying the :subordinate_module payment gateway. :action <strong>Show on Order Form</strong> for the :action_module payment gateway first.";
+$_ADMINLANG['paypalCommerce']['capabilityVaultLabel'] = "Vault";
+$_ADMINLANG['paypalCommerce']['capabilityCardsLabel'] = "Advanced Cards";
+$_ADMINLANG['paypalCommerce']['credentialsRequiredWhenVisible'] = "You must link a live PayPal account or, if Test Mode is enabled, a sandbox account before you can enable <strong>Show on Order Form</strong>.";
+$_ADMINLANG['paypalCommerce']['refreshAccountNotice'] = "If your account has changed since you activated the module, you can check your account's status by clicking <strong>Refresh PayPal Account</strong>.";
+$_ADMINLANG['paypalCommerce']['refreshAccountLabel'] = "Refresh PayPal Account";
+$_ADMINLANG['paypalCommerce']['gettingStartedLinkAccount'] = "To get started, link your live PayPal merchant account or a Sandbox account. We enable <strong>Test Mode</strong> by default. Make sure to uncheck <strong>Test Mode</strong> to start accepting payments.";
+$_ADMINLANG['paypalCommerce']['addNotSupported'] = "You cannot add a payment method for this payment gateway through the Admin Area.";
+
+$_ADMINLANG['paypalCommerceAdvCards']['infoSharedSettings'] = "This payment gateway module uses the PayPal account configuration from the :module module. To update your account information, update the :module module.";
+$_ADMINLANG['paypalCommerceAdvCards']['missingCapability'] = "You must activate PayPal's <strong>Advanced Cards</strong> feature before you can enable <strong>Show on Order Form</strong>.";
+$_ADMINLANG['paypalCommerceAdvCards']['gettingStartedCards'] = "PayPal Card Payments works with the PayPal Payments module, providing a separate unbranded option to securely process credit and debit cards on your website. Activating PayPal Payments also activates PayPal Card Payments with no additional PayPal account configuration needed. Check <strong>Show on Order Form</strong> for PayPal Card Payments to add this option for credit and debit cards.";
+
 $_ADMINLANG['emailPreferences']['affiliate'] = "Affiliate Emails - Receive Affiliate Notifications";
 $_ADMINLANG['emailPreferences']['domain'] = "Domain Emails - Registration/Transfer Confirmation &amp; Renewal Notices";
 $_ADMINLANG['emailPreferences']['general'] = "General Emails - All account related emails";
@@ -6511,3 +6624,8 @@ $_ADMINLANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum
 $_ADMINLANG['idna']['domainTooLong'] = "The domain has exceeded the maximum length.";
 $_ADMINLANG['idna']['invalidDomain'] = "The domain is invalid.";
 $_ADMINLANG['idna']['unknownError'] = "An unknown error occurred.";;
+
+$_ADMINLANG['modules']['servers']['notActiveLabel'] = ":moduleName module is not activated";
+$_ADMINLANG['modules']['servers']['notActive'] = "<p>This service relies on the :moduleName which is not activated. Activate this module to use the server settings.</p>";
+
+$_ADMINLANG['cloudflare']['fetchError'] = 'The system could not fetch IP addresses from CloudFlare.';
